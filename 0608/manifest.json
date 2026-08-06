@@ -1,0 +1,49 @@
+{
+ "server": "R350",
+ "source_videos": [
+  "0608_-_Trim1.mp4",
+  "0608_-_Trim2.mp4"
+ ],
+ "capture_date": "UNCONFIRMED — ten file la 0608, can nguoi dung xac nhan",
+ "frame_resolution": [
+  1440,
+  812
+ ],
+ "fps": 1,
+ "raw_frames": 252,
+ "dedupe_threshold": 2.0,
+ "dedupe_crop_box": [
+  178,
+  260,
+  1099,
+  764
+ ],
+ "viewports_after_dedupe": 187,
+ "covering_chain_frames": 66,
+ "continuity_check": {
+  "method": "template match binarized text mask, row y=654 of frame N searched in frame N+1",
+  "metric": "IoU + sharpness(best/second-best)",
+  "accept": "IoU>0.65 and sharp>1.4",
+  "unbridged_gaps": 0
+ },
+ "total_scroll_px": 22033,
+ "row_pitch_px": 89.5,
+ "estimated_members": 252,
+ "row_crop_box": [
+  258,
+  262,
+  1108,
+  772
+ ],
+ "stitch_layout": "3 frames per image, vertical, 6px white gap",
+ "known_issues": [
+  "Row-exact unrolling was attempted and FAILED validation (global grid rms 26px, row count 294 vs 253 expected). Do NOT use unrolled composites. Read the stitches and verify anchors by name.",
+  "skvwraith vs skywraith: font makes y/v ambiguous, needs decision",
+  "estimated_members ~253 vs 229 in DB snapshot 2026-08-03 — verify during reading"
+ ],
+ "progress": {
+  "stitches_total": 22,
+  "stitches_read": [],
+  "members_extracted": 0
+ }
+}
