@@ -40,13 +40,52 @@
   "Row-exact unrolling was attempted and FAILED validation (global grid rms 26px, row count 294 vs 253 expected). Do NOT use unrolled composites. Read the stitches and verify anchors by name.",
   "skvwraith vs skywraith: font makes y/v ambiguous, needs decision",
   "estimated_members ~253 vs 229 in DB snapshot 2026-08-03 — verify during reading",
-  "DB se con thieu snapshot 2026-08-04 sau khi nap lo nay"
+  "DB se con thieu snapshot 2026-08-04 sau khi nap lo nay",
+  "skywraith vs skvwraith: stitch_01 panel1 doc ra skvwraith, panel2 doc ra skywraith; da chon skywraith, can doi chieu member_db.json"
  ],
  "progress": {
   "stitches_total": 22,
-  "stitches_read": [],
-  "members_extracted": 0
+  "stitches_read": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "next_stitch": 9,
+  "members_extracted": 97,
+  "last_row_read": "[AMBIGUOUS_1] power 157,971,480",
+  "resume_note": "stitch_09 panel1 se lap lai 2 dong cuoi cua stitch_08 (Cokon 1000 + AMBIGUOUS_1) lam neo"
  },
  "capture_date_source": "confirmed by user 06/08/2026 (ten file 0608 la ngay upload, khong phai ngay quay)",
- "compare_baseline": "member_db.json snapshot 2026-08-03 (cach 2 ngay -> noi rong cua so rank theo so ngay)"
+ "compare_baseline": "member_db.json snapshot 2026-08-03 (cach 2 ngay -> noi rong cua so rank theo so ngay)",
+ "ambiguous_names": [
+  {
+   "placeholder": "[AMBIGUOUS_1]",
+   "row": 97,
+   "stroke_count": 10,
+   "frames_checked": [
+    "t1_0110 y742",
+    "t1_0111 y654",
+    "t1_0112 y387",
+    "t1_0113 y387",
+    "t1_0114 y387",
+    "t1_0115 y387"
+   ],
+   "thresholds": [
+    100,
+    120,
+    140,
+    150
+   ],
+   "stroke_w_px": "3-4",
+   "gap_px": "2-3",
+   "power": 157971480,
+   "kill_points": 1106434201,
+   "activity_points": 85495632
+  }
+ ]
 }
