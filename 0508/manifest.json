@@ -41,7 +41,8 @@
   "skvwraith vs skywraith: font makes y/v ambiguous, needs decision",
   "estimated_members ~253 vs 229 in DB snapshot 2026-08-03 — verify during reading",
   "DB se con thieu snapshot 2026-08-04 sau khi nap lo nay",
-  "skywraith vs skvwraith: stitch_01 panel1 doc ra skvwraith, panel2 doc ra skywraith; da chon skywraith, can doi chieu member_db.json"
+  "skywraith vs skvwraith: stitch_01 panel1 doc ra skvwraith, panel2 doc ra skywraith; da chon skywraith, can doi chieu member_db.json",
+  "Uncertain single chars in batch 09-13, not guessed: 'Stiven l' (final l/I/|), 'l3omb' (first l/I), 'SPUDIman' (7th I/l)"
  ],
  "progress": {
   "stitches_total": 22,
@@ -53,12 +54,17 @@
    5,
    6,
    7,
-   8
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
   ],
-  "next_stitch": 9,
-  "members_extracted": 97,
-  "last_row_read": "[AMBIGUOUS_1] power 157,971,480",
-  "resume_note": "stitch_09 panel1 se lap lai 2 dong cuoi cua stitch_08 (Cokon 1000 + AMBIGUOUS_1) lam neo"
+  "next_stitch": 14,
+  "members_extracted": 139,
+  "last_row_read": "Leoo power 146,729,411",
+  "resume_note": "stitch_14 panel1 se lap lai 2 dong cuoi cua stitch_13 (Herooo + Leoo) lam neo"
  },
  "capture_date_source": "confirmed by user 06/08/2026 (ten file 0608 la ngay upload, khong phai ngay quay)",
  "compare_baseline": "member_db.json snapshot 2026-08-03 (cach 2 ngay -> noi rong cua so rank theo so ngay)",
@@ -86,6 +92,29 @@
    "power": 157971480,
    "kill_points": 1106434201,
    "activity_points": 85495632
+  },
+  {
+   "placeholder": "[AMBIGUOUS_2]",
+   "row": 126,
+   "stroke_count": 15,
+   "frames_checked": [
+    "stitch_12 panel1 (t2_0023)",
+    "stitch_12 panel2 (t2_0027)",
+    "stitch_12 panel3 (t2_0030)"
+   ],
+   "thresholds": [
+    100,
+    120,
+    140,
+    150
+   ],
+   "stroke_w_px": "3",
+   "gap_px": "3 (pitch 6)",
+   "case_resolved": false,
+   "note": "stroke heights uniform 15-18px; 1-2px vertical gaps appear at DIFFERENT x in each of the 3 frames -> compression noise, not i-dots. Case not determinable.",
+   "power": 151128635,
+   "kill_points": 620102003,
+   "activity_points": 29049162
   }
  ]
 }
