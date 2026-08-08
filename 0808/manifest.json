@@ -5,7 +5,7 @@
   "0808_-_Trim2.mp4"
  ],
  "capture_date": "2026-08-08",
- "capture_date_source": "user said 'video ngay 8/8' at upload on 08/08/2026 - NOT yet re-confirmed. WARNING: for batch 0508 the filename (0608) was the UPLOAD date and the real capture date was one day earlier. Ask Ha to confirm before writing the snapshot into member_db.json.",
+ "capture_date_source": "user said 'video ngay 8/8' on 08/08/2026 - NOT re-confirmed. For batch 0508 the filename (0608) was the UPLOAD date and real capture was one day earlier. CONFIRM with Ha before writing this snapshot into member_db.json.",
  "frame_resolution": [
   1440,
   812
@@ -22,22 +22,36 @@
   764
  ],
  "viewports_after_dedupe": 176,
- "covering_chain_frames": 77,
+ "covering_chain_frames": 82,
+ "REVISION": "v2 - the first chain pushed in commit b791176 was UNSOUND and has been replaced. See chain_v1_defect.",
+ "chain_v1_defect": {
+  "bug": "scroll dy was measured with a 170px template placed at frame y=594; since the data band starts at y=262 the search could never exceed 594-262=332px. Every true scroll >332px was silently CLIPPED to 332.",
+  "symptom": "manifest v1 reported 'max step 332px = 3.71 rows, guaranteed overlap 2 rows'. That 332 was the ceiling, not a measurement.",
+  "consequence": "4 of 76 seams in chain v1 actually had <0.8 rows of overlap; 3 of them had NEGATIVE overlap (rows genuinely skipped): t1_0115->t1_0119 (-0.52 rows), t1_0119->t2_0005 (-0.37), t2_0039->t2_0045 (-0.70). A 4th, t1_0087->t1_0093, had +0.11 rows (continuous but no name anchor).",
+  "fix": "measure dy between CONSECUTIVE RAW frames (1s apart, small scroll) with a 90px template at y=674 (range 0..412px), then sum to get absolute scroll positions. Rebuild the chain from those.",
+  "residual": "one raw pair t2_0042->t2_0043 needed a 55px template to measure: true dy 413px = 4.61 rows, overlap 1.09 rows. Still safe."
+ },
  "continuity_check": {
-  "method": "binarized text mask (L<120), 170px template from bottom of frame N searched upward in frame N+1, IoU curve; sharpness = peak / best peak outside +-30px",
-  "t1_t2_boundary": "t1_0120 -> t2_0001 dy=0 IoU=0.732 sharp=1.98 (videos are contiguous, no gap, no large overlap)",
-  "max_step_between_selected_frames_px": 332,
-  "max_step_in_rows": 3.71,
-  "guaranteed_overlap_rows": 1.99,
+  "method": "binarized text mask (L<120); dy between consecutive raw frames; absolute positions by cumulative sum",
+  "t1_t2_boundary": "t1_0120 -> t2_0001 dy=0 (videos contiguous)",
+  "max_step_rows": 4.6,
+  "min_overlap_rows": 1.09,
+  "seams_below_0.8_row_overlap": 0,
   "unbridged_gaps": 0
  },
- "total_scroll_px": 18475,
- "row_pitch_px": 89.5,
- "estimated_members": 212,
- "estimated_members_reliability": "LOW - do not trust. Motion blur makes per-pair dy underestimate. 212 est vs 229 in DB 2026-08-05. Coverage itself is verified complete (see roster_bounds).",
+ "total_scroll_px": 19127,
+ "row_pitch_px": 89.0,
+ "row_grid": {
+  "method": "detect text-row centres per frame (dark-pixel row profile over name column x264-560), map to absolute y by adding frame scroll position, cluster within 35px",
+  "distinct_rows_detected": 222,
+  "gaps_over_120px": 0,
+  "cluster_spacing_median_px": 89,
+  "note": "This is a GEOMETRIC row count and is far more reliable than the old scroll/pitch heuristic (which gave 212). Use 222 as the expected member count."
+ },
+ "estimated_members": 222,
  "roster_bounds": {
-  "first_row": "Chugush power 901.950.061 (verified in stitch_01 panel1, rank 1)",
-  "last_row": "Legion III power 43.739.369 (verified in stitch_26, followed by empty rows = bottom of list)",
+  "first_row": "Chugush power 901.950.061 (rank 1, verified)",
+  "last_row": "Legion III power 43.739.369 (verified, followed by blank rows = bottom of list)",
   "conclusion": "video covers the FULL roster top to bottom"
  },
  "row_crop_box": [
@@ -46,22 +60,96 @@
   1108,
   772
  ],
- "stitch_layout": "3 frames per image, vertical, 6px white gap; last stitch has 2 panels",
+ "stitch_layout": "3 frames per image, vertical, 6px white gap; stitch_28 has 1 panel",
  "known_issues": [
-  "skvwraith vs skywraith: SAME ambiguity as batch 0508. stitch_01 panel1 reads 'skvwraith', panel2 reads 'skywraith'. Power/KP/Act identical (265.447.327 / 8.455.093.019 / 20.948.954) so it is one member. Still undecided.",
-  "Panel crop starts at x=258 so the leftmost 1-2px of some names touch the avatar edge - check +-1 panel if a first character is unclear.",
-  "capture_date not re-confirmed by user (see capture_date_source).",
-  "Carried over unresolved from 0508: 'Stiven l' (final char), 'l3omb' (first char), 'SPUDIman' (7th char), R350-0147 final glyph of 'Omer ?'."
+  "capture_date not re-confirmed (see capture_date_source).",
+  "skvwraith vs skywraith (row 6): same ambiguity as batch 0508, identical Power/KP/Act so one member. Undecided.",
+  "Row 78 [AMBIGUOUS_1]: stroke count NOT determinable (10/11 at thr 140/150, 13-17 at thr 100/120). Power 164.726.284, KP 1.126.112.682, Act 89.026.479. Match by Power+KP+Act only.",
+  "Row 103 [AMBIGUOUS_2]: stroke count 12, stable at thr 120/140/150 across 3 frames. Power 156.082.182, KP 351.506.096, Act 5.803.268.",
+  "222 rows detected vs 229 in DB snapshot 2026-08-05 -> expect roughly 7 departures; verify against DB, do not assume a read error.",
+  "Carried over unresolved from 0508: 'Stiven l' final char (appears again at row 104), 'l3omb' first char, 'SPUDIman' 7th char, R350-0147 final glyph of 'Omer ?'."
  ],
  "progress": {
-  "stitches_total": 26,
-  "stitches_read": [],
-  "next_stitch": 1,
-  "members_extracted": 0,
-  "last_row_read": null,
-  "resume_note": "Nothing read yet. Start at stitch_01 panel1 (Chugush)."
+  "stitches_total": 28,
+  "stitches_read": "rows 1-108 read; corresponds to stitches 01-14 of THIS v2 set",
+  "next_stitch": 15,
+  "next_stitch_panel": 1,
+  "members_extracted": 108,
+  "last_row_read": "zapekanka power 154.834.417 (row 108)",
+  "second_last_row_read": "RemarkNess power 155.031.815 (row 107)",
+  "resume_note": "Row 109 sits near the TOP of stitch_15 panel1 (frame t1_0107, y=300). stitch_15 panel1 also still shows RemarkNess + zapekanka above it as anchors. Read part1.json first, then continue from row 109.",
+  "part_files": [
+   "part1.json",
+   "members_08_08_2026_part1.xlsx"
+  ]
  },
  "compare_baseline": "member_db.json snapshot 2026-08-05 in hann122/350 (3 days apart -> widen rank window by days elapsed)",
- "pat_scope_this_session": "PAT had push access to hann122/frame but 404 on hann122/350 - frames pushed, DB not touched.",
- "ambiguous_names": []
+ "pat_scope_this_session": "PAT had push on hann122/frame, 404 on hann122/350. DB untouched.",
+ "ambiguous_names": [
+  {
+   "placeholder": "[AMBIGUOUS_1]",
+   "row": 78,
+   "stroke_count": null,
+   "stroke_count_status": "NOT DETERMINABLE",
+   "per_threshold": {
+    "100": [
+     17,
+     14,
+     14,
+     17,
+     16,
+     17
+    ],
+    "120": [
+     11,
+     13,
+     13,
+     15,
+     14,
+     12
+    ],
+    "140": [
+     10,
+     10,
+     11,
+     11,
+     11,
+     11
+    ],
+    "150": [
+     10,
+     11,
+     11,
+     10,
+     10,
+     10
+    ]
+   },
+   "frames_checked": [
+    "t1_0077 y397",
+    "t1_0078 y397",
+    "t1_0079 y397",
+    "t1_0074 y736",
+    "t1_0075 y736",
+    "t1_0076 y616"
+   ],
+   "power": 164726284,
+   "kill_points": 1126112682,
+   "activity_points": 89026479
+  },
+  {
+   "placeholder": "[AMBIGUOUS_2]",
+   "row": 103,
+   "stroke_count": 12,
+   "stroke_count_status": "stable at thr 120/140/150; thr 100 gave 14-15",
+   "frames_checked": [
+    "t1_0101 y473",
+    "t1_0099 y552",
+    "t1_0100 y474"
+   ],
+   "power": 156082182,
+   "kill_points": 351506096,
+   "activity_points": 5803268
+  }
+ ]
 }
