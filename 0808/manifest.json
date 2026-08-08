@@ -1,0 +1,67 @@
+{
+ "server": "R350",
+ "source_videos": [
+  "0808_-_Trim1.mp4",
+  "0808_-_Trim2.mp4"
+ ],
+ "capture_date": "2026-08-08",
+ "capture_date_source": "user said 'video ngay 8/8' at upload on 08/08/2026 - NOT yet re-confirmed. WARNING: for batch 0508 the filename (0608) was the UPLOAD date and the real capture date was one day earlier. Ask Ha to confirm before writing the snapshot into member_db.json.",
+ "frame_resolution": [
+  1440,
+  812
+ ],
+ "fps": 1,
+ "raw_frames": 202,
+ "raw_frames_t1": 120,
+ "raw_frames_t2": 82,
+ "dedupe_threshold": 2.0,
+ "dedupe_crop_box": [
+  178,
+  260,
+  1099,
+  764
+ ],
+ "viewports_after_dedupe": 176,
+ "covering_chain_frames": 77,
+ "continuity_check": {
+  "method": "binarized text mask (L<120), 170px template from bottom of frame N searched upward in frame N+1, IoU curve; sharpness = peak / best peak outside +-30px",
+  "t1_t2_boundary": "t1_0120 -> t2_0001 dy=0 IoU=0.732 sharp=1.98 (videos are contiguous, no gap, no large overlap)",
+  "max_step_between_selected_frames_px": 332,
+  "max_step_in_rows": 3.71,
+  "guaranteed_overlap_rows": 1.99,
+  "unbridged_gaps": 0
+ },
+ "total_scroll_px": 18475,
+ "row_pitch_px": 89.5,
+ "estimated_members": 212,
+ "estimated_members_reliability": "LOW - do not trust. Motion blur makes per-pair dy underestimate. 212 est vs 229 in DB 2026-08-05. Coverage itself is verified complete (see roster_bounds).",
+ "roster_bounds": {
+  "first_row": "Chugush power 901.950.061 (verified in stitch_01 panel1, rank 1)",
+  "last_row": "Legion III power 43.739.369 (verified in stitch_26, followed by empty rows = bottom of list)",
+  "conclusion": "video covers the FULL roster top to bottom"
+ },
+ "row_crop_box": [
+  258,
+  262,
+  1108,
+  772
+ ],
+ "stitch_layout": "3 frames per image, vertical, 6px white gap; last stitch has 2 panels",
+ "known_issues": [
+  "skvwraith vs skywraith: SAME ambiguity as batch 0508. stitch_01 panel1 reads 'skvwraith', panel2 reads 'skywraith'. Power/KP/Act identical (265.447.327 / 8.455.093.019 / 20.948.954) so it is one member. Still undecided.",
+  "Panel crop starts at x=258 so the leftmost 1-2px of some names touch the avatar edge - check +-1 panel if a first character is unclear.",
+  "capture_date not re-confirmed by user (see capture_date_source).",
+  "Carried over unresolved from 0508: 'Stiven l' (final char), 'l3omb' (first char), 'SPUDIman' (7th char), R350-0147 final glyph of 'Omer ?'."
+ ],
+ "progress": {
+  "stitches_total": 26,
+  "stitches_read": [],
+  "next_stitch": 1,
+  "members_extracted": 0,
+  "last_row_read": null,
+  "resume_note": "Nothing read yet. Start at stitch_01 panel1 (Chugush)."
+ },
+ "compare_baseline": "member_db.json snapshot 2026-08-05 in hann122/350 (3 days apart -> widen rank window by days elapsed)",
+ "pat_scope_this_session": "PAT had push access to hann122/frame but 404 on hann122/350 - frames pushed, DB not touched.",
+ "ambiguous_names": []
+}
