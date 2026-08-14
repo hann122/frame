@@ -1,0 +1,64 @@
+{
+ "capture_date": "2026-08-13",
+ "server": "R350",
+ "video": "Viking_Rise_2026-08-14_06-40-25.mp4",
+ "resolution": "1328x748",
+ "calibration": {
+  "band_y": [
+   236,
+   704
+  ],
+  "pitch": 82,
+  "name_col_x": [
+   244,
+   400
+  ],
+  "power_x": [
+   456,
+   576
+  ],
+  "kp_x": [
+   648,
+   790
+  ],
+  "act_x": [
+   896,
+   996
+  ],
+  "black_bar_top": 704
+ },
+ "frames": 274,
+ "expected_members_from_user": 231,
+ "rows_read": 231,
+ "gaps": [],
+ "hidden": [],
+ "unread": [],
+ "status": "COMPLETE - all 231 rows read and validated",
+ "validation": {
+  "index_continuous": true,
+  "power_strictly_decreasing": true,
+  "duplicate_triples": 0,
+  "cluster_gap_px": {
+   "min": 78,
+   "median": 82,
+   "max": 86
+  },
+  "frame_pairs_without_shared_row": 0
+ },
+ "ambiguous_strokes": {
+  "114": 13,
+  "154": 11,
+  "175": 10,
+  "184": 15,
+  "188": 11
+ },
+ "scroll_method": "row-to-row mutual-best matching, modal offset (intensity correlation failed - see lessons)",
+ "lessons": [
+  "Static bright gradient in the game panel makes grayscale-MAE alignment always win at dy=0 - use binary text masks.",
+  "The letterbox BLACK BAR at the frame bottom (700px wide, static) destroys all alignment; measure its top edge (y=704 here), never assume.",
+  "Modulo-pitch aliasing occurs even between ADJACENT 1s frames (pair 40->41: true dy=93, reported 11 = 93-82). SOP v3 only warned for distant frames.",
+  "Only reliable dy estimator: cut rows out, mutual-best match between the two frames, take modal center delta.",
+  "Geometry-derived member counts were wrong 4 times here (4.7 / 134 / 224 / 254). Global clustering + pixel dedupe gave exactly 231.",
+  "Row text is only ~15-28px tall in an 82px cell; cropping single rows (no avatar/badge) fits 41 rows per image -> whole roster in 6 images instead of ~20 stitches."
+ ]
+}
