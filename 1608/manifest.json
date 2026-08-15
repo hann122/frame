@@ -1,0 +1,26 @@
+{
+ "capture_date": "2026-08-16",
+ "server": "R350",
+ "folder": "1608",
+ "assets": {
+  "raw_frames": 262,
+  "stitches": 9,
+  "stitch_layout": "packed row strips, 28 rows/stitch, 830x1316 px, native scale, row index printed left",
+  "excel": "members_16_08_2026_part1.xlsx",
+  "part_json": "part1.json"
+ },
+ "progress": {
+  "rows_total_measured": 232,
+  "rows_read": 232,
+  "next_stitch": null,
+  "status": "READING COMPLETE"
+ },
+ "reference_only_numbers": {
+  "rows_from_geometry": 232,
+  "note": "geometry figure is reference only; UI count from user is the single expected number - PENDING"
+ },
+ "open_items": [
+  "Ha to confirm member count shown in game UI",
+  "13/08->14/08 and 14/08->16/08 comparisons need a PAT with access to hann122/350 (this PAT: frame only, 350 returns 404)"
+ ]
+}
