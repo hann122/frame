@@ -1534,69 +1534,83 @@
 },
 {
 "row": 220,
+"name": "Баночка",
+"power": 85129509,
+"kill_points": 110779611,
+"activity_points": 16596433
+},
+{
+"row": 221,
+"name": "Legion VI",
+"power": 83506540,
+"kill_points": 197238323,
+"activity_points": 6951490
+},
+{
+"row": 222,
 "name": "Legion VII",
 "power": 81585311,
 "kill_points": 158051518,
 "activity_points": 3469100
 },
 {
-"row": 221,
+"row": 223,
 "name": "Legion VIII",
 "power": 68084500,
 "kill_points": 96685162,
 "activity_points": 7105072
 },
 {
-"row": 222,
+"row": 224,
 "name": "Крез",
 "power": 65796486,
 "kill_points": 61408972,
 "activity_points": 6269311
 },
 {
-"row": 223,
+"row": 225,
 "name": "Veterok116",
 "power": 64335398,
 "kill_points": 71505002,
 "activity_points": 7048346
 },
 {
-"row": 224,
+"row": 226,
 "name": "Legion I",
 "power": 56548233,
 "kill_points": 97267069,
 "activity_points": 6750535
 },
 {
-"row": 225,
+"row": 227,
 "name": "Legion X",
 "power": 56179771,
 "kill_points": 54092935,
 "activity_points": 6493439
 },
 {
-"row": 226,
+"row": 228,
 "name": "легион4",
 "power": 53898602,
 "kill_points": 95368497,
 "activity_points": 6016415
 },
 {
-"row": 227,
+"row": 229,
 "name": "Legion VIIII",
 "power": 49749161,
 "kill_points": 162374326,
 "activity_points": 6876612
 },
 {
-"row": 228,
+"row": 230,
 "name": "Legion III",
 "power": 43454468,
 "kill_points": 25976835,
 "activity_points": 2971700
 },
 {
-"row": 229,
+"row": 231,
 "name": "Anton152f",
 "power": 22532681,
 "kill_points": 117384,

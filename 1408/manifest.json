@@ -26,7 +26,7 @@
  "row_detection": {
   "method": "per-row binary-mask XOR mutual-best matching between adjacent frames -> union-find row identity -> global-position clustering (tol 45px)",
   "components_before_merge": 274,
-  "rows_after_clustering": 229,
+  "rows_after_clustering": 231,
   "spacing_min_med_max": [
    76.2,
    81.8,
@@ -35,9 +35,32 @@
   "gaps_over_110px": 0,
   "cumulative_scroll_span": 18630.8,
   "span_over_pitch_plus1": 229.9,
-  "note": "229 is a MEASURED number, reference only. Expected member count must come from Ha reading the game UI."
+  "note": "229 is a MEASURED number, reference only. Expected member count must come from Ha reading the game UI.",
+  "scroll_corrections": {
+   "frame_0106": {
+    "measured": -82,
+    "true": 0
+   },
+   "frame_0108": {
+    "measured": 85,
+    "true": 0
+   },
+   "frame_0232": {
+    "measured": -72,
+    "true": 164
+   },
+   "frame_0233": {
+    "measured": -41,
+    "true": -54
+   },
+   "frame_0234": {
+    "measured": 81,
+    "true": 15
+   }
+  },
+  "correction_note": "In-game popup at frames 0106-0108 and 0231-0234 broke full-band mask alignment -> modulo-pitch aliasing. At 0231-0234 this folded 2 real rows (Banochka, Legion VI) into their neighbours. Corrected dy set by visual inspection of the raw frames; row count then matched the UI count of 231 exactly."
  },
- "expected_members_from_user": null,
+ "expected_members_from_user": 231,
  "stitches": [
   {
    "stitch": "stitch_01.png",
@@ -351,9 +374,9 @@
   "stitches_total": 6,
   "stitches_read": 6,
   "next_stitch": null,
-  "members_extracted": 229,
-  "last_row_read": 229,
-  "resume_note": "Reading COMPLETE for batch 1408. All 229 rows extracted -> 1408/part1.json + 1408/members_14_08_2026_part1.xlsx. Remaining work: compare 2026-08-13 -> 2026-08-14 in hann122/350 (needs a PAT with access to that repo).",
+  "members_extracted": 231,
+  "last_row_read": 231,
+  "resume_note": "Batch 1408 COMPLETE: 231/231 rows in 1408/part1.json + 1408/members_14_08_2026_part1.xlsx (v2, after recovering 2 dropped rows). Remaining work: comparison 2026-08-13 -> 2026-08-14 in hann122/350 (needs a PAT for that repo).",
   "ambiguous_rows": {
    "116": 13,
    "169": 11,
@@ -366,7 +389,8 @@
    "duplicate_triples": 0,
    "hidden_rows": 0,
    "unread_rows": 0,
-   "unbridged_seams": 0
+   "unbridged_seams": 0,
+   "ui_count_match": true
   }
  }
 }
