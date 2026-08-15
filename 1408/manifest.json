@@ -349,10 +349,24 @@
  ],
  "progress": {
   "stitches_total": 6,
-  "stitches_read": 0,
-  "next_stitch": 1,
-  "members_extracted": 0,
-  "last_row_read": 0,
-  "resume_note": "not started"
+  "stitches_read": 6,
+  "next_stitch": null,
+  "members_extracted": 229,
+  "last_row_read": 229,
+  "resume_note": "Reading COMPLETE for batch 1408. All 229 rows extracted -> 1408/part1.json + 1408/members_14_08_2026_part1.xlsx. Remaining work: compare 2026-08-13 -> 2026-08-14 in hann122/350 (needs a PAT with access to that repo).",
+  "ambiguous_rows": {
+   "116": 13,
+   "169": 11,
+   "173": 10,
+   "185": 15,
+   "189": 11
+  },
+  "checks": {
+   "power_strictly_decreasing": true,
+   "duplicate_triples": 0,
+   "hidden_rows": 0,
+   "unread_rows": 0,
+   "unbridged_seams": 0
+  }
  }
 }
