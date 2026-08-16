@@ -1,0 +1,28 @@
+{
+ "capture_date": "2026-08-15",
+ "server": "R350",
+ "folder": "1508",
+ "folder_history": "Originally pushed as 1608/ before the user corrected capture_date from 16/08 to 15/08; moved to 1508/ and 1608/ deleted.",
+ "assets": {
+  "raw_frames": 262,
+  "stitches": 9,
+  "stitch_layout": "packed row strips, 28 rows/stitch, 830x1316 px, native scale, row index printed left",
+  "excel": "members_15_08_2026_part1.xlsx",
+  "part_json": "part1.json"
+ },
+ "progress": {
+  "rows_total_measured": 232,
+  "rows_read": 232,
+  "next_stitch": null,
+  "status": "READING COMPLETE"
+ },
+ "expected_count": {
+  "value": 232,
+  "source": "user, game UI",
+  "matches_measurement": true
+ },
+ "downstream": "member_db.json snapshot 2026-08-15 (232 members) and comparisons/comparison_2026-08-14_vs_2026-08-15.xlsx pushed to hann122/350.",
+ "open_items": [
+  "Identity of row 109 'ZvyagovnaHelp': provisional new ID R350-0249; may be a rejoin of R350-0247 'RelaxBaby' (KP +0.107%/day over 5 days). User is contacting the player."
+ ]
+}
