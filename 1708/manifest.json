@@ -46,13 +46,31 @@
  },
  "progress": {
   "stitches_total": 13,
-  "stitches_read": 0,
-  "next_stitch": 1,
-  "next_stitch_panel": 1,
-  "members_extracted": 0,
-  "last_row_read": 0,
-  "resume_note": "chưa đọc stitch nào",
-  "anchors": "N/A"
+  "stitches_read": 13,
+  "next_stitch": null,
+  "next_stitch_panel": null,
+  "members_extracted": 230,
+  "last_row_read": 230,
+  "resume_note": "HOÀN TẤT đọc. Dòng cuối = Legion III (P=43.454.468, KP=25.976.835) - đáy danh sách đã xác nhận (khoảng trắng bên dưới trong f204). Dòng 229 = Legion VIIII (P=49.749.161).",
+  "anchors": "VERIFIED - mọi seam panel đều có >=1 tên trùng"
  },
- "expected_members_from_UI": null
+ "expected_members_from_UI": null,
+ "validation": {
+  "power_strictly_decreasing": true,
+  "duplicate_metric_triples": 0,
+  "duplicate_names": 0,
+  "hidden_rows": 0,
+  "unread_frames": 0,
+  "open_items": [
+   "Số thành viên trên UI game chưa được Ha cung cấp",
+   "Dòng 209 '[?]helse' - ký tự đầu bị viền avatar che",
+   "Dòng 85 'Abrayan' - ký tự đầu bị viền avatar che ở phần lớn frame",
+   "6 tên mơ hồ I/l/1 đã đếm nét: dòng 91=13, 121=15, 172=8, 179=15, 181=10, 189=15"
+  ]
+ },
+ "outputs": [
+  "members_17_08_2026.xlsx",
+  "rows_1708.json",
+  "strokes.json"
+ ]
 }
