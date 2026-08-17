@@ -1,0 +1,58 @@
+{
+ "batch": "1708",
+ "capture_date": "2026-08-17 (CHỜ XÁC NHẬN)",
+ "server": "R350",
+ "video": "Viking_Rise_2026-08-17_20-17-55.mp4",
+ "resolution": "1328x748",
+ "geometry": {
+  "band_y": [
+   236,
+   704
+  ],
+  "pitch_px": 81.65,
+  "name_col_x": [
+   240,
+   430
+  ],
+  "black_bar_top_y": 704,
+  "crop_box": [
+   240,
+   236,
+   1010,
+   704
+  ]
+ },
+ "measurement": {
+  "method": "NCC on high-pass grayscale (Gaussian blur 8 subtracted)",
+  "frames_fps1": 206,
+  "distinct_viewports_hash": 131,
+  "total_dy_adjacent_sum": 18583,
+  "total_dy_panel_chain": 18586,
+  "aliasing_cross_check": "chain vs adjacent-sum lệch 3px -> không có aliasing modulo pitch",
+  "weak_pairs": [
+   {
+    "pair": "203->204",
+    "note": "NCC 0.47, margin 0.02 - cuối danh sách, giải quyết bằng neo tên"
+   }
+  ],
+  "overlay_frames": [
+   107,
+   108,
+   109,
+   110
+  ],
+  "rows_reference_only": 227.6,
+  "WARNING": "CÁC SỐ HÌNH HỌC CHỈ ĐỂ THAM KHẢO, KHÔNG PHẢI SỐ DÒNG KỲ VỌNG. Số kỳ vọng chỉ lấy từ UI game do Ha đọc."
+ },
+ "progress": {
+  "stitches_total": 13,
+  "stitches_read": 0,
+  "next_stitch": 1,
+  "next_stitch_panel": 1,
+  "members_extracted": 0,
+  "last_row_read": 0,
+  "resume_note": "chưa đọc stitch nào",
+  "anchors": "N/A"
+ },
+ "expected_members_from_UI": null
+}
