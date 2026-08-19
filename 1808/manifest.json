@@ -1,0 +1,88 @@
+{
+ "batch": "1808",
+ "capture_date": "2026-08-18 (do Ha khai bao)",
+ "server": "R350",
+ "video": "Viking_Rise_2026-08-19_06-56-04.mp4",
+ "resolution": "1328x748",
+ "geometry": {
+  "band_y": [
+   236,
+   704
+  ],
+  "pitch_px": 81.7,
+  "name_col_x": [
+   248,
+   450
+  ],
+  "black_bar_top_y": 704,
+  "crop_box": [
+   240,
+   236,
+   1010,
+   704
+  ]
+ },
+ "measurement": {
+  "method": "NCC on high-pass grayscale (Gaussian blur 8 subtracted)",
+  "frames_fps1": 209,
+  "distinct_viewports_hash": 150,
+  "total_dy_adjacent_sum": 18583,
+  "total_dy_panel_chain": 18588,
+  "aliasing_cross_check": "chain vs adjacent-sum lech 5px -> khong co aliasing modulo pitch",
+  "panels": 59,
+  "stitches": 15,
+  "panels_per_stitch": 4,
+  "max_step_px": 384,
+  "min_overlap_rows": 1.03,
+  "weak_pairs": [
+   {
+    "pair": "panel21 f0074->f0079",
+    "note": "NCC 0.42 - da xac minh bang neo ten"
+   },
+   {
+    "pair": "panel58 f0205->f0206",
+    "note": "NCC 0.49, margin 0.01 - cuoi danh sach, xac minh bang neo ten"
+   }
+  ],
+  "rows_reference_only": 227.4,
+  "WARNING": "CAC SO HINH HOC CHI DE THAM KHAO, KHONG PHAI SO DONG KY VONG. So ky vong chi lay tu UI game do Ha doc."
+ },
+ "progress": {
+  "stitches_total": 15,
+  "stitches_read": 15,
+  "next_stitch": null,
+  "next_stitch_panel": null,
+  "members_extracted": 230,
+  "last_row_read": 230,
+  "resume_note": "HOAN TAT doc. Dong 230 = Legion III (P=41.750.497, KP=26.025.901); dong 229 = Legion VIIII (P=49.749.161, KP=162.374.326). Day danh sach xac nhan bang khoang trang duoi Legion III trong panel 59.",
+  "anchors": "VERIFIED - moi seam panel va seam stitch deu co >=1 ten trung"
+ },
+ "expected_members_from_UI": null,
+ "validation": {
+  "power_strictly_decreasing": true,
+  "duplicate_metric_triples": 0,
+  "duplicate_names": 0,
+  "hidden_rows": 0,
+  "unread_frames": 0,
+  "unrecoverable_gaps": 0,
+  "gap_flags_all_resolved": "moi khoang Power bat thuong deu nam giua 2 dong LIEN TIEP TRONG CUNG 1 PANEL -> khong the co dong bi sot",
+  "open_items": [
+   "So thanh vien tren UI game chua duoc Ha cung cap",
+   "Dong 2 \"133tz\" - 5 net/glyph, khong phan biet duoc 1/l/I",
+   "Dong 104 \"[?]brayan\" - ky tu dau bi vien avatar che",
+   "Dong 208 \"[?]helse\" - ky tu dau bi vien avatar che",
+   "Dong 6 skywraith (258M) va dong 111 skywraith (149M) la HAI nguoi khac nhau",
+   "Dong 112 \"AHT\" - Latin/Cyrillic khong phan biet duoc",
+   "Dong 28 \"Cookies\" - co the bi che ky tu dau",
+   "Act Pts gan 0 (nghi rejoin, cho doi chieu member_db): 120 AMAK=136.271, 185 Starry Nights=143.255, 193 D R A G O N=290.387, 196 Anton152=635.434, 31 FalconN=396.084"
+  ],
+  "blocked": "PAT phien nay chi co quyen tren hann122/frame; KHONG doc duoc hann122/350 (404) -> chua the so sanh voi member_db.json, chua cap nhat DB, chua sinh comparison file"
+ },
+ "outputs": [
+  "members_18_08_2026.xlsx",
+  "rows_1808.json",
+  "strokes.json",
+  "pairs_ncc.json",
+  "panels.json"
+ ]
+}

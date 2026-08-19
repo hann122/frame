@@ -1,0 +1,27 @@
+{
+ "2": {
+  "name": "133tz",
+  "strokes": 5,
+  "note": "5 glyphs, frame_0001"
+ },
+ "85": {
+  "name": "iiillliIllill",
+  "strokes": 13,
+  "note": "frames 0078+0079, thr 120/140/150"
+ },
+ "160": {
+  "name": "liiiiliii",
+  "strokes": 10,
+  "note": "frames 0146+0147"
+ },
+ "165": {
+  "name": "LIliiillIiiIll",
+  "strokes": 15,
+  "note": "frames 0151+0152"
+ },
+ "176": {
+  "name": "IIIIIliiIiiiIli",
+  "strokes": 15,
+  "note": "frames 0162+0163"
+ }
+}
