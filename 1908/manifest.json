@@ -1,0 +1,93 @@
+{
+ "batch": "1908",
+ "capture_date": "2026-08-19 (do Ha khai bao)",
+ "server": "R350",
+ "video": "Viking_Rise_2026-08-20_06-55-30.mp4",
+ "resolution": "1328x748",
+ "geometry": {
+  "band_y": [
+   236,
+   704
+  ],
+  "pitch_px": 81.7,
+  "name_col_x": [
+   248,
+   450
+  ],
+  "black_bar_top_y": 704,
+  "crop_box": [
+   240,
+   236,
+   1010,
+   704
+  ]
+ },
+ "measurement": {
+  "method": "NCC on high-pass grayscale (Gaussian blur 8 subtracted)",
+  "frames_fps1": 214,
+  "distinct_viewports_hash": 133,
+  "total_dy_adjacent_sum": 18498,
+  "total_dy_panel_chain": 18345,
+  "aliasing_cross_check": "lech 153px, truy ra 1 cap duy nhat (frame_0208->frame_0214) bi alias -2 x pitch = -163px; overlap thuc te rong hon nen KHONG mat dong",
+  "panels": 58,
+  "stitches": 15,
+  "panels_per_stitch": 4,
+  "max_step_px": 368,
+  "min_overlap_rows": 1.22,
+  "weak_pairs": [],
+  "rows_reference_only": 226.6,
+  "WARNING": "CAC SO HINH HOC CHI DE THAM KHAO, KHONG PHAI SO DONG KY VONG. So ky vong chi lay tu UI game do Ha doc."
+ },
+ "progress": {
+  "stitches_total": 15,
+  "stitches_read": 15,
+  "next_stitch": null,
+  "next_stitch_panel": null,
+  "members_extracted": 230,
+  "last_row_read": 230,
+  "resume_note": "HOAN TAT doc. Dong 230 = Legion III (P=42.530.387, KP=26.336.691); dong 229 = Legion VIIII (P=49.753.161, KP=162.374.326). Day danh sach xac nhan bang khoang trang duoi Legion III trong panel 58 va frames 0211-0214 giong nhau hoan toan.",
+  "anchors": "VERIFIED - moi seam panel co >=1 ten trung; ngoai ra moi cap dong lien tiep (i,i+1) i=1..229 deu duoc quan sat CUNG TRONG MOT panel"
+ },
+ "expected_members_from_UI": null,
+ "validation": {
+  "power_strictly_decreasing": true,
+  "duplicate_metric_triples": 0,
+  "duplicate_names": 0,
+  "hidden_rows": 0,
+  "unread_frames": 0,
+  "unrecoverable_gaps": 0,
+  "completeness_proof": "moi cap dong lien tiep nam trong cung 1 panel -> khong the co dong bi sot",
+  "open_items": [
+   "So thanh vien tren UI game chua duoc Ha cung cap",
+   "Dong 6 skywraith (261.956.462) va dong 113 skywraith (149.456.849) la HAI nguoi khac nhau; dong 113 rat co the la skywraiith = R350-0129",
+   "Dong 6 hien skvwraith o panel 1 va skywraith o panel 2, cung chi so -> mot nguoi",
+   "Dong 99 [?]brayan - ky tu dau bi vien avatar che",
+   "Dong 205 [?]helse - ky tu dau bi vien avatar che",
+   "Dong 88 AHT - Latin/Cyrillic khong phan biet duoc",
+   "Dong 100 Kaccn (Cyrillic) - ky tu cuoi l hay n",
+   "Dong 98 Stiven l - ky tu cuoi la glyph I/l/1 mo ho",
+   "Dong 130 AMAK - hien dang glyph A cach dieu o mot so panel",
+   "Dong 223 Legion VIII vs dong 229 Legion VIIII - da doi chieu voi lo 1808",
+   "Act Pts gan 0 (nghi rejoin, cho doi chieu member_db): 130 AMAK=279.962, 204 Starry Nights=280.051, 188 D R A G O N=395.495, 32 FalconN=551.667, 208 Anton152=827.634 - ca 5 deu da duoc gan co tu 18/08 voi gia tri thap hon"
+  ],
+  "strokes": {
+   "row_76": 13,
+   "row_137": 6,
+   "row_167": 15,
+   "row_169": 15,
+   "row_190": 11,
+   "row_201": 10,
+   "note": "on dinh o nguong 120/140/150. So net KHONG phai danh tinh. Dong 167 va 169 cung 15 net nhung KHAC nguoi (KP 370.123.240 vs 2.065.549.050)."
+  },
+  "blocked": "PAT phien nay chi co quyen tren hann122/frame; hann122/350 tra 404 -> CHUA so sanh voi member_db.json, CHUA cap nhat DB, CHUA sinh comparison file, CHUA regenerate aliases.json"
+ },
+ "outputs": [
+  "members_19_08_2026.xlsx",
+  "rows_1908.json",
+  "strokes.json",
+  "pairs_ncc.json",
+  "adjacent_dy.json",
+  "panels_sel.json",
+  "manifest_stitches.json"
+ ]
+}
