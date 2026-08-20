@@ -1,0 +1,384 @@
+[
+ {
+  "stitch": 1,
+  "file": "stitches/stitch_01.png",
+  "panels": [
+   {
+    "panel_idx": 1,
+    "frame": "frame_0001.jpg"
+   },
+   {
+    "panel_idx": 2,
+    "frame": "frame_0008.jpg"
+   },
+   {
+    "panel_idx": 3,
+    "frame": "frame_0012.jpg"
+   },
+   {
+    "panel_idx": 4,
+    "frame": "frame_0016.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 2,
+  "file": "stitches/stitch_02.png",
+  "panels": [
+   {
+    "panel_idx": 5,
+    "frame": "frame_0019.jpg"
+   },
+   {
+    "panel_idx": 6,
+    "frame": "frame_0023.jpg"
+   },
+   {
+    "panel_idx": 7,
+    "frame": "frame_0027.jpg"
+   },
+   {
+    "panel_idx": 8,
+    "frame": "frame_0030.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 3,
+  "file": "stitches/stitch_03.png",
+  "panels": [
+   {
+    "panel_idx": 9,
+    "frame": "frame_0034.jpg"
+   },
+   {
+    "panel_idx": 10,
+    "frame": "frame_0037.jpg"
+   },
+   {
+    "panel_idx": 11,
+    "frame": "frame_0041.jpg"
+   },
+   {
+    "panel_idx": 12,
+    "frame": "frame_0045.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 4,
+  "file": "stitches/stitch_04.png",
+  "panels": [
+   {
+    "panel_idx": 13,
+    "frame": "frame_0048.jpg"
+   },
+   {
+    "panel_idx": 14,
+    "frame": "frame_0052.jpg"
+   },
+   {
+    "panel_idx": 15,
+    "frame": "frame_0055.jpg"
+   },
+   {
+    "panel_idx": 16,
+    "frame": "frame_0059.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 5,
+  "file": "stitches/stitch_05.png",
+  "panels": [
+   {
+    "panel_idx": 17,
+    "frame": "frame_0062.jpg"
+   },
+   {
+    "panel_idx": 18,
+    "frame": "frame_0066.jpg"
+   },
+   {
+    "panel_idx": 19,
+    "frame": "frame_0070.jpg"
+   },
+   {
+    "panel_idx": 20,
+    "frame": "frame_0073.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 6,
+  "file": "stitches/stitch_06.png",
+  "panels": [
+   {
+    "panel_idx": 21,
+    "frame": "frame_0077.jpg"
+   },
+   {
+    "panel_idx": 22,
+    "frame": "frame_0081.jpg"
+   },
+   {
+    "panel_idx": 23,
+    "frame": "frame_0084.jpg"
+   },
+   {
+    "panel_idx": 24,
+    "frame": "frame_0088.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 7,
+  "file": "stitches/stitch_07.png",
+  "panels": [
+   {
+    "panel_idx": 25,
+    "frame": "frame_0091.jpg"
+   },
+   {
+    "panel_idx": 26,
+    "frame": "frame_0095.jpg"
+   },
+   {
+    "panel_idx": 27,
+    "frame": "frame_0098.jpg"
+   },
+   {
+    "panel_idx": 28,
+    "frame": "frame_0102.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 8,
+  "file": "stitches/stitch_08.png",
+  "panels": [
+   {
+    "panel_idx": 29,
+    "frame": "frame_0106.jpg"
+   },
+   {
+    "panel_idx": 30,
+    "frame": "frame_0109.jpg"
+   },
+   {
+    "panel_idx": 31,
+    "frame": "frame_0112.jpg"
+   },
+   {
+    "panel_idx": 32,
+    "frame": "frame_0116.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 9,
+  "file": "stitches/stitch_09.png",
+  "panels": [
+   {
+    "panel_idx": 33,
+    "frame": "frame_0120.jpg"
+   },
+   {
+    "panel_idx": 34,
+    "frame": "frame_0124.jpg"
+   },
+   {
+    "panel_idx": 35,
+    "frame": "frame_0128.jpg"
+   },
+   {
+    "panel_idx": 36,
+    "frame": "frame_0131.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 10,
+  "file": "stitches/stitch_10.png",
+  "panels": [
+   {
+    "panel_idx": 37,
+    "frame": "frame_0135.jpg"
+   },
+   {
+    "panel_idx": 38,
+    "frame": "frame_0139.jpg"
+   },
+   {
+    "panel_idx": 39,
+    "frame": "frame_0142.jpg"
+   },
+   {
+    "panel_idx": 40,
+    "frame": "frame_0146.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 11,
+  "file": "stitches/stitch_11.png",
+  "panels": [
+   {
+    "panel_idx": 41,
+    "frame": "frame_0149.jpg"
+   },
+   {
+    "panel_idx": 42,
+    "frame": "frame_0154.jpg"
+   },
+   {
+    "panel_idx": 43,
+    "frame": "frame_0158.jpg"
+   },
+   {
+    "panel_idx": 44,
+    "frame": "frame_0161.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 12,
+  "file": "stitches/stitch_12.png",
+  "panels": [
+   {
+    "panel_idx": 45,
+    "frame": "frame_0165.jpg"
+   },
+   {
+    "panel_idx": 46,
+    "frame": "frame_0169.jpg"
+   },
+   {
+    "panel_idx": 47,
+    "frame": "frame_0172.jpg"
+   },
+   {
+    "panel_idx": 48,
+    "frame": "frame_0176.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 13,
+  "file": "stitches/stitch_13.png",
+  "panels": [
+   {
+    "panel_idx": 49,
+    "frame": "frame_0180.jpg"
+   },
+   {
+    "panel_idx": 50,
+    "frame": "frame_0184.jpg"
+   },
+   {
+    "panel_idx": 51,
+    "frame": "frame_0187.jpg"
+   },
+   {
+    "panel_idx": 52,
+    "frame": "frame_0191.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 14,
+  "file": "stitches/stitch_14.png",
+  "panels": [
+   {
+    "panel_idx": 53,
+    "frame": "frame_0194.jpg"
+   },
+   {
+    "panel_idx": 54,
+    "frame": "frame_0198.jpg"
+   },
+   {
+    "panel_idx": 55,
+    "frame": "frame_0201.jpg"
+   },
+   {
+    "panel_idx": 56,
+    "frame": "frame_0205.jpg"
+   }
+  ],
+  "size": [
+   770,
+   1890
+  ]
+ },
+ {
+  "stitch": 15,
+  "file": "stitches/stitch_15.png",
+  "panels": [
+   {
+    "panel_idx": 57,
+    "frame": "frame_0208.jpg"
+   },
+   {
+    "panel_idx": 58,
+    "frame": "frame_0214.jpg"
+   }
+  ],
+  "size": [
+   770,
+   942
+  ]
+ }
+]
