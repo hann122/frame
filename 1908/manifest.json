@@ -1,6 +1,6 @@
 {
  "batch": "1908",
- "capture_date": "2026-08-19 (do Ha khai bao)",
+ "capture_date": "2026-08-19 (confirmed by user)",
  "server": "R350",
  "video": "Viking_Rise_2026-08-20_06-55-30.mp4",
  "resolution": "1328x748",
@@ -48,7 +48,7 @@
   "resume_note": "HOAN TAT doc. Dong 230 = Legion III (P=42.530.387, KP=26.336.691); dong 229 = Legion VIIII (P=49.753.161, KP=162.374.326). Day danh sach xac nhan bang khoang trang duoi Legion III trong panel 58 va frames 0211-0214 giong nhau hoan toan.",
   "anchors": "VERIFIED - moi seam panel co >=1 ten trung; ngoai ra moi cap dong lien tiep (i,i+1) i=1..229 deu duoc quan sat CUNG TRONG MOT panel"
  },
- "expected_members_from_UI": null,
+ "expected_members_from_UI": 230,
  "validation": {
   "power_strictly_decreasing": true,
   "duplicate_metric_triples": 0,
@@ -89,5 +89,6 @@
   "adjacent_dy.json",
   "panels_sel.json",
   "manifest_stitches.json"
- ]
+ ],
+ "expected_members_from_UI_note": "230 confirmed by the user on 2026-08-20; an earlier message said 330 and was corrected as a typo. Matches the 230 rows read, with 229/229 adjacent row pairs observed inside a single panel."
 }
