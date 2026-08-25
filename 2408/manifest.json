@@ -1,0 +1,75 @@
+{
+ "batch": "2408",
+ "capture_date": "2026-08-24",
+ "capture_date_confirmed_by_user": true,
+ "source_video": "Viking_Rise_2026-08-25_06-51-41.mp4",
+ "note_on_filename": "Video filename carries upload timestamp 2026-08-25; user confirmed capture date is 2026-08-24.",
+ "video": {
+  "resolution": "1328x748",
+  "duration_s": 226.15,
+  "fps_extracted": 4,
+  "frames": 905
+ },
+ "calibration": {
+  "pitch_px": 81.65,
+  "first_row_center_px": 277.5,
+  "row_center_allowed_range": [
+   273,
+   691
+  ],
+  "name_col_x": [
+   248,
+   450
+  ],
+  "panel_crop_x": [
+   175,
+   1012
+  ],
+  "source": "measured on this batch, matches 1328x748 profile"
+ },
+ "scroll": {
+  "method": "NCC high-pass (gaussian sigma=8), adjacent-frame, aliasing disambiguation by MAE on raw grayscale",
+  "fps4_total_px": 18778,
+  "fps4_total_rows": 229.98,
+  "fps2_check": "227.20 rows at DYMAX=320 vs 228.93 (fps4 same ceiling); fps2 at DYMAX=200 was template-clipped (maxdy=199) and must be discarded",
+  "mae_median": 1.76,
+  "mae_max": 7.85,
+  "health": "all seams < 8.5 threshold",
+  "static_frames_at_start": 23,
+  "static_frames_at_end": 8,
+  "interpretation": "list starts at top (row 1) and stops scrolling at the end -> bottom of list reached"
+ },
+ "expected_members": {
+  "value": null,
+  "source": "MUST come from user reading the game UI count. Geometry suggests last visible row index 235-236 but geometry is NOT an accepted source (SOP v3 s2)."
+ },
+ "popup_scan": "no notification-popup banner detected in any of the 905 frames (dark-fraction in banner region flat: med 0.047 / max 0.054)",
+ "coverage_proof": {
+  "panels": 60,
+  "row_start_steps": [
+   3,
+   4
+  ],
+  "guarantee": "every consecutive panel pair shares >=1 fully-visible row -> name anchor available at every seam",
+  "rows_covered": [
+   1,
+   236
+  ]
+ },
+ "progress": {
+  "stitches_total": 15,
+  "stitches_read": 0,
+  "next_stitch": "stitch_01",
+  "next_stitch_panel": 1,
+  "members_extracted": 0,
+  "last_row_read": 0,
+  "resume_note": "not started",
+  "anchors": "n/a"
+ },
+ "files": {
+  "stitches": "2408/stitches/stitch_NN.png",
+  "frames": "2408/frames/frames_fps4_partN.zip (fps=4, all 905 frames, ZIP_STORED)",
+  "panels": "2408/panels.json",
+  "stitch_map": "2408/manifest_stitches.json"
+ }
+}

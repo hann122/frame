@@ -1,0 +1,542 @@
+[
+ {
+  "frame": "frames4/f_0013.jpg",
+  "idx": 12,
+  "row_start": 1,
+  "rows": 5,
+  "y0": 236,
+  "y1": 645,
+  "cum": 0.0
+ },
+ {
+  "frame": "frames4/f_0039.jpg",
+  "idx": 38,
+  "row_start": 5,
+  "rows": 5,
+  "y0": 237,
+  "y1": 646,
+  "cum": 326.0
+ },
+ {
+  "frame": "frames4/f_0057.jpg",
+  "idx": 56,
+  "row_start": 9,
+  "rows": 5,
+  "y0": 242,
+  "y1": 650,
+  "cum": 648.0
+ },
+ {
+  "frame": "frames4/f_0067.jpg",
+  "idx": 66,
+  "row_start": 13,
+  "rows": 5,
+  "y0": 232,
+  "y1": 641,
+  "cum": 984.0
+ },
+ {
+  "frame": "frames4/f_0086.jpg",
+  "idx": 85,
+  "row_start": 17,
+  "rows": 5,
+  "y0": 246,
+  "y1": 654,
+  "cum": 1297.0
+ },
+ {
+  "frame": "frames4/f_0099.jpg",
+  "idx": 98,
+  "row_start": 21,
+  "rows": 5,
+  "y0": 236,
+  "y1": 644,
+  "cum": 1634.0
+ },
+ {
+  "frame": "frames4/f_0114.jpg",
+  "idx": 113,
+  "row_start": 25,
+  "rows": 5,
+  "y0": 235,
+  "y1": 644,
+  "cum": 1961.0
+ },
+ {
+  "frame": "frames4/f_0122.jpg",
+  "idx": 121,
+  "row_start": 29,
+  "rows": 5,
+  "y0": 245,
+  "y1": 653,
+  "cum": 2278.0
+ },
+ {
+  "frame": "frames4/f_0138.jpg",
+  "idx": 137,
+  "row_start": 33,
+  "rows": 5,
+  "y0": 240,
+  "y1": 649,
+  "cum": 2609.0
+ },
+ {
+  "frame": "frames4/f_0152.jpg",
+  "idx": 151,
+  "row_start": 37,
+  "rows": 5,
+  "y0": 238,
+  "y1": 646,
+  "cum": 2938.0
+ },
+ {
+  "frame": "frames4/f_0166.jpg",
+  "idx": 165,
+  "row_start": 41,
+  "rows": 5,
+  "y0": 236,
+  "y1": 645,
+  "cum": 3266.0
+ },
+ {
+  "frame": "frames4/f_0176.jpg",
+  "idx": 175,
+  "row_start": 45,
+  "rows": 5,
+  "y0": 247,
+  "y1": 656,
+  "cum": 3582.0
+ },
+ {
+  "frame": "frames4/f_0188.jpg",
+  "idx": 187,
+  "row_start": 49,
+  "rows": 5,
+  "y0": 307,
+  "y1": 715,
+  "cum": 3849.0
+ },
+ {
+  "frame": "frames4/f_0202.jpg",
+  "idx": 201,
+  "row_start": 53,
+  "rows": 5,
+  "y0": 290,
+  "y1": 699,
+  "cum": 4192.0
+ },
+ {
+  "frame": "frames4/f_0218.jpg",
+  "idx": 217,
+  "row_start": 57,
+  "rows": 5,
+  "y0": 277,
+  "y1": 686,
+  "cum": 4532.0
+ },
+ {
+  "frame": "frames4/f_0232.jpg",
+  "idx": 231,
+  "row_start": 61,
+  "rows": 5,
+  "y0": 310,
+  "y1": 718,
+  "cum": 4826.0
+ },
+ {
+  "frame": "frames4/f_0246.jpg",
+  "idx": 245,
+  "row_start": 65,
+  "rows": 5,
+  "y0": 254,
+  "y1": 663,
+  "cum": 5208.0
+ },
+ {
+  "frame": "frames4/f_0260.jpg",
+  "idx": 259,
+  "row_start": 69,
+  "rows": 5,
+  "y0": 266,
+  "y1": 674,
+  "cum": 5523.0
+ },
+ {
+  "frame": "frames4/f_0275.jpg",
+  "idx": 274,
+  "row_start": 73,
+  "rows": 5,
+  "y0": 309,
+  "y1": 718,
+  "cum": 5806.0
+ },
+ {
+  "frame": "frames4/f_0290.jpg",
+  "idx": 289,
+  "row_start": 76,
+  "rows": 5,
+  "y0": 233,
+  "y1": 642,
+  "cum": 6127.0
+ },
+ {
+  "frame": "frames4/f_0305.jpg",
+  "idx": 304,
+  "row_start": 80,
+  "rows": 5,
+  "y0": 301,
+  "y1": 709,
+  "cum": 6386.0
+ },
+ {
+  "frame": "frames4/f_0321.jpg",
+  "idx": 320,
+  "row_start": 84,
+  "rows": 5,
+  "y0": 234,
+  "y1": 643,
+  "cum": 6779.0
+ },
+ {
+  "frame": "frames4/f_0337.jpg",
+  "idx": 336,
+  "row_start": 88,
+  "rows": 5,
+  "y0": 273,
+  "y1": 682,
+  "cum": 7067.0
+ },
+ {
+  "frame": "frames4/f_0352.jpg",
+  "idx": 351,
+  "row_start": 92,
+  "rows": 5,
+  "y0": 291,
+  "y1": 699,
+  "cum": 7376.0
+ },
+ {
+  "frame": "frames4/f_0367.jpg",
+  "idx": 366,
+  "row_start": 96,
+  "rows": 5,
+  "y0": 238,
+  "y1": 647,
+  "cum": 7755.0
+ },
+ {
+  "frame": "frames4/f_0381.jpg",
+  "idx": 380,
+  "row_start": 100,
+  "rows": 5,
+  "y0": 289,
+  "y1": 697,
+  "cum": 8031.0
+ },
+ {
+  "frame": "frames4/f_0398.jpg",
+  "idx": 397,
+  "row_start": 104,
+  "rows": 5,
+  "y0": 268,
+  "y1": 677,
+  "cum": 8378.0
+ },
+ {
+  "frame": "frames4/f_0413.jpg",
+  "idx": 412,
+  "row_start": 108,
+  "rows": 5,
+  "y0": 248,
+  "y1": 657,
+  "cum": 8725.0
+ },
+ {
+  "frame": "frames4/f_0428.jpg",
+  "idx": 427,
+  "row_start": 112,
+  "rows": 5,
+  "y0": 309,
+  "y1": 717,
+  "cum": 8991.0
+ },
+ {
+  "frame": "frames4/f_0443.jpg",
+  "idx": 442,
+  "row_start": 116,
+  "rows": 5,
+  "y0": 248,
+  "y1": 657,
+  "cum": 9378.0
+ },
+ {
+  "frame": "frames4/f_0460.jpg",
+  "idx": 459,
+  "row_start": 120,
+  "rows": 5,
+  "y0": 276,
+  "y1": 684,
+  "cum": 9677.0
+ },
+ {
+  "frame": "frames4/f_0474.jpg",
+  "idx": 473,
+  "row_start": 124,
+  "rows": 5,
+  "y0": 271,
+  "y1": 680,
+  "cum": 10008.0
+ },
+ {
+  "frame": "frames4/f_0488.jpg",
+  "idx": 487,
+  "row_start": 128,
+  "rows": 5,
+  "y0": 264,
+  "y1": 673,
+  "cum": 10342.0
+ },
+ {
+  "frame": "frames4/f_0504.jpg",
+  "idx": 503,
+  "row_start": 131,
+  "rows": 5,
+  "y0": 232,
+  "y1": 641,
+  "cum": 10619.0
+ },
+ {
+  "frame": "frames4/f_0513.jpg",
+  "idx": 512,
+  "row_start": 134,
+  "rows": 5,
+  "y0": 251,
+  "y1": 660,
+  "cum": 10845.0
+ },
+ {
+  "frame": "frames4/f_0527.jpg",
+  "idx": 526,
+  "row_start": 138,
+  "rows": 5,
+  "y0": 262,
+  "y1": 670,
+  "cum": 11161.0
+ },
+ {
+  "frame": "frames4/f_0537.jpg",
+  "idx": 536,
+  "row_start": 142,
+  "rows": 5,
+  "y0": 252,
+  "y1": 661,
+  "cum": 11497.0
+ },
+ {
+  "frame": "frames4/f_0552.jpg",
+  "idx": 551,
+  "row_start": 146,
+  "rows": 5,
+  "y0": 243,
+  "y1": 651,
+  "cum": 11833.0
+ },
+ {
+  "frame": "frames4/f_0565.jpg",
+  "idx": 564,
+  "row_start": 150,
+  "rows": 5,
+  "y0": 260,
+  "y1": 669,
+  "cum": 12142.0
+ },
+ {
+  "frame": "frames4/f_0579.jpg",
+  "idx": 578,
+  "row_start": 153,
+  "rows": 5,
+  "y0": 237,
+  "y1": 646,
+  "cum": 12410.0
+ },
+ {
+  "frame": "frames4/f_0595.jpg",
+  "idx": 594,
+  "row_start": 157,
+  "rows": 5,
+  "y0": 246,
+  "y1": 654,
+  "cum": 12728.0
+ },
+ {
+  "frame": "frames4/f_0610.jpg",
+  "idx": 609,
+  "row_start": 160,
+  "rows": 5,
+  "y0": 246,
+  "y1": 654,
+  "cum": 12973.0
+ },
+ {
+  "frame": "frames4/f_0624.jpg",
+  "idx": 623,
+  "row_start": 164,
+  "rows": 5,
+  "y0": 258,
+  "y1": 667,
+  "cum": 13287.0
+ },
+ {
+  "frame": "frames4/f_0641.jpg",
+  "idx": 640,
+  "row_start": 168,
+  "rows": 5,
+  "y0": 237,
+  "y1": 646,
+  "cum": 13635.0
+ },
+ {
+  "frame": "frames4/f_0656.jpg",
+  "idx": 655,
+  "row_start": 172,
+  "rows": 5,
+  "y0": 305,
+  "y1": 713,
+  "cum": 13894.0
+ },
+ {
+  "frame": "frames4/f_0676.jpg",
+  "idx": 675,
+  "row_start": 176,
+  "rows": 5,
+  "y0": 267,
+  "y1": 676,
+  "cum": 14258.0
+ },
+ {
+  "frame": "frames4/f_0697.jpg",
+  "idx": 696,
+  "row_start": 180,
+  "rows": 5,
+  "y0": 304,
+  "y1": 712,
+  "cum": 14548.0
+ },
+ {
+  "frame": "frames4/f_0713.jpg",
+  "idx": 712,
+  "row_start": 184,
+  "rows": 5,
+  "y0": 238,
+  "y1": 647,
+  "cum": 14940.0
+ },
+ {
+  "frame": "frames4/f_0723.jpg",
+  "idx": 722,
+  "row_start": 187,
+  "rows": 5,
+  "y0": 256,
+  "y1": 665,
+  "cum": 15167.0
+ },
+ {
+  "frame": "frames4/f_0740.jpg",
+  "idx": 739,
+  "row_start": 191,
+  "rows": 5,
+  "y0": 256,
+  "y1": 665,
+  "cum": 15494.0
+ },
+ {
+  "frame": "frames4/f_0757.jpg",
+  "idx": 756,
+  "row_start": 195,
+  "rows": 5,
+  "y0": 260,
+  "y1": 668,
+  "cum": 15817.0
+ },
+ {
+  "frame": "frames4/f_0766.jpg",
+  "idx": 765,
+  "row_start": 199,
+  "rows": 5,
+  "y0": 260,
+  "y1": 669,
+  "cum": 16143.0
+ },
+ {
+  "frame": "frames4/f_0782.jpg",
+  "idx": 781,
+  "row_start": 203,
+  "rows": 5,
+  "y0": 268,
+  "y1": 676,
+  "cum": 16462.0
+ },
+ {
+  "frame": "frames4/f_0798.jpg",
+  "idx": 797,
+  "row_start": 207,
+  "rows": 5,
+  "y0": 285,
+  "y1": 694,
+  "cum": 16771.0
+ },
+ {
+  "frame": "frames4/f_0815.jpg",
+  "idx": 814,
+  "row_start": 211,
+  "rows": 5,
+  "y0": 302,
+  "y1": 711,
+  "cum": 17081.0
+ },
+ {
+  "frame": "frames4/f_0832.jpg",
+  "idx": 831,
+  "row_start": 215,
+  "rows": 5,
+  "y0": 283,
+  "y1": 691,
+  "cum": 17427.0
+ },
+ {
+  "frame": "frames4/f_0848.jpg",
+  "idx": 847,
+  "row_start": 219,
+  "rows": 5,
+  "y0": 250,
+  "y1": 659,
+  "cum": 17786.0
+ },
+ {
+  "frame": "frames4/f_0859.jpg",
+  "idx": 858,
+  "row_start": 223,
+  "rows": 5,
+  "y0": 246,
+  "y1": 654,
+  "cum": 18117.0
+ },
+ {
+  "frame": "frames4/f_0870.jpg",
+  "idx": 869,
+  "row_start": 227,
+  "rows": 5,
+  "y0": 275,
+  "y1": 684,
+  "cum": 18414.0
+ },
+ {
+  "frame": "frames4/f_0900.jpg",
+  "idx": 899,
+  "row_start": 231,
+  "rows": 6,
+  "y0": 238,
+  "y1": 728,
+  "cum": 18778.0
+ }
+]

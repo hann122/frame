@@ -1,0 +1,557 @@
+[
+ {
+  "stitch": "stitch_01.png",
+  "size": [
+   837,
+   1653
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0013.jpg",
+    "row_start": 1,
+    "rows": 5,
+    "row_end": 5
+   },
+   {
+    "panel": 2,
+    "frame": "f_0039.jpg",
+    "row_start": 5,
+    "rows": 5,
+    "row_end": 9
+   },
+   {
+    "panel": 3,
+    "frame": "f_0057.jpg",
+    "row_start": 9,
+    "rows": 5,
+    "row_end": 13
+   },
+   {
+    "panel": 4,
+    "frame": "f_0067.jpg",
+    "row_start": 13,
+    "rows": 5,
+    "row_end": 17
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_02.png",
+  "size": [
+   837,
+   1651
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0086.jpg",
+    "row_start": 17,
+    "rows": 5,
+    "row_end": 21
+   },
+   {
+    "panel": 2,
+    "frame": "f_0099.jpg",
+    "row_start": 21,
+    "rows": 5,
+    "row_end": 25
+   },
+   {
+    "panel": 3,
+    "frame": "f_0114.jpg",
+    "row_start": 25,
+    "rows": 5,
+    "row_end": 29
+   },
+   {
+    "panel": 4,
+    "frame": "f_0122.jpg",
+    "row_start": 29,
+    "rows": 5,
+    "row_end": 33
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_03.png",
+  "size": [
+   837,
+   1653
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0138.jpg",
+    "row_start": 33,
+    "rows": 5,
+    "row_end": 37
+   },
+   {
+    "panel": 2,
+    "frame": "f_0152.jpg",
+    "row_start": 37,
+    "rows": 5,
+    "row_end": 41
+   },
+   {
+    "panel": 3,
+    "frame": "f_0166.jpg",
+    "row_start": 41,
+    "rows": 5,
+    "row_end": 45
+   },
+   {
+    "panel": 4,
+    "frame": "f_0176.jpg",
+    "row_start": 45,
+    "rows": 5,
+    "row_end": 49
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_04.png",
+  "size": [
+   837,
+   1652
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0188.jpg",
+    "row_start": 49,
+    "rows": 5,
+    "row_end": 53
+   },
+   {
+    "panel": 2,
+    "frame": "f_0202.jpg",
+    "row_start": 53,
+    "rows": 5,
+    "row_end": 57
+   },
+   {
+    "panel": 3,
+    "frame": "f_0218.jpg",
+    "row_start": 57,
+    "rows": 5,
+    "row_end": 61
+   },
+   {
+    "panel": 4,
+    "frame": "f_0232.jpg",
+    "row_start": 61,
+    "rows": 5,
+    "row_end": 65
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_05.png",
+  "size": [
+   837,
+   1653
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0246.jpg",
+    "row_start": 65,
+    "rows": 5,
+    "row_end": 69
+   },
+   {
+    "panel": 2,
+    "frame": "f_0260.jpg",
+    "row_start": 69,
+    "rows": 5,
+    "row_end": 73
+   },
+   {
+    "panel": 3,
+    "frame": "f_0275.jpg",
+    "row_start": 73,
+    "rows": 5,
+    "row_end": 77
+   },
+   {
+    "panel": 4,
+    "frame": "f_0290.jpg",
+    "row_start": 76,
+    "rows": 5,
+    "row_end": 80
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_06.png",
+  "size": [
+   837,
+   1652
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0305.jpg",
+    "row_start": 80,
+    "rows": 5,
+    "row_end": 84
+   },
+   {
+    "panel": 2,
+    "frame": "f_0321.jpg",
+    "row_start": 84,
+    "rows": 5,
+    "row_end": 88
+   },
+   {
+    "panel": 3,
+    "frame": "f_0337.jpg",
+    "row_start": 88,
+    "rows": 5,
+    "row_end": 92
+   },
+   {
+    "panel": 4,
+    "frame": "f_0352.jpg",
+    "row_start": 92,
+    "rows": 5,
+    "row_end": 96
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_07.png",
+  "size": [
+   837,
+   1653
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0367.jpg",
+    "row_start": 96,
+    "rows": 5,
+    "row_end": 100
+   },
+   {
+    "panel": 2,
+    "frame": "f_0381.jpg",
+    "row_start": 100,
+    "rows": 5,
+    "row_end": 104
+   },
+   {
+    "panel": 3,
+    "frame": "f_0398.jpg",
+    "row_start": 104,
+    "rows": 5,
+    "row_end": 108
+   },
+   {
+    "panel": 4,
+    "frame": "f_0413.jpg",
+    "row_start": 108,
+    "rows": 5,
+    "row_end": 112
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_08.png",
+  "size": [
+   837,
+   1652
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0428.jpg",
+    "row_start": 112,
+    "rows": 5,
+    "row_end": 116
+   },
+   {
+    "panel": 2,
+    "frame": "f_0443.jpg",
+    "row_start": 116,
+    "rows": 5,
+    "row_end": 120
+   },
+   {
+    "panel": 3,
+    "frame": "f_0460.jpg",
+    "row_start": 120,
+    "rows": 5,
+    "row_end": 124
+   },
+   {
+    "panel": 4,
+    "frame": "f_0474.jpg",
+    "row_start": 124,
+    "rows": 5,
+    "row_end": 128
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_09.png",
+  "size": [
+   837,
+   1653
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0488.jpg",
+    "row_start": 128,
+    "rows": 5,
+    "row_end": 132
+   },
+   {
+    "panel": 2,
+    "frame": "f_0504.jpg",
+    "row_start": 131,
+    "rows": 5,
+    "row_end": 135
+   },
+   {
+    "panel": 3,
+    "frame": "f_0513.jpg",
+    "row_start": 134,
+    "rows": 5,
+    "row_end": 138
+   },
+   {
+    "panel": 4,
+    "frame": "f_0527.jpg",
+    "row_start": 138,
+    "rows": 5,
+    "row_end": 142
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_10.png",
+  "size": [
+   837,
+   1653
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0537.jpg",
+    "row_start": 142,
+    "rows": 5,
+    "row_end": 146
+   },
+   {
+    "panel": 2,
+    "frame": "f_0552.jpg",
+    "row_start": 146,
+    "rows": 5,
+    "row_end": 150
+   },
+   {
+    "panel": 3,
+    "frame": "f_0565.jpg",
+    "row_start": 150,
+    "rows": 5,
+    "row_end": 154
+   },
+   {
+    "panel": 4,
+    "frame": "f_0579.jpg",
+    "row_start": 153,
+    "rows": 5,
+    "row_end": 157
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_11.png",
+  "size": [
+   837,
+   1652
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0595.jpg",
+    "row_start": 157,
+    "rows": 5,
+    "row_end": 161
+   },
+   {
+    "panel": 2,
+    "frame": "f_0610.jpg",
+    "row_start": 160,
+    "rows": 5,
+    "row_end": 164
+   },
+   {
+    "panel": 3,
+    "frame": "f_0624.jpg",
+    "row_start": 164,
+    "rows": 5,
+    "row_end": 168
+   },
+   {
+    "panel": 4,
+    "frame": "f_0641.jpg",
+    "row_start": 168,
+    "rows": 5,
+    "row_end": 172
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_12.png",
+  "size": [
+   837,
+   1652
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0656.jpg",
+    "row_start": 172,
+    "rows": 5,
+    "row_end": 176
+   },
+   {
+    "panel": 2,
+    "frame": "f_0676.jpg",
+    "row_start": 176,
+    "rows": 5,
+    "row_end": 180
+   },
+   {
+    "panel": 3,
+    "frame": "f_0697.jpg",
+    "row_start": 180,
+    "rows": 5,
+    "row_end": 184
+   },
+   {
+    "panel": 4,
+    "frame": "f_0713.jpg",
+    "row_start": 184,
+    "rows": 5,
+    "row_end": 188
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_13.png",
+  "size": [
+   837,
+   1653
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0723.jpg",
+    "row_start": 187,
+    "rows": 5,
+    "row_end": 191
+   },
+   {
+    "panel": 2,
+    "frame": "f_0740.jpg",
+    "row_start": 191,
+    "rows": 5,
+    "row_end": 195
+   },
+   {
+    "panel": 3,
+    "frame": "f_0757.jpg",
+    "row_start": 195,
+    "rows": 5,
+    "row_end": 199
+   },
+   {
+    "panel": 4,
+    "frame": "f_0766.jpg",
+    "row_start": 199,
+    "rows": 5,
+    "row_end": 203
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_14.png",
+  "size": [
+   837,
+   1652
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0782.jpg",
+    "row_start": 203,
+    "rows": 5,
+    "row_end": 207
+   },
+   {
+    "panel": 2,
+    "frame": "f_0798.jpg",
+    "row_start": 207,
+    "rows": 5,
+    "row_end": 211
+   },
+   {
+    "panel": 3,
+    "frame": "f_0815.jpg",
+    "row_start": 211,
+    "rows": 5,
+    "row_end": 215
+   },
+   {
+    "panel": 4,
+    "frame": "f_0832.jpg",
+    "row_start": 215,
+    "rows": 5,
+    "row_end": 219
+   }
+  ]
+ },
+ {
+  "stitch": "stitch_15.png",
+  "size": [
+   837,
+   1734
+  ],
+  "panels": [
+   {
+    "panel": 1,
+    "frame": "f_0848.jpg",
+    "row_start": 219,
+    "rows": 5,
+    "row_end": 223
+   },
+   {
+    "panel": 2,
+    "frame": "f_0859.jpg",
+    "row_start": 223,
+    "rows": 5,
+    "row_end": 227
+   },
+   {
+    "panel": 3,
+    "frame": "f_0870.jpg",
+    "row_start": 227,
+    "rows": 5,
+    "row_end": 231
+   },
+   {
+    "panel": 4,
+    "frame": "f_0900.jpg",
+    "row_start": 231,
+    "rows": 6,
+    "row_end": 236
+   }
+  ]
+ }
+]
