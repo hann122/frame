@@ -1,0 +1,363 @@
+{
+ "batch": "0109",
+ "server": "R350",
+ "capture_date_claimed": "2026-09-01",
+ "capture_date_confirmed": false,
+ "source_video": "Viking_Rise_2026-09-01_08-37-56.mp4",
+ "video": {
+  "resolution": "1328x748",
+  "duration_s": 208.05,
+  "src_fps": 60
+ },
+ "geometry": {
+  "crop_box": [
+   240,
+   236,
+   1010,
+   704
+  ],
+  "band_px": 468,
+  "pitch_px": 81.65,
+  "name_col_x": [
+   248,
+   450
+  ],
+  "letterbox_top_y": 704,
+  "pitch_calibration": "autocorrelation lag 82 (r=0.726) on frame_0005"
+ },
+ "scroll_measurement": {
+  "method": "brute-force exact MAE over dy in [-45,330], full-width crop x240-1010",
+  "note": "NCC high-pass + MAE-candidate method from SOP v6 FAILED on this video (NCC peak <0.6 on 43% of pairs, total_dy under-measured by ~6800px at fps=2). Replaced by exhaustive MAE scan.",
+  "fps2_net_px": 18080,
+  "fps4_net_px": 18206,
+  "convergence_delta_px": 126,
+  "convergence_delta_pitch": 1.54,
+  "weak_margin_pairs_fps2": 1,
+  "clipping_detected": false
+ },
+ "rows_reference_only": {
+  "scrolled_rows": 221.43,
+  "plus_first_viewport_rows": 5.73,
+  "estimate": 227.2,
+  "WARNING": "geometry estimate is REFERENCE ONLY, never an expected row count (SOP v6 s6)"
+ },
+ "expected_members_from_UI": null,
+ "viewports": 200,
+ "panels": 56,
+ "stitches": 14,
+ "panel_step": {
+  "maxstep_px": 386,
+  "min_step": 233,
+  "max_step": 383,
+  "min_overlap_rows": 1.04
+ },
+ "stitch_layout": {
+  "panels_per_stitch": 4,
+  "width": 770,
+  "height": 1890,
+  "gap_px": 6
+ },
+ "frames_archived": "0109/frames/ = fps=2 extraction (416 frames), denser than fps=1 used in previous batches",
+ "progress": {
+  "next_stitch": "stitch_01",
+  "rows_read": 0,
+  "anchors": "none yet",
+  "resume_note": "not started"
+ },
+ "stitches_meta": [
+  {
+   "stitch": "stitch_01.png",
+   "panels": [
+    "f_0012.jpg",
+    "f_0020.jpg",
+    "f_0027.jpg",
+    "f_0034.jpg"
+   ],
+   "scroll": [
+    -5,
+    293,
+    671,
+    1042
+   ],
+   "predicted_top_row": [
+    0.9,
+    4.6,
+    9.2,
+    13.8
+   ]
+  },
+  {
+   "stitch": "stitch_02.png",
+   "panels": [
+    "f_0041.jpg",
+    "f_0048.jpg",
+    "f_0055.jpg",
+    "f_0058.jpg"
+   ],
+   "scroll": [
+    1329,
+    1652,
+    1885,
+    2200
+   ],
+   "predicted_top_row": [
+    17.3,
+    21.2,
+    24.1,
+    27.9
+   ]
+  },
+  {
+   "stitch": "stitch_03.png",
+   "panels": [
+    "f_0065.jpg",
+    "f_0073.jpg",
+    "f_0078.jpg",
+    "f_0088.jpg"
+   ],
+   "scroll": [
+    2528,
+    2852,
+    3196,
+    3558
+   ],
+   "predicted_top_row": [
+    32.0,
+    35.9,
+    40.1,
+    44.6
+   ]
+  },
+  {
+   "stitch": "stitch_04.png",
+   "panels": [
+    "f_0095.jpg",
+    "f_0097.jpg",
+    "f_0104.jpg",
+    "f_0111.jpg"
+   ],
+   "scroll": [
+    3884,
+    4159,
+    4480,
+    4819
+   ],
+   "predicted_top_row": [
+    48.6,
+    51.9,
+    55.9,
+    60.0
+   ]
+  },
+  {
+   "stitch": "stitch_05.png",
+   "panels": [
+    "f_0118.jpg",
+    "f_0128.jpg",
+    "f_0130.jpg",
+    "f_0136.jpg"
+   ],
+   "scroll": [
+    5138,
+    5505,
+    5792,
+    6128
+   ],
+   "predicted_top_row": [
+    63.9,
+    68.4,
+    71.9,
+    76.1
+   ]
+  },
+  {
+   "stitch": "stitch_06.png",
+   "panels": [
+    "f_0145.jpg",
+    "f_0157.jpg",
+    "f_0159.jpg",
+    "f_0167.jpg"
+   ],
+   "scroll": [
+    6458,
+    6841,
+    7096,
+    7419
+   ],
+   "predicted_top_row": [
+    80.1,
+    84.8,
+    87.9,
+    91.9
+   ]
+  },
+  {
+   "stitch": "stitch_07.png",
+   "panels": [
+    "f_0178.jpg",
+    "f_0180.jpg",
+    "f_0192.jpg",
+    "f_0195.jpg"
+   ],
+   "scroll": [
+    7767,
+    8102,
+    8424,
+    8805
+   ],
+   "predicted_top_row": [
+    96.1,
+    100.2,
+    104.2,
+    108.8
+   ]
+  },
+  {
+   "stitch": "stitch_08.png",
+   "panels": [
+    "f_0203.jpg",
+    "f_0218.jpg",
+    "f_0224.jpg",
+    "f_0230.jpg"
+   ],
+   "scroll": [
+    9137,
+    9501,
+    9858,
+    10114
+   ],
+   "predicted_top_row": [
+    112.9,
+    117.4,
+    121.7,
+    124.9
+   ]
+  },
+  {
+   "stitch": "stitch_09.png",
+   "panels": [
+    "f_0234.jpg",
+    "f_0246.jpg",
+    "f_0248.jpg",
+    "f_0256.jpg"
+   ],
+   "scroll": [
+    10448,
+    10821,
+    11106,
+    11439
+   ],
+   "predicted_top_row": [
+    129.0,
+    133.5,
+    137.0,
+    141.1
+   ]
+  },
+  {
+   "stitch": "stitch_10.png",
+   "panels": [
+    "f_0263.jpg",
+    "f_0269.jpg",
+    "f_0275.jpg",
+    "f_0282.jpg"
+   ],
+   "scroll": [
+    11758,
+    12076,
+    12402,
+    12736
+   ],
+   "predicted_top_row": [
+    145.0,
+    148.9,
+    152.9,
+    157.0
+   ]
+  },
+  {
+   "stitch": "stitch_11.png",
+   "panels": [
+    "f_0289.jpg",
+    "f_0295.jpg",
+    "f_0304.jpg",
+    "f_0310.jpg"
+   ],
+   "scroll": [
+    13065,
+    13383,
+    13716,
+    14080
+   ],
+   "predicted_top_row": [
+    161.0,
+    164.9,
+    169.0,
+    173.4
+   ]
+  },
+  {
+   "stitch": "stitch_12.png",
+   "panels": [
+    "f_0318.jpg",
+    "f_0325.jpg",
+    "f_0332.jpg",
+    "f_0339.jpg"
+   ],
+   "scroll": [
+    14362,
+    14694,
+    15024,
+    15353
+   ],
+   "predicted_top_row": [
+    176.9,
+    181.0,
+    185.0,
+    189.0
+   ]
+  },
+  {
+   "stitch": "stitch_13.png",
+   "panels": [
+    "f_0345.jpg",
+    "f_0360.jpg",
+    "f_0366.jpg",
+    "f_0373.jpg"
+   ],
+   "scroll": [
+    15693,
+    16022,
+    16372,
+    16748
+   ],
+   "predicted_top_row": [
+    193.2,
+    197.2,
+    201.5,
+    206.1
+   ]
+  },
+  {
+   "stitch": "stitch_14.png",
+   "panels": [
+    "f_0381.jpg",
+    "f_0390.jpg",
+    "f_0400.jpg",
+    "f_0408.jpg"
+   ],
+   "scroll": [
+    17090,
+    17466,
+    17749,
+    18080
+   ],
+   "predicted_top_row": [
+    210.3,
+    214.9,
+    218.4,
+    222.4
+   ]
+  }
+ ]
+}
