@@ -1,0 +1,145 @@
+{
+ "batch": "0609",
+ "server": "R350",
+ "capture_date": "2026-09-06",
+ "capture_date_status": "UNCONFIRMED - awaiting user confirmation",
+ "sop_in_force": [
+  "VR_extraction_SOP_v7.md",
+  "VR_member_comparison_v7.md"
+ ],
+ "video": {
+  "file": "Viking_Rise_2026-09-06_09-39-45.mp4",
+  "bytes": 102381172,
+  "resolution": "1328x748",
+  "duration_s": 231.3035,
+  "ffprobe_note": "r_frame_rate=60 but avg_frame_rate=30.02 -> VFR, metadata not trustworthy",
+  "frames": {
+   "fps1": 231,
+   "fps2": 463,
+   "fps4": 925
+  }
+ },
+ "calibration": {
+  "band_y": [
+   236,
+   704
+  ],
+  "table_x": [
+   240,
+   1010
+  ],
+  "name_col_x": [
+   248,
+   450
+  ],
+  "letterbox_from_y": 704,
+  "pitch_px": 81.606,
+  "pitch_method": "median of 415 multi-gap row-center spans over all fps=2 frames; std 0.467 -> SE 0.023",
+  "autocorr_top_lag": {
+   "lag": 82,
+   "r": 0.761
+  },
+  "c1_row1_center": 41.1,
+  "cN_lastrow_center": 439.4,
+  "stroke_window": "x248-450 @1328x748"
+ },
+ "scroll": {
+  "method": "exhaustive MAE scan (v7 s.2), raw grayscale, full table width, dy in [-45,330], MINOVL=130",
+  "fps2_total_maescan": 17889,
+  "fps4_total_maescan": 17949,
+  "convergence_px_per_seam": 0.065,
+  "convergence_is_multiple_of_pitch": false,
+  "fps2_max_dy": 259,
+  "fps2_min_dy": -26,
+  "search_bounds_touched": false,
+  "weak_margin_pairs_lt_0_8": [
+   [
+    "f2/f_0240.jpg",
+    "f2/f_0241.jpg",
+    2,
+    5.792,
+    0.257
+   ]
+  ],
+  "row_template_corrections": [
+   {
+    "a": "f2/f_0045.jpg",
+    "b": "f2/f_0046.jpg",
+    "dy": 71,
+    "src": "rowtemplate"
+   },
+   {
+    "a": "f2/f_0046.jpg",
+    "b": "f2/f_0047.jpg",
+    "dy": 167,
+    "src": "rowtemplate"
+   },
+   {
+    "a": "f2/f_0240.jpg",
+    "b": "f2/f_0241.jpg",
+    "dy": 84,
+    "src": "rowtemplate"
+   }
+  ],
+  "corrected_total_span_px": 18217,
+  "note": "MAE scan under-measured 3 seams by 82/245px (integer pitch multiples). Per-row template matching (v7 s.5.3) recovered them; corrections cross-checked against direct multi-step scans f_0043xf_0048=317 and f_0238xf_0243=333."
+ },
+ "row_phase_span_check": {
+  "span_measured": 18217,
+  "formula": "(N-1)*pitch + c1 - cN",
+  "N_229": 18207.9,
+  "diff_N229_px": 9.1,
+  "diff_N229_rows": 0.11,
+  "N_228_diff_rows": 1.11,
+  "N_230_diff_rows": -0.89,
+  "verdict": "N=229 only hypothesis within 0.2 rows; 228 and 230 rejected"
+ },
+ "bottom_of_list_check": {
+  "formula": "N*pitch - BAND",
+  "expected_18219_8": 18219.8,
+  "measured": 18217,
+  "diff_px": 2.8,
+  "verdict": "bottom of list reached"
+ },
+ "expected_members_from_UI": null,
+ "expected_members_status": "UNCONFIRMED - user has not supplied the game-UI count",
+ "geometry_derived_rows": 229,
+ "geometry_derived_rows_note": "NOT an expected count. Row-phase span check is a NEGATION test only (v7 s.6).",
+ "dedupe": {
+  "threshold_mae": 4.0,
+  "crop": "name column",
+  "frames": 463,
+  "viewports": 204,
+  "longest_dup_run": 8
+ },
+ "panels": {
+  "count": 58,
+  "maxstep_px": 386.4,
+  "step_range_px": [
+   231,
+   385
+  ],
+  "min_overlap_rows": 1.02,
+  "warning": "MAXSTEP derives from measured scroll; name-anchor at every seam must still be verified while reading (v7 s.4)"
+ },
+ "stitches": {
+  "count": 15,
+  "panels_per_stitch": 4,
+  "width": 770,
+  "height_full": 1890,
+  "last_stitch_panels": 2
+ },
+ "progress": {
+  "stitches_read": 0,
+  "next_stitch": "stitch_01",
+  "next_stitch_panel": 1,
+  "rows_read": 0,
+  "panel_rows": {},
+  "resume_note": "Nothing read yet. No vision quota spent on stitches.",
+  "anchors": "N/A"
+ },
+ "vision_budget": {
+  "project_image_files": 3,
+  "note": "frame_0001.jpg / frame_0026.jpg / frame_0040.jpg are still in project files and burned 3 images before the session started. They are 1376x776 frames from another day - ask Ha to delete them from the project."
+ }
+}
