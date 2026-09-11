@@ -1,0 +1,552 @@
+[
+ {
+  "id": "R350-0012",
+  "name": "VeloX",
+  "screen": null,
+  "P": 260250366,
+  "K": 27420940532,
+  "A": 4613236,
+  "rank": 7,
+  "proof": "Power sits between D2 row 6 (Lastangel001, 260,716,770) and row 7 (CRx StalinIV, 247,005,777); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0062",
+  "name": "K25",
+  "screen": null,
+  "P": 183738153,
+  "K": 2344873263,
+  "A": 29180501,
+  "rank": 37,
+  "proof": "Power sits between D2 row 44 (Tieu Tam Sinh, 184,037,565) and row 45 (DEATH isThe WAY, 183,123,100); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0134",
+  "name": "darkhof",
+  "screen": null,
+  "P": 177480568,
+  "K": 2706638846,
+  "A": 30996082,
+  "rank": 49,
+  "proof": "Power sits between D2 row 53 (A R, 177,536,067) and row 54 (Reggard, 176,153,382); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0201",
+  "name": "Catti Brie",
+  "screen": null,
+  "P": 174130437,
+  "K": 568739995,
+  "A": 11182816,
+  "rank": 54,
+  "proof": "Power sits between D2 row 56 (Falcon, 174,255,595) and row 57 (Tora, 173,709,768); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0088",
+  "name": "GRiZLiK 18 rus",
+  "screen": "GRiZLiK 18russ",
+  "P": 170678860,
+  "K": 2223493637,
+  "A": 48820727,
+  "rank": 68,
+  "proof": "Power sits between D2 row 65 (Barcode, 170,930,797) and row 66 (Viettell, 170,532,823); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0245",
+  "name": "Immortall Ban",
+  "screen": null,
+  "P": 161603424,
+  "K": 587198737,
+  "A": 9617021,
+  "rank": 83,
+  "proof": "Power sits between D2 row 87 (Quantum, 161,747,886) and row 88 (Mintael, 161,132,973); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0205",
+  "name": "ArKi",
+  "screen": "iiillIillIill [strokes=13]",
+  "P": 161288358,
+  "K": 395248132,
+  "A": 11117339,
+  "rank": 84,
+  "proof": "Power sits between D2 row 87 (Quantum, 161,747,886) and row 88 (Mintael, 161,132,973); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0140",
+  "name": "Кассл",
+  "screen": null,
+  "P": 161271297,
+  "K": 752024916,
+  "A": 13438780,
+  "rank": 85,
+  "proof": "Power sits between D2 row 87 (Quantum, 161,747,886) and row 88 (Mintael, 161,132,973); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0203",
+  "name": "Nosai",
+  "screen": "Nosal",
+  "P": 158505292,
+  "K": 602573964,
+  "A": 11089994,
+  "rank": 91,
+  "proof": "Power sits between D2 row 95 (o0oHackDiep68, 159,126,872) and row 96 (Fride, 157,959,489); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0123",
+  "name": "Doc7Ragnar",
+  "screen": null,
+  "P": 158321240,
+  "K": 939357476,
+  "A": 86920832,
+  "rank": 92,
+  "proof": "Power sits between D2 row 95 (o0oHackDiep68, 159,126,872) and row 96 (Fride, 157,959,489); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0177",
+  "name": "Piyush",
+  "screen": null,
+  "P": 157698009,
+  "K": 4019003270,
+  "A": 19237280,
+  "rank": 97,
+  "proof": "Power sits between D2 row 96 (Fride, 157,959,489) and row 97 (brayan, 157,440,212); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0155",
+  "name": "marquinhozulu",
+  "screen": null,
+  "P": 157081627,
+  "K": 935752785,
+  "A": 72115687,
+  "rank": 100,
+  "proof": "Power sits between D2 row 98 (Peace, 157,326,494) and row 99 (Viddar160, 156,478,147); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0129",
+  "name": "SKORP",
+  "screen": "skywraith",
+  "P": 156398913,
+  "K": 1670899081,
+  "A": 17396400,
+  "rank": 102,
+  "proof": "Power sits between D2 row 99 (Viddar160, 156,478,147) and row 100 (peacefall, 156,016,888); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0150",
+  "name": "MaximUSSR",
+  "screen": null,
+  "P": 156251209,
+  "K": 631419898,
+  "A": 36638734,
+  "rank": 103,
+  "proof": "Power sits between D2 row 99 (Viddar160, 156,478,147) and row 100 (peacefall, 156,016,888); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0207",
+  "name": "MissA",
+  "screen": null,
+  "P": 155425627,
+  "K": 302946240,
+  "A": 8131080,
+  "rank": 106,
+  "proof": "Power sits between D2 row 102 (BRAVE, 155,662,105) and row 103 (KillaT, 155,323,059); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0149",
+  "name": "Jon Jones",
+  "screen": null,
+  "P": 154856191,
+  "K": 2573514047,
+  "A": 4337060,
+  "rank": 109,
+  "proof": "Power sits between D2 row 104 (DoraB, 155,303,815) and row 105 (Grimmy, 154,316,880); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0163",
+  "name": "ТОНИГАН",
+  "screen": null,
+  "P": 153665529,
+  "K": 1287643445,
+  "A": 43957082,
+  "rank": 116,
+  "proof": "Power sits between D2 row 106 (YouKnow, 153,676,388) and row 107 (Grace, 153,526,476); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0118",
+  "name": "ALANchik",
+  "screen": null,
+  "P": 153609796,
+  "K": 2403407081,
+  "A": 9142449,
+  "rank": 117,
+  "proof": "Power sits between D2 row 106 (YouKnow, 153,676,388) and row 107 (Grace, 153,526,476); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0143",
+  "name": "Stiven I",
+  "screen": "Stiven l",
+  "P": 153158685,
+  "K": 837183663,
+  "A": 19770756,
+  "rank": 119,
+  "proof": "Power sits between D2 row 108 (Griffin, 153,522,491) and row 109 (Kenvin Tai, 153,004,093); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0139",
+  "name": "VotTakVot",
+  "screen": null,
+  "P": 152514816,
+  "K": 1212778512,
+  "A": 45681575,
+  "rank": 122,
+  "proof": "Power sits between D2 row 109 (Kenvin Tai, 153,004,093) and row 110 (Okeanisa, 152,414,412); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0204",
+  "name": "SarMatNOA",
+  "screen": null,
+  "P": 151478654,
+  "K": 647608202,
+  "A": 11873414,
+  "rank": 127,
+  "proof": "Power sits between D2 row 113 (Mumford, 151,501,309) and row 114 (Nastenblsh, 151,385,752); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0206",
+  "name": "Мавейз",
+  "screen": null,
+  "P": 147913326,
+  "K": 654527348,
+  "A": 11767010,
+  "rank": 135,
+  "proof": "Power sits between D2 row 123 (FallenAngel, 147,927,975) and row 124 (nirr, 147,884,901); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0162",
+  "name": "Одуванчик",
+  "screen": null,
+  "P": 146270348,
+  "K": 761940864,
+  "A": 27545931,
+  "rank": 143,
+  "proof": "Power sits between D2 row 129 (Abadi, 146,281,622) and row 130 (MarQ, 146,264,100); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0174",
+  "name": "NewDave",
+  "screen": null,
+  "P": 144789477,
+  "K": 617407741,
+  "A": 14459239,
+  "rank": 148,
+  "proof": "Power sits between D2 row 132 (MR HuyCuong90, 145,358,333) and row 133 (Laland, 144,695,327); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0168",
+  "name": "Nana阿阿",
+  "screen": null,
+  "P": 142631647,
+  "K": 1156267177,
+  "A": 34174442,
+  "rank": 151,
+  "proof": "Power sits between D2 row 142 (So1o, 143,106,582) and row 143 (KRONUS, 142,550,108); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0085",
+  "name": "Ali",
+  "screen": null,
+  "P": 141600162,
+  "K": 764218679,
+  "A": 26736523,
+  "rank": 157,
+  "proof": "Power sits between D2 row 145 (Bối Bối, 141,759,994) and row 146 (彡MiaMoR彡, 141,531,625); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0180",
+  "name": "Boroda 40 Rus",
+  "screen": null,
+  "P": 139728244,
+  "K": 437852957,
+  "A": 54384909,
+  "rank": 162,
+  "proof": "Power sits between D2 row 148 (Nudist, 141,392,908) and row 149 (Ma 5asaK, 139,684,715); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0191",
+  "name": "Death Note",
+  "screen": null,
+  "P": 138704561,
+  "K": 916545763,
+  "A": 36974108,
+  "rank": 166,
+  "proof": "Power sits between D2 row 152 (AMAK, 139,401,189) and row 153 (ТагилРу, 137,252,452); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0178",
+  "name": "Cute foggy",
+  "screen": "Føg",
+  "P": 138168260,
+  "K": 1075903166,
+  "A": 30880282,
+  "rank": 167,
+  "proof": "Power sits between D2 row 152 (AMAK, 139,401,189) and row 153 (ТагилРу, 137,252,452); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0213",
+  "name": "MOHISHAM XIII",
+  "screen": "MOHishamXIII",
+  "P": 137609835,
+  "K": 772249547,
+  "A": 11097857,
+  "rank": 168,
+  "proof": "Power sits between D2 row 152 (AMAK, 139,401,189) and row 153 (ТагилРу, 137,252,452); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0214",
+  "name": "CinouDZ",
+  "screen": null,
+  "P": 131838998,
+  "K": 345729119,
+  "A": 7377219,
+  "rank": 183,
+  "proof": "Power sits between D2 row 167 (SERGEY ESENIN, 132,217,003) and row 168 (Enem, 131,517,736); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0166",
+  "name": "RoryWest",
+  "screen": null,
+  "P": 131817077,
+  "K": 1209038644,
+  "A": 13174742,
+  "rank": 184,
+  "proof": "Power sits between D2 row 167 (SERGEY ESENIN, 132,217,003) and row 168 (Enem, 131,517,736); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0215",
+  "name": "Alf der Held",
+  "screen": null,
+  "P": 131613714,
+  "K": 372341136,
+  "A": 10506617,
+  "rank": 185,
+  "proof": "Power sits between D2 row 167 (SERGEY ESENIN, 132,217,003) and row 168 (Enem, 131,517,736); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0190",
+  "name": "ToMmY",
+  "screen": "Sexy TOMMY",
+  "P": 131519964,
+  "K": 875622293,
+  "A": 18432156,
+  "rank": 186,
+  "proof": "Power sits between D2 row 167 (SERGEY ESENIN, 132,217,003) and row 168 (Enem, 131,517,736); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0172",
+  "name": "Юлла",
+  "screen": null,
+  "P": 131184766,
+  "K": 522141323,
+  "A": 26120105,
+  "rank": 189,
+  "proof": "Power sits between D2 row 170 (FAKEINSHIT, 131,225,536) and row 171 (Macabeyi, 130,552,795); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0147",
+  "name": "Teoooo",
+  "screen": "Ømer ⚔",
+  "P": 129317562,
+  "K": 1499230081,
+  "A": 8995054,
+  "rank": 191,
+  "proof": "Power sits between D2 row 173 (Katrin195, 129,543,783) and row 174 (Starry Nights, 129,064,265); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0192",
+  "name": "kwitchypoo",
+  "screen": null,
+  "P": 122979129,
+  "K": 1161546836,
+  "A": 11008461,
+  "rank": 202,
+  "proof": "Power sits between D2 row 188 (викинг 22, 123,288,367) and row 189 (ĐaVoRa, 120,796,574); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0194",
+  "name": "NET SOE DJSTAR",
+  "screen": null,
+  "P": 121930668,
+  "K": 1374895625,
+  "A": 16112990,
+  "rank": 203,
+  "proof": "Power sits between D2 row 188 (викинг 22, 123,288,367) and row 189 (ĐaVoRa, 120,796,574); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0235",
+  "name": "Легионx",
+  "screen": "Legion XI",
+  "P": 115895056,
+  "K": 378735482,
+  "A": 9880124,
+  "rank": 207,
+  "proof": "Power sits between D2 row 192 (KsuKoX, 117,274,447) and row 193 (Leader392837282, 114,155,645); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0218",
+  "name": "Avendor",
+  "screen": null,
+  "P": 114812472,
+  "K": 444150347,
+  "A": 11832485,
+  "rank": 208,
+  "proof": "Power sits between D2 row 192 (KsuKoX, 117,274,447) and row 193 (Leader392837282, 114,155,645); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0216",
+  "name": "Джамбо123",
+  "screen": null,
+  "P": 108992456,
+  "K": 325261509,
+  "A": 10592488,
+  "rank": 210,
+  "proof": "Power sits between D2 row 194 (Деонисс, 113,847,890) and row 195 (dimon29epta, 107,694,397); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0246",
+  "name": "FEiiN",
+  "screen": "TanMałaka",
+  "P": 98643211,
+  "K": 317663911,
+  "A": 5068863,
+  "rank": 213,
+  "proof": "Power sits between D2 row 197 (iLove350, 104,668,886) and row 198 (Баночка, 85,130,665); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0197",
+  "name": "PrincessSunless",
+  "screen": null,
+  "P": 98436265,
+  "K": 338291531,
+  "A": 18723323,
+  "rank": 214,
+  "proof": "Power sits between D2 row 197 (iLove350, 104,668,886) and row 198 (Баночка, 85,130,665); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0240",
+  "name": "Легион7",
+  "screen": "Legion IV",
+  "P": 89486111,
+  "K": 158849011,
+  "A": 9152780,
+  "rank": 215,
+  "proof": "Power sits between D2 row 197 (iLove350, 104,668,886) and row 198 (Баночка, 85,130,665); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0238",
+  "name": "Tirrioner",
+  "screen": "Legion II",
+  "P": 85291277,
+  "K": 174876390,
+  "A": 9706457,
+  "rank": 217,
+  "proof": "Power sits between D2 row 197 (iLove350, 104,668,886) and row 198 (Баночка, 85,130,665); that pair was observed adjacent inside one panel (coverage 197/197) -> slot provably closed, LEFT"
+ },
+ {
+  "id": "R350-0219",
+  "name": "Ultralisk",
+  "screen": "Legion VI",
+  "P": 80550921,
+  "K": 197682877,
+  "A": 10050547,
+  "rank": 218,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0241",
+  "name": "BonniE义Cookie",
+  "screen": "SEXY COOKIE",
+  "P": 78339099,
+  "K": 400389660,
+  "A": 9326680,
+  "rank": 219,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0242",
+  "name": "RimidalV",
+  "screen": "Legion VII",
+  "P": 78105967,
+  "K": 158127001,
+  "A": 6782270,
+  "rank": 220,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0237",
+  "name": "Veterok116",
+  "screen": null,
+  "P": 68918940,
+  "K": 84340593,
+  "A": 10481789,
+  "rank": 221,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0239",
+  "name": "Легион67",
+  "screen": "Legion V",
+  "P": 68279556,
+  "K": 243066422,
+  "A": 9325799,
+  "rank": 222,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0221",
+  "name": "Крез",
+  "screen": null,
+  "P": 65796486,
+  "K": 61408972,
+  "A": 6269311,
+  "rank": 223,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0220",
+  "name": "Спанчбоб",
+  "screen": "Legion VIII",
+  "P": 57047856,
+  "K": 97280205,
+  "A": 9576261,
+  "rank": 224,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0223",
+  "name": "Легион69",
+  "screen": "Legion I",
+  "P": 56882305,
+  "K": 97267069,
+  "A": 9601435,
+  "rank": 225,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0243",
+  "name": "легион4",
+  "screen": null,
+  "P": 54288972,
+  "K": 95368497,
+  "A": 9238901,
+  "rank": 226,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ },
+ {
+  "id": "R350-0244",
+  "name": "Троцкий",
+  "screen": "Legion III",
+  "P": 43221296,
+  "K": 26425895,
+  "A": 6394827,
+  "rank": 227,
+  "proof": "Power below the last D2 row (Баночка, 85,130,665); rests on the bottom-of-list proof (span 15,706 px = 198.06 rows) -> LEFT. This is the evidence class that failed at batch 0109, but the span here has been through per-row template matching as SOP v8 section 6 requires"
+ }
+]

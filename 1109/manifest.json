@@ -1,0 +1,126 @@
+{
+ "batch": "1109",
+ "capture_date": "2026-09-11",
+ "capture_date_status": "CONFIRMED by the user",
+ "video": {
+  "file": "Viking_Rise_2026-09-11_18-44-13.mp4",
+  "resolution": "1328x748",
+  "duration_s": 208.384,
+  "note": "VFR - r_frame_rate reports 60 but nb_frames/duration gives ~30; metadata not trustworthy"
+ },
+ "geometry": {
+  "band_y": [
+   236,
+   704
+  ],
+  "table_x": [
+   240,
+   1010
+  ],
+  "name_col_x": [
+   248,
+   450
+  ],
+  "letterbox_from_y": 703,
+  "pitch_px": 81.663,
+  "pitch_method": "median of 860 multi-gap row-centre distances, SE 0.043; autocorrelation lag 82 r=0.573",
+  "c_1": 41.2,
+  "c_N": 412.3
+ },
+ "frames": {
+  "fps2_count": 417,
+  "viewports_after_dedupe": 206,
+  "longest_dup_cluster": 9,
+  "dedupe_threshold_mae": 4.0
+ },
+ "scroll": {
+  "span_px_corrected": 15706,
+  "span_px_raw_mae_scan": 15624,
+  "aliasing_cases_corrected": [
+   {
+    "seam": "f_0287->f_0288",
+    "mae_scan_dy": -81,
+    "mae": 8.04,
+    "margin": 0.83,
+    "row_template_dy": 1,
+    "support_rows": 5,
+    "shortfall": "exactly 1 pitch"
+   }
+  ],
+  "cross_check": {
+   "pair": "f_0282 x f_0293",
+   "direct_dy": 234,
+   "corrected_chain": 234,
+   "raw_chain": 152
+  },
+  "sop_defect_found": "SOP v8 section 2b uses DMIN=-45, which clipped a real -75 px rubber-band bounce at f_0411->f_0412; the MAE scan then returned +88, a pitch alias of -75, WITHOUT touching the search boundary, so the \"max dy equals the boundary means it is the boundary\" rule did not catch it. Confirmed -75 by three independent multi-step measurements: 410x412, 409x413, 408x417. Whole video re-measured with DMIN=-330. Recommend DMIN=-330 for SOP v9."
+ },
+ "row_count": {
+  "rows_read": 198,
+  "game_ui_count": 198,
+  "game_ui_status": "CONFIRMED by the user",
+  "match": true,
+  "row_phase_check": {
+   "expected_span_N198": 15716.5,
+   "measured": 15706,
+   "delta_px": 10.5,
+   "delta_rows": 0.13,
+   "N199_delta_rows": 1.13
+  },
+  "bottom_of_list_check": {
+   "formula": "(15706+468)/81.663",
+   "result": 198.06,
+   "note": "frame 410 is a +75 px overscroll; frames 412-417 are the settled bottom position"
+  },
+  "adjacent_pair_coverage": "197/197"
+ },
+ "panels": {
+  "count": 51,
+  "step_min": 192,
+  "step_max": 386,
+  "min_overlap_rows": 1.0,
+  "maxstep_formula": "BAND - pitch = 468 - 82"
+ },
+ "stitches": {
+  "count": 13,
+  "panels_per_stitch": 4,
+  "last_stitch_panels": 3
+ },
+ "vision": {
+  "images_consumed": 16,
+  "breakdown": "3 stale project .jpg files + 13 stitches",
+  "repair_images": 0
+ },
+ "open_ambiguities": [
+  "row 91 AHT: Latin AHT vs Cyrillic ANT indistinguishable",
+  "rows 146/147 decorative glyphs: U+5F61 vs U+30C4",
+  "row 162 D R A G 0 N: 6th char is a digit zero",
+  "row 125 hab1st rendered as the selected row (blue background) - read normally",
+  "rows 9 and 154 have Activity Points = 0 - valid values"
+ ],
+ "hidden_or_unread": [],
+ "holes": [],
+ "progress": {
+  "stitches_total": 13,
+  "stitches_read": 13,
+  "next_stitch": null,
+  "members_extracted": 198,
+  "last_row_read": "198 Баночка 85,130,665",
+  "resume_note": "BATCH COMPLETE - nothing left to read"
+ },
+ "outcome": {
+  "db_pushed": true,
+  "db_commit": "ef0f4eaa7f9832bdc77d083ab4bca123867223b9",
+  "snapshot_date": "2026-09-11",
+  "members_stored": 198,
+  "new_ids": "R350-0250..R350-0275",
+  "departures": 55,
+  "renames": 6,
+  "rejoins": 0,
+  "note_i18n": {
+   "vi": "Hoàn thành di cư",
+   "en": "Migration complete",
+   "ru": "Миграция завершена"
+  }
+ }
+}
