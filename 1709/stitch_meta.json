@@ -1,0 +1,322 @@
+[
+ {
+  "stitch": "stitches/stitch_01.png",
+  "panels": [
+   {
+    "frame": "frames/f_0001.jpg",
+    "scroll": 0.0,
+    "predicted_top_row": 1.0
+   },
+   {
+    "frame": "frames/f_0014.jpg",
+    "scroll": 305.0,
+    "predicted_top_row": 4.1
+   },
+   {
+    "frame": "frames/f_0022.jpg",
+    "scroll": 684.0,
+    "predicted_top_row": 7.96
+   },
+   {
+    "frame": "frames/f_0032.jpg",
+    "scroll": 1088.0,
+    "predicted_top_row": 12.07
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_02.png",
+  "panels": [
+   {
+    "frame": "frames/f_0040.jpg",
+    "scroll": 1529.0,
+    "predicted_top_row": 16.56
+   },
+   {
+    "frame": "frames/f_0047.jpg",
+    "scroll": 1867.0,
+    "predicted_top_row": 20.0
+   },
+   {
+    "frame": "frames/f_0055.jpg",
+    "scroll": 2193.0,
+    "predicted_top_row": 23.32
+   },
+   {
+    "frame": "frames/f_0064.jpg",
+    "scroll": 2656.0,
+    "predicted_top_row": 28.03
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_03.png",
+  "panels": [
+   {
+    "frame": "frames/f_0071.jpg",
+    "scroll": 2919.0,
+    "predicted_top_row": 30.7
+   },
+   {
+    "frame": "frames/f_0079.jpg",
+    "scroll": 3386.0,
+    "predicted_top_row": 35.46
+   },
+   {
+    "frame": "frames/f_0087.jpg",
+    "scroll": 3736.0,
+    "predicted_top_row": 39.02
+   },
+   {
+    "frame": "frames/f_0094.jpg",
+    "scroll": 4139.0,
+    "predicted_top_row": 43.12
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_04.png",
+  "panels": [
+   {
+    "frame": "frames/f_0103.jpg",
+    "scroll": 4535.0,
+    "predicted_top_row": 47.15
+   },
+   {
+    "frame": "frames/f_0108.jpg",
+    "scroll": 4824.0,
+    "predicted_top_row": 50.09
+   },
+   {
+    "frame": "frames/f_0116.jpg",
+    "scroll": 5208.0,
+    "predicted_top_row": 54.0
+   },
+   {
+    "frame": "frames/f_0125.jpg",
+    "scroll": 5630.0,
+    "predicted_top_row": 58.29
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_05.png",
+  "panels": [
+   {
+    "frame": "frames/f_0132.jpg",
+    "scroll": 6008.0,
+    "predicted_top_row": 62.14
+   },
+   {
+    "frame": "frames/f_0134.jpg",
+    "scroll": 6372.0,
+    "predicted_top_row": 65.84
+   },
+   {
+    "frame": "frames/f_0144.jpg",
+    "scroll": 6771.0,
+    "predicted_top_row": 69.9
+   },
+   {
+    "frame": "frames/f_0151.jpg",
+    "scroll": 7170.0,
+    "predicted_top_row": 73.96
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_06.png",
+  "panels": [
+   {
+    "frame": "frames/f_0161.jpg",
+    "scroll": 7623.0,
+    "predicted_top_row": 78.57
+   },
+   {
+    "frame": "frames/f_0165.jpg",
+    "scroll": 7970.0,
+    "predicted_top_row": 82.11
+   },
+   {
+    "frame": "frames/f_0174.jpg",
+    "scroll": 8377.0,
+    "predicted_top_row": 86.25
+   },
+   {
+    "frame": "frames/f_0181.jpg",
+    "scroll": 8788.0,
+    "predicted_top_row": 90.43
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_07.png",
+  "panels": [
+   {
+    "frame": "frames/f_0189.jpg",
+    "scroll": 9184.0,
+    "predicted_top_row": 94.46
+   },
+   {
+    "frame": "frames/f_0193.jpg",
+    "scroll": 9538.0,
+    "predicted_top_row": 98.06
+   },
+   {
+    "frame": "frames/f_0197.jpg",
+    "scroll": 9926.0,
+    "predicted_top_row": 102.01
+   },
+   {
+    "frame": "frames/f_0205.jpg",
+    "scroll": 10314.0,
+    "predicted_top_row": 105.96
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_08.png",
+  "panels": [
+   {
+    "frame": "frames/f_0210.jpg",
+    "scroll": 10701.0,
+    "predicted_top_row": 109.9
+   },
+   {
+    "frame": "frames/f_0219.jpg",
+    "scroll": 11109.0,
+    "predicted_top_row": 114.05
+   },
+   {
+    "frame": "frames/f_0226.jpg",
+    "scroll": 11507.0,
+    "predicted_top_row": 118.1
+   },
+   {
+    "frame": "frames/f_0236.jpg",
+    "scroll": 11928.0,
+    "predicted_top_row": 122.38
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_09.png",
+  "panels": [
+   {
+    "frame": "frames/f_0242.jpg",
+    "scroll": 12386.0,
+    "predicted_top_row": 127.04
+   },
+   {
+    "frame": "frames/f_0248.jpg",
+    "scroll": 12698.0,
+    "predicted_top_row": 130.22
+   },
+   {
+    "frame": "frames/f_0255.jpg",
+    "scroll": 13118.0,
+    "predicted_top_row": 134.49
+   },
+   {
+    "frame": "frames/f_0262.jpg",
+    "scroll": 13489.0,
+    "predicted_top_row": 138.27
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_10.png",
+  "panels": [
+   {
+    "frame": "frames/f_0264.jpg",
+    "scroll": 13774.0,
+    "predicted_top_row": 141.17
+   },
+   {
+    "frame": "frames/f_0270.jpg",
+    "scroll": 14207.0,
+    "predicted_top_row": 145.58
+   },
+   {
+    "frame": "frames/f_0278.jpg",
+    "scroll": 14579.0,
+    "predicted_top_row": 149.36
+   },
+   {
+    "frame": "frames/f_0289.jpg",
+    "scroll": 14963.0,
+    "predicted_top_row": 153.27
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_11.png",
+  "panels": [
+   {
+    "frame": "frames/f_0293.jpg",
+    "scroll": 15342.0,
+    "predicted_top_row": 157.13
+   },
+   {
+    "frame": "frames/f_0301.jpg",
+    "scroll": 15783.0,
+    "predicted_top_row": 161.61
+   },
+   {
+    "frame": "frames/f_0303.jpg",
+    "scroll": 16030.0,
+    "predicted_top_row": 164.13
+   },
+   {
+    "frame": "frames/f_0312.jpg",
+    "scroll": 16426.0,
+    "predicted_top_row": 168.16
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_12.png",
+  "panels": [
+   {
+    "frame": "frames/f_0322.jpg",
+    "scroll": 16847.0,
+    "predicted_top_row": 172.44
+   },
+   {
+    "frame": "frames/f_0329.jpg",
+    "scroll": 17134.0,
+    "predicted_top_row": 175.36
+   },
+   {
+    "frame": "frames/f_0335.jpg",
+    "scroll": 17557.0,
+    "predicted_top_row": 179.67
+   },
+   {
+    "frame": "frames/f_0341.jpg",
+    "scroll": 17927.0,
+    "predicted_top_row": 183.43
+   }
+  ]
+ },
+ {
+  "stitch": "stitches/stitch_13.png",
+  "panels": [
+   {
+    "frame": "frames/f_0344.jpg",
+    "scroll": 18182.0,
+    "predicted_top_row": 186.03
+   },
+   {
+    "frame": "frames/f_0349.jpg",
+    "scroll": 18581.0,
+    "predicted_top_row": 190.09
+   },
+   {
+    "frame": "frames/f_0363.jpg",
+    "scroll": 18817.0,
+    "predicted_top_row": 192.49
+   }
+  ]
+ }
+]

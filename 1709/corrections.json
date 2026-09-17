@@ -1,0 +1,46 @@
+[
+ {
+  "a": "frames/f_0138.jpg",
+  "b": "frames/f_0139.jpg",
+  "mae_dy": -86,
+  "mae": 7.259,
+  "margin": 1.026,
+  "tmpl_dy": 11.71,
+  "support": 4,
+  "delta": 97.71,
+  "k_pitch": 0.994
+ },
+ {
+  "a": "frames/f_0139.jpg",
+  "b": "frames/f_0140.jpg",
+  "mae_dy": -44,
+  "mae": 12.38,
+  "margin": 0.173,
+  "tmpl_dy": 250.8,
+  "support": 2,
+  "delta": 294.8,
+  "k_pitch": 3.0
+ },
+ {
+  "a": "frames/f_0140.jpg",
+  "b": "frames/f_0141.jpg",
+  "mae_dy": 5,
+  "mae": 8.947,
+  "margin": 2.293,
+  "tmpl_dy": 102.77,
+  "support": 4,
+  "delta": 97.77,
+  "k_pitch": 0.995
+ },
+ {
+  "a": "frames/f_0143.jpg",
+  "b": "frames/f_0144.jpg",
+  "mae_dy": 99,
+  "mae": 8.916,
+  "margin": 0.338,
+  "tmpl_dy": 0.86,
+  "support": 5,
+  "delta": -98.14,
+  "k_pitch": -0.999
+ }
+]

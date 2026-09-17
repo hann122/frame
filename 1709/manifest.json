@@ -1,0 +1,261 @@
+{
+ "batch": "1709",
+ "capture_date": "2026-09-17",
+ "capture_date_status": "PENDING_CONFIRMATION_BY_HA",
+ "server": "R350",
+ "sop": "VR_extraction_SOP_v9.md",
+ "video": {
+  "file": "Viking_Rise_2026-09-17_21-56-17.mp4",
+  "resolution": "1600x900",
+  "duration_s": 181.3839,
+  "r_frame_rate": "60/1",
+  "vfr": true,
+  "note": "NEW RESOLUTION - all coordinates recalibrated from scratch, nothing copied from batch 1109 (1328x748)"
+ },
+ "frames": {
+  "fps2_main": 363,
+  "fps4_reference": 726
+ },
+ "calibration": {
+  "table_band_y": [
+   279,
+   846
+  ],
+  "band_px": 567,
+  "scroll_crop_x": [
+   290,
+   1220
+  ],
+  "name_column_x": [
+   300,
+   520
+  ],
+  "letterbox": "content y 86..846; dark from y=847",
+  "pitch_px": 98.267,
+  "pitch_method": "median of 5223 multi-interval row-center gaps over all 363 frames, SE 0.057; autocorrelation lag 98, r=0.820",
+  "c_1": 54.6,
+  "c_N_settled": 501.1,
+  "rows_per_viewport": 5.77
+ },
+ "scroll": {
+  "dy_range": [
+   -400,
+   400
+  ],
+  "dy_range_note": "symmetric per v9 rule, scaled from +/-330 @1328x748",
+  "minovl": 160,
+  "span_mae_only": 18424,
+  "span_after_row_template": 18817,
+  "max_dy": 315,
+  "min_dy": -72,
+  "max_mae": 12.38,
+  "low_margin_pairs": [
+   {
+    "a": "frames/f_0139.jpg",
+    "dy": -44,
+    "mae": 12.38,
+    "margin": 0.173
+   },
+   {
+    "a": "frames/f_0143.jpg",
+    "dy": 99,
+    "mae": 8.916,
+    "margin": 0.338
+   }
+  ],
+  "support_lt_2_seams": 0,
+  "corrections": [
+   {
+    "a": "frames/f_0138.jpg",
+    "b": "frames/f_0139.jpg",
+    "mae_dy": -86,
+    "mae": 7.259,
+    "margin": 1.026,
+    "tmpl_dy": 11.71,
+    "support": 4,
+    "delta": 97.71,
+    "k_pitch": 0.994
+   },
+   {
+    "a": "frames/f_0139.jpg",
+    "b": "frames/f_0140.jpg",
+    "mae_dy": -44,
+    "mae": 12.38,
+    "margin": 0.173,
+    "tmpl_dy": 250.8,
+    "support": 2,
+    "delta": 294.8,
+    "k_pitch": 3.0
+   },
+   {
+    "a": "frames/f_0140.jpg",
+    "b": "frames/f_0141.jpg",
+    "mae_dy": 5,
+    "mae": 8.947,
+    "margin": 2.293,
+    "tmpl_dy": 102.77,
+    "support": 4,
+    "delta": 97.77,
+    "k_pitch": 0.995
+   },
+   {
+    "a": "frames/f_0143.jpg",
+    "b": "frames/f_0144.jpg",
+    "mae_dy": 99,
+    "mae": 8.916,
+    "margin": 0.338,
+    "tmpl_dy": 0.86,
+    "support": 5,
+    "delta": -98.14,
+    "k_pitch": -0.999
+   }
+  ],
+  "corrections_note": "All 4 corrections sit in the f_0139..f_0143 popup window. A blue in-game banner overlays the top of the table there and corrupts the full-frame MAE scan; per-row template matching is unaffected.",
+  "cross_check": {
+   "method": "per-row template matching on long spans bracketing the corrected cluster (full-frame MAE on long spans is itself pitch-aliased and was NOT used as evidence)",
+   "results": [
+    {
+     "pair": "f_0138 x f_0144",
+     "direct_row_template": 398.4,
+     "corrected_chain": 398,
+     "mae_of_match": 7.62
+    },
+    {
+     "pair": "f_0138 x f_0145",
+     "direct_row_template": 397.6,
+     "corrected_chain": 398,
+     "mae_of_match": 7.72
+    },
+    {
+     "pair": "f_0137 x f_0146",
+     "direct_row_template": 397.6,
+     "corrected_chain": 398,
+     "mae_of_match": 7.9
+    },
+    {
+     "pair": "f_0135 x f_0147",
+     "direct_row_template": 397.6,
+     "corrected_chain": 398,
+     "mae_of_match": 7.72
+    },
+    {
+     "pair": "f_0140 x f_0148",
+     "direct_full_frame_mae": 290,
+     "corrected_chain": 290
+    }
+   ],
+   "aliased_long_span_mae": [
+    {
+     "pair": "f_0134 x f_0142",
+     "mae_answer": -95,
+     "chain": 396,
+     "delta": 491,
+     "k_pitch": 5.0
+    },
+    {
+     "pair": "f_0138 x f_0146",
+     "mae_answer": 5,
+     "chain": 398,
+     "delta": 393,
+     "k_pitch": 4.0
+    },
+    {
+     "pair": "f_0133 x f_0144",
+     "mae_answer": 30,
+     "chain": 521,
+     "delta": 491,
+     "k_pitch": 5.0
+    }
+   ]
+  }
+ },
+ "overscroll": {
+  "peak_scroll": 18889.0,
+  "peak_frame": "frames/f_0356.jpg",
+  "settled_scroll": 18817.0,
+  "settled_from_frame": "frames/f_0357.jpg",
+  "overscroll_frames_excluded_from_panels": [
+   "frames/f_0355.jpg",
+   "frames/f_0356.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 279..409, x 290..1220",
+  "baseline": -8.48,
+  "note": "this batch's banner is BLUE, so warm goes MORE NEGATIVE (-10.4) than baseline (-8.5); batch 1109's reward popup went positive. Detect by deviation in EITHER direction.",
+  "suspect_frames": [
+   "frames/f_0139.jpg",
+   "frames/f_0140.jpg",
+   "frames/f_0141.jpg",
+   "frames/f_0142.jpg",
+   "frames/f_0143.jpg",
+   "frames/f_0215.jpg"
+  ],
+  "f_0215_warm": -17.5,
+  "f_0215_note": "isolated single-frame outlier -17.50; excluded from panel candidates as a precaution"
+ },
+ "dedupe": {
+  "frames": 363,
+  "viewports": 195,
+  "longest_dup_cluster": 11,
+  "threshold": 4.0,
+  "crop": "name column only"
+ },
+ "panels": {
+  "count": 51,
+  "maxstep": 468,
+  "step_min": 236.0,
+  "step_max": 467.0,
+  "min_overlap_rows": 1.02,
+  "excluded": "overscroll frames f_0355,f_0356 + popup frames f_0139..f_0143,f_0215"
+ },
+ "stitches": {
+  "count": 13,
+  "panels_per_stitch": 4,
+  "size": "930 x 2286 (last 930 x 1713)",
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 197,
+  "status": "CONFIRMED_BY_HA",
+  "grid_phase_test": {
+   "195": {
+    "expected_span": 18617.3,
+    "delta_px": 199.7,
+    "delta_rows": 2.032
+   },
+   "196": {
+    "expected_span": 18715.6,
+    "delta_px": 101.4,
+    "delta_rows": 1.032
+   },
+   "197": {
+    "expected_span": 18813.8,
+    "delta_px": 3.2,
+    "delta_rows": 0.032
+   },
+   "198": {
+    "expected_span": 18912.1,
+    "delta_px": -95.1,
+    "delta_rows": -0.968
+   },
+   "199": {
+    "expected_span": 19010.4,
+    "delta_px": -193.4,
+    "delta_rows": -1.968
+   }
+  },
+  "grid_phase_conclusion": "N=197 fits with +3.2 px = +0.03 rows; N=196 off by +1.03 rows, N=198 off by -0.97 rows",
+  "bottom_of_list_test": 197.26,
+  "bottom_of_list_note": "(18817 + 567) / 98.267 = 197.26 at the SETTLED position (not the curve peak); peak would give 197.99"
+ },
+ "progress": {
+  "rows_read": 0,
+  "next_stitch": 1,
+  "next_stitch_panel": 1,
+  "resume_note": "nothing read yet",
+  "images_spent": 3,
+  "images_note": "3 images burned by project files frame_0001.jpg / frame_0026.jpg / frame_0040.jpg before work began - FOURTH batch in a row. Ha must delete them from the project."
+ },
+ "row_index_formula": "row_at_y = (y + scroll - c_1)/pitch + 1 ; top visible row of a panel = (scroll - c_1)/pitch + 1"
+}
