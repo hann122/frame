@@ -1,0 +1,25 @@
+{
+ "departures": [
+  {
+   "id": "R350-0040",
+   "name": "Pisos",
+   "screen": "Pisos 4sale",
+   "power": 193986975,
+   "kp": 6370896410,
+   "act": 12066904,
+   "evidence_type": "A",
+   "evidence": "Power falls between D2 rows 38 Thaunt (194,463,558) and 39 TRiSTAN (192,656,245), observed adjacent in the same panel: YES"
+  }
+ ],
+ "new_members": [],
+ "renamed": [
+  {
+   "id": "R350-0044",
+   "d1_screen": "KatálønEc",
+   "d2": "KatáløņEc",
+   "kp_inc": 5.897540734413481e-08,
+   "competitors": 0,
+   "neighbourhood": 154
+  }
+ ]
+}

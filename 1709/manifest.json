@@ -250,12 +250,23 @@
   "bottom_of_list_note": "(18817 + 567) / 98.267 = 197.26 at the SETTLED position (not the curve peak); peak would give 197.99"
  },
  "progress": {
-  "rows_read": 0,
-  "next_stitch": 1,
-  "next_stitch_panel": 1,
-  "resume_note": "nothing read yet",
-  "images_spent": 3,
-  "images_note": "3 images burned by project files frame_0001.jpg / frame_0026.jpg / frame_0040.jpg before work began - FOURTH batch in a row. Ha must delete them from the project."
+  "rows_read": 197,
+  "next_stitch": null,
+  "resume_note": "batch complete - all 197 rows read and loaded into member_db.json",
+  "images_spent": 17,
+  "images_note": "3 burned by stale project files frame_0001/0026/0040 (FOURTH consecutive batch), 13 stitches, 1 fix-up image"
  },
- "row_index_formula": "row_at_y = (y + scroll - c_1)/pitch + 1 ; top visible row of a panel = (scroll - c_1)/pitch + 1"
+ "row_index_formula": "row_at_y = (y + scroll - c_1)/pitch + 1 ; top visible row of a panel = (scroll - c_1)/pitch + 1",
+ "result": {
+  "snapshot": "2026-09-17",
+  "members": 197,
+  "db_commit": "c95f153a506cbb1266dc4c278bf1a87d5c02a212",
+  "pass1": 196,
+  "pass2": 1,
+  "pass3": 0,
+  "departures": 1,
+  "new_members": 0,
+  "new_ids_issued": 0,
+  "next_free_id": "R350-0276"
+ }
 }
