@@ -1,0 +1,4792 @@
+{
+ "meta": {
+  "d1_date": "2026-09-17",
+  "d2_date": "2026-10-22",
+  "elapsed_days": 35,
+  "d1_rows": 197,
+  "d2_rows": 196,
+  "aliases_as_of": "2026-09-17",
+  "rank_win": 49,
+  "kp_ceil": 0.0041738081876408675,
+  "kp_ceil_source": "max of 190-pair control group x 1.1",
+  "kp_tight_p90": 0.0,
+  "control_group": {
+   "n": 190,
+   "min": 0.0,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 0.0037943710796735156
+  },
+  "act_collapse_rate": 0.1,
+  "act_reset_signal_usable": false,
+  "ratios": {
+   "pass1_rate": 0.969,
+   "turnover": 0.036,
+   "pool_size": 42
+  },
+  "special_day_mode": false,
+  "migration_flag": false,
+  "bottom_proven": false,
+  "pass_counts": {
+   "1": 190,
+   "2": 3,
+   "3": 0
+  },
+  "balance": {
+   "D2 == matched + D2-only": true,
+   "D1 == matched + D1-only": true,
+   "D2 == D1 - left + new (+excluded)": true
+  },
+  "decisions_file": "B_2210r/cmp/decisions.json"
+ },
+ "checks": {
+  "power_strictly_decreasing_in_list_order": true,
+  "duplicate_triples": [],
+  "rows_read": 196,
+  "ui_count": 196,
+  "count_matches_ui": true,
+  "adjacent_pair_coverage": "195/195",
+  "uncovered_pairs": [],
+  "ambiguous_or_unread_d2": [],
+  "alias_as_of_equals_d1": true
+ },
+ "pairs": [
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"Чугуш\"",
+   "d1": {
+    "id": "R350-0001",
+    "canon": "Chugush",
+    "screen": "Чугуш",
+    "rank": 1,
+    "P": 797960693,
+    "K": 44387297572,
+    "A": 4776300
+   },
+   "d2": {
+    "rank": 1,
+    "list_row": 1,
+    "name": "Чугуш",
+    "P": 852518595,
+    "K": 44387297572,
+    "A": 13638599
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0002",
+    "canon": "Единств",
+    "screen": "Единств",
+    "rank": 3,
+    "P": 565555159,
+    "K": 74850669262,
+    "A": 99773686
+   },
+   "d2": {
+    "rank": 2,
+    "list_row": 2,
+    "name": "Единств",
+    "P": 707874608,
+    "K": 74850669262,
+    "A": 107704186
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0003",
+    "canon": "133tz",
+    "screen": "133tz",
+    "rank": 2,
+    "P": 569903103,
+    "K": 11170890274,
+    "A": 19918541
+   },
+   "d2": {
+    "rank": 3,
+    "list_row": 3,
+    "name": "133tz",
+    "P": 584085627,
+    "K": 11170890274,
+    "A": 4769100
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0004",
+    "canon": "Timmeee",
+    "screen": "Timmeee",
+    "rank": 4,
+    "P": 345546997,
+    "K": 36464460217,
+    "A": 20090806
+   },
+   "d2": {
+    "rank": 4,
+    "list_row": 4,
+    "name": "Timmeee",
+    "P": 381917090,
+    "K": 36464460217,
+    "A": 28487664
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"ASTERION ツ\"",
+   "d1": {
+    "id": "R350-0005",
+    "canon": "ASTERION",
+    "screen": "ASTERION ツ",
+    "rank": 5,
+    "P": 294166537,
+    "K": 29293788079,
+    "A": 4771500
+   },
+   "d2": {
+    "rank": 5,
+    "list_row": 5,
+    "name": "ASTERION ツ",
+    "P": 319357431,
+    "K": 29293788079,
+    "A": 5818700
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0007",
+    "canon": "Lastangel001",
+    "screen": "Lastangel001",
+    "rank": 6,
+    "P": 274084353,
+    "K": 21593567029,
+    "A": 689700
+   },
+   "d2": {
+    "rank": 6,
+    "list_row": 6,
+    "name": "Lastangel001",
+    "P": 297100997,
+    "K": 21593567029,
+    "A": 9302328
+   }
+  },
+  {
+   "mtype": "renamed",
+   "pass": 2,
+   "name_similarity": 0.96,
+   "name_evidence": true,
+   "competitors": 0,
+   "competitor_pairs": [],
+   "pool_pairs_in_window": 3,
+   "neighbourhood_size": 26,
+   "stable_across_ceilings": true,
+   "artefact": false,
+   "status": "confirmed",
+   "problems": [],
+   "note": "renamed (Pass 2): dPower +8.00%, dKP +0.0000%, name similarity 0.96, competitors 0, neighbourhood_size 26",
+   "d1": {
+    "id": "R350-0008",
+    "canon": "CRx StalinIV",
+    "screen": "CRx StalinIV",
+    "rank": 8,
+    "P": 260132768,
+    "K": 11818834082,
+    "A": 6256515
+   },
+   "d2": {
+    "rank": 7,
+    "list_row": 7,
+    "name": "CRx StalinV",
+    "P": 282742805,
+    "K": 11818834082,
+    "A": 14924246
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0250",
+    "canon": "FinistBrFalcon",
+    "screen": "FinistBrFalcon",
+    "rank": 9,
+    "P": 247355133,
+    "K": 29997035357,
+    "A": 4719900
+   },
+   "d2": {
+    "rank": 8,
+    "list_row": 8,
+    "name": "FinistBrFalcon",
+    "P": 280158506,
+    "K": 29997035357,
+    "A": 7453484
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0006",
+    "canon": "skywraith",
+    "screen": "skywraith",
+    "rank": 7,
+    "P": 265545435,
+    "K": 9077416979,
+    "A": 32284590
+   },
+   "d2": {
+    "rank": 9,
+    "list_row": 9,
+    "name": "skywraith",
+    "P": 274230695,
+    "K": 9077416979,
+    "A": 40697057
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0014",
+    "canon": "Shebeastinem",
+    "screen": "Shebeastinem",
+    "rank": 12,
+    "P": 234181340,
+    "K": 45301728991,
+    "A": 9987925
+   },
+   "d2": {
+    "rank": 10,
+    "list_row": 10,
+    "name": "Shebeastinem",
+    "P": 269661130,
+    "K": 45405891755,
+    "A": 17979625
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0017",
+    "canon": "Colt Canon",
+    "screen": "Colt Canon",
+    "rank": 11,
+    "P": 237642030,
+    "K": 13551276144,
+    "A": 10634632
+   },
+   "d2": {
+    "rank": 11,
+    "list_row": 11,
+    "name": "Colt Canon",
+    "P": 253076567,
+    "K": 13551276144,
+    "A": 19452211
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0009",
+    "canon": "Nordic Oak",
+    "screen": "Nordic Oak",
+    "rank": 10,
+    "P": 242050953,
+    "K": 15218928203,
+    "A": 24728059
+   },
+   "d2": {
+    "rank": 12,
+    "list_row": 12,
+    "name": "Nordic Oak",
+    "P": 248218710,
+    "K": 15218928203,
+    "A": 32570967
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0015",
+    "canon": "TikiCat",
+    "screen": "TikiCat",
+    "rank": 14,
+    "P": 227579628,
+    "K": 9650065559,
+    "A": 11499868
+   },
+   "d2": {
+    "rank": 13,
+    "list_row": 13,
+    "name": "TikiCat",
+    "P": 240813889,
+    "K": 9650065559,
+    "A": 19869080
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0030",
+    "canon": "Frozen",
+    "screen": "Frozen",
+    "rank": 20,
+    "P": 213979415,
+    "K": 2395554537,
+    "A": 26048048
+   },
+   "d2": {
+    "rank": 14,
+    "list_row": 14,
+    "name": "Frozen",
+    "P": 238949154,
+    "K": 2395554537,
+    "A": 6523767
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0021",
+    "canon": "DANIEL SHEHU",
+    "screen": "DANIEL SHEHU",
+    "rank": 19,
+    "P": 219368424,
+    "K": 23012436363,
+    "A": 23849909
+   },
+   "d2": {
+    "rank": 15,
+    "list_row": 15,
+    "name": "DANIEL SHEHU",
+    "P": 235157947,
+    "K": 23012436363,
+    "A": 3949400
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0016",
+    "canon": "KenAROK",
+    "screen": "KenAROK",
+    "rank": 13,
+    "P": 230076078,
+    "K": 7281025922,
+    "A": 73997542
+   },
+   "d2": {
+    "rank": 16,
+    "list_row": 16,
+    "name": "KenAROK",
+    "P": 234988023,
+    "K": 7281025922,
+    "A": 82457671
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0027",
+    "canon": "MONSTER DONG",
+    "screen": "MONSTER DONG",
+    "rank": 16,
+    "P": 226510970,
+    "K": 33286714838,
+    "A": 5032053
+   },
+   "d2": {
+    "rank": 17,
+    "list_row": 17,
+    "name": "MONSTER DONG",
+    "P": 234665533,
+    "K": 33286714838,
+    "A": 13116405
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0011",
+    "canon": "Anew27",
+    "screen": "Anew27",
+    "rank": 15,
+    "P": 226859995,
+    "K": 14499968080,
+    "A": 6582652
+   },
+   "d2": {
+    "rank": 18,
+    "list_row": 18,
+    "name": "Anew27",
+    "P": 234387675,
+    "K": 14499968080,
+    "A": 583066
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0026",
+    "canon": "Kumiho",
+    "screen": "Kumiho",
+    "rank": 21,
+    "P": 213549766,
+    "K": 6592954198,
+    "A": 463676
+   },
+   "d2": {
+    "rank": 19,
+    "list_row": 19,
+    "name": "Kumiho",
+    "P": 234139412,
+    "K": 6592954298,
+    "A": 92766
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0018",
+    "canon": "ZVYAG",
+    "screen": "ZVYAG",
+    "rank": 18,
+    "P": 222430787,
+    "K": 18606936752,
+    "A": 17989232
+   },
+   "d2": {
+    "rank": 20,
+    "list_row": 20,
+    "name": "ZVYAG",
+    "P": 234052328,
+    "K": 18606936752,
+    "A": 1600
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0251",
+    "canon": "Морффей",
+    "screen": "Морффей",
+    "rank": 17,
+    "P": 223503194,
+    "K": 2046091192,
+    "A": 4970656
+   },
+   "d2": {
+    "rank": 21,
+    "list_row": 21,
+    "name": "Морффей",
+    "P": 231594220,
+    "K": 2046091192,
+    "A": 13688672
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0036",
+    "canon": "Mossad 007",
+    "screen": "Mossad 007",
+    "rank": 24,
+    "P": 208210529,
+    "K": 3424230807,
+    "A": 73241492
+   },
+   "d2": {
+    "rank": 22,
+    "list_row": 22,
+    "name": "Mossad 007",
+    "P": 227686774,
+    "K": 3424230807,
+    "A": 81309392
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0048",
+    "canon": "MILFnCookies",
+    "screen": "MILFnCookies",
+    "rank": 28,
+    "P": 206192781,
+    "K": 6075652523,
+    "A": 9058775
+   },
+   "d2": {
+    "rank": 23,
+    "list_row": 23,
+    "name": "MILFnCookies",
+    "P": 227121973,
+    "K": 6075652523,
+    "A": 7508900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0034",
+    "canon": "Be3yhunk",
+    "screen": "Be3yhunk",
+    "rank": 23,
+    "P": 212476922,
+    "K": 4698283628,
+    "A": 35961003
+   },
+   "d2": {
+    "rank": 24,
+    "list_row": 24,
+    "name": "Be3yhunk",
+    "P": 226327576,
+    "K": 4698283628,
+    "A": 44278145
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0253",
+    "canon": "HellHool",
+    "screen": "HellHool",
+    "rank": 27,
+    "P": 206599675,
+    "K": 5879198480,
+    "A": 4767930
+   },
+   "d2": {
+    "rank": 25,
+    "list_row": 25,
+    "name": "HellHool",
+    "P": 223352971,
+    "K": 5879198480,
+    "A": 713800
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0032",
+    "canon": "Phá Quân",
+    "screen": "Phá Quân",
+    "rank": 37,
+    "P": 194811320,
+    "K": 2182189240,
+    "A": 5021600
+   },
+   "d2": {
+    "rank": 26,
+    "list_row": 26,
+    "name": "Phá Quân",
+    "P": 222174106,
+    "K": 2182189240,
+    "A": 13475647
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0043",
+    "canon": "Jiren",
+    "screen": "Jiren",
+    "rank": 30,
+    "P": 203163642,
+    "K": 5096274360,
+    "A": 27582440
+   },
+   "d2": {
+    "rank": 27,
+    "list_row": 27,
+    "name": "Jiren",
+    "P": 222024535,
+    "K": 5096274360,
+    "A": 35018342
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0010",
+    "canon": "IMPACT",
+    "screen": "IMPACT",
+    "rank": 22,
+    "P": 213114298,
+    "K": 11232884309,
+    "A": 13712824
+   },
+   "d2": {
+    "rank": 28,
+    "list_row": 28,
+    "name": "IMPACT",
+    "P": 219187410,
+    "K": 11232884309,
+    "A": 21196177
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0020",
+    "canon": "Belka",
+    "screen": "Belka",
+    "rank": 29,
+    "P": 205036088,
+    "K": 11202677902,
+    "A": 10064078
+   },
+   "d2": {
+    "rank": 29,
+    "list_row": 29,
+    "name": "Belka",
+    "P": 218994844,
+    "K": 11202677902,
+    "A": 18534291
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0252",
+    "canon": "Dron B Kedax",
+    "screen": "Dron B Kedax",
+    "rank": 25,
+    "P": 208090227,
+    "K": 5908785222,
+    "A": 4269100
+   },
+   "d2": {
+    "rank": 30,
+    "list_row": 30,
+    "name": "Dron B Kedax",
+    "P": 218231366,
+    "K": 5908785222,
+    "A": 12502959
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0031",
+    "canon": "DEATH INC",
+    "screen": "DEATH INC",
+    "rank": 26,
+    "P": 206630401,
+    "K": 15358980543,
+    "A": 20878976
+   },
+   "d2": {
+    "rank": 31,
+    "list_row": 31,
+    "name": "DEATH INC",
+    "P": 216122128,
+    "K": 15358980543,
+    "A": 4551500
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0058",
+    "canon": "Axe HongTrang",
+    "screen": "Axe HongTrang",
+    "rank": 32,
+    "P": 201999593,
+    "K": 3505326692,
+    "A": 18078902
+   },
+   "d2": {
+    "rank": 32,
+    "list_row": 32,
+    "name": "Axe HongTrang",
+    "P": 215309906,
+    "K": 3505326692,
+    "A": 26728622
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0028",
+    "canon": "MarceLo",
+    "screen": "MarceLo",
+    "rank": 31,
+    "P": 202342224,
+    "K": 3453826592,
+    "A": 20162529
+   },
+   "d2": {
+    "rank": 33,
+    "list_row": 33,
+    "name": "MarceLo",
+    "P": 213813226,
+    "K": 3453826592,
+    "A": 75900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0013",
+    "canon": "Cookies",
+    "screen": "Cookies",
+    "rank": 34,
+    "P": 199661351,
+    "K": 22142916287,
+    "A": 130000
+   },
+   "d2": {
+    "rank": 34,
+    "list_row": 34,
+    "name": "Cookies",
+    "P": 209042271,
+    "K": 22143207011,
+    "A": 282900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0023",
+    "canon": "Falcon",
+    "screen": "Falcon",
+    "rank": 52,
+    "P": 184229130,
+    "K": 3926734810,
+    "A": 16568262
+   },
+   "d2": {
+    "rank": 35,
+    "list_row": 35,
+    "name": "Falcon",
+    "P": 208673654,
+    "K": 3926734810,
+    "A": 5745422
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0254",
+    "canon": "Grigoryan",
+    "screen": "Grigoryan",
+    "rank": 33,
+    "P": 200248414,
+    "K": 16726285449,
+    "A": 4938100
+   },
+   "d2": {
+    "rank": 36,
+    "list_row": 36,
+    "name": "Grigoryan",
+    "P": 208659513,
+    "K": 16726285449,
+    "A": 12913247
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0108",
+    "canon": "DEATH isThe WAY",
+    "screen": "DEATH isThe WAY",
+    "rank": 53,
+    "P": 182952073,
+    "K": 1049469337,
+    "A": 4188500
+   },
+   "d2": {
+    "rank": 37,
+    "list_row": 37,
+    "name": "DEATH isThe WAY",
+    "P": 208150291,
+    "K": 1049469337,
+    "A": 4384500
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0022",
+    "canon": "CoolFarm",
+    "screen": "CoolFarm",
+    "rank": 36,
+    "P": 195209489,
+    "K": 6061766603,
+    "A": 17007774
+   },
+   "d2": {
+    "rank": 38,
+    "list_row": 38,
+    "name": "CoolFarm",
+    "P": 206614375,
+    "K": 6061766603,
+    "A": 65800
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0051",
+    "canon": "Reggard",
+    "screen": "Reggard",
+    "rank": 45,
+    "P": 188052263,
+    "K": 6087702654,
+    "A": 570800
+   },
+   "d2": {
+    "rank": 39,
+    "list_row": 39,
+    "name": "Reggard",
+    "P": 206350639,
+    "K": 6087702654,
+    "A": 694900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0090",
+    "canon": "Thaunt",
+    "screen": "Thaunt",
+    "rank": 38,
+    "P": 194463558,
+    "K": 5865860188,
+    "A": 29843062
+   },
+   "d2": {
+    "rank": 40,
+    "list_row": 40,
+    "name": "Thaunt",
+    "P": 205585561,
+    "K": 5865860188,
+    "A": 37338862
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0086",
+    "canon": "Viettell",
+    "screen": "Viettell",
+    "rank": 58,
+    "P": 178270719,
+    "K": 3072695268,
+    "A": 17532488
+   },
+   "d2": {
+    "rank": 41,
+    "list_row": 41,
+    "name": "Viettell",
+    "P": 204935668,
+    "K": 3072695268,
+    "A": 25566332
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0064",
+    "canon": "ОлежикА5",
+    "screen": "ОлежикА5",
+    "rank": 41,
+    "P": 191173796,
+    "K": 3959355405,
+    "A": 4858191
+   },
+   "d2": {
+    "rank": 42,
+    "list_row": 42,
+    "name": "ОлежикА5",
+    "P": 204913081,
+    "K": 3959355405,
+    "A": 352769
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0255",
+    "canon": "VasilyES",
+    "screen": "VasilyES",
+    "rank": 40,
+    "P": 192541926,
+    "K": 12890173281,
+    "A": 4217100
+   },
+   "d2": {
+    "rank": 43,
+    "list_row": 43,
+    "name": "VasilyES",
+    "P": 204756668,
+    "K": 12890173281,
+    "A": 12082358
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0037",
+    "canon": "Phúc XO",
+    "screen": "Phúc XO",
+    "rank": 51,
+    "P": 185150139,
+    "K": 2655367469,
+    "A": 4867878
+   },
+   "d2": {
+    "rank": 45,
+    "list_row": 45,
+    "name": "Phúc XO",
+    "P": 202739028,
+    "K": 2655367469,
+    "A": 517922
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0081",
+    "canon": "Rusooo",
+    "screen": "Rusooo",
+    "rank": 46,
+    "P": 187917918,
+    "K": 10391588499,
+    "A": 5137221
+   },
+   "d2": {
+    "rank": 46,
+    "list_row": 46,
+    "name": "Rusooo",
+    "P": 202515660,
+    "K": 10391588499,
+    "A": 91500
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0056",
+    "canon": "BeastofLebanon",
+    "screen": "BeastofLebanon",
+    "rank": 43,
+    "P": 190156553,
+    "K": 3506527953,
+    "A": 4792100
+   },
+   "d2": {
+    "rank": 47,
+    "list_row": 47,
+    "name": "BeastofLebanon",
+    "P": 201799732,
+    "K": 3506527953,
+    "A": 586300
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0256",
+    "canon": "TRiSTAN",
+    "screen": "TRiSTAN",
+    "rank": 39,
+    "P": 192656245,
+    "K": 3213439112,
+    "A": 4802300
+   },
+   "d2": {
+    "rank": 48,
+    "list_row": 48,
+    "name": "TRiSTAN",
+    "P": 201612165,
+    "K": 3213439112,
+    "A": 12922309
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0042",
+    "canon": "Axe Ex Mashina",
+    "screen": "Axe Ex Mashina",
+    "rank": 44,
+    "P": 189057405,
+    "K": 8636803116,
+    "A": 4989314
+   },
+   "d2": {
+    "rank": 49,
+    "list_row": 49,
+    "name": "Axe Ex Mashina",
+    "P": 199604593,
+    "K": 8636803116,
+    "A": 13787347
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0050",
+    "canon": "Turbonik",
+    "screen": "Turbonik",
+    "rank": 75,
+    "P": 169707730,
+    "K": 3422319273,
+    "A": 15098642
+   },
+   "d2": {
+    "rank": 50,
+    "list_row": 50,
+    "name": "Turbonik",
+    "P": 199419218,
+    "K": 3422319273,
+    "A": 634964
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0039",
+    "canon": "Tieu Tam Sinh",
+    "screen": "Tieu Tam Sinh",
+    "rank": 49,
+    "P": 185638496,
+    "K": 7351067674,
+    "A": 15002828
+   },
+   "d2": {
+    "rank": 52,
+    "list_row": 52,
+    "name": "Tieu Tam Sinh",
+    "P": 198424466,
+    "K": 7351067674,
+    "A": 4563389
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0041",
+    "canon": "Элвис33",
+    "screen": "Элвис33",
+    "rank": 56,
+    "P": 179743062,
+    "K": 4302899916,
+    "A": 18863778
+   },
+   "d2": {
+    "rank": 53,
+    "list_row": 53,
+    "name": "Элвис33",
+    "P": 198025789,
+    "K": 4319226715,
+    "A": 26996679
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0024",
+    "canon": "SLOW DEATH",
+    "screen": "SLOW DEATH",
+    "rank": 42,
+    "P": 190355698,
+    "K": 4196370939,
+    "A": 10177596
+   },
+   "d2": {
+    "rank": 54,
+    "list_row": 54,
+    "name": "SLOW DEATH",
+    "P": 197905221,
+    "K": 4196370939,
+    "A": 18220185
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0089",
+    "canon": "KOLOBOKK",
+    "screen": "KOLOBOKK",
+    "rank": 50,
+    "P": 185570709,
+    "K": 2109980176,
+    "A": 636784
+   },
+   "d2": {
+    "rank": 55,
+    "list_row": 55,
+    "name": "KOLOBOKK",
+    "P": 197850970,
+    "K": 2109980176,
+    "A": 9040799
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0045",
+    "canon": "DoraB",
+    "screen": "DoraB",
+    "rank": 102,
+    "P": 160128486,
+    "K": 4308868164,
+    "A": 25754835
+   },
+   "d2": {
+    "rank": 56,
+    "list_row": 56,
+    "name": "DoraB",
+    "P": 196407487,
+    "K": 4308868164,
+    "A": 34063935
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0072",
+    "canon": "Tora",
+    "screen": "Tora",
+    "rank": 59,
+    "P": 177960201,
+    "K": 2293755051,
+    "A": 10225570
+   },
+   "d2": {
+    "rank": 57,
+    "list_row": 57,
+    "name": "Tora",
+    "P": 195893225,
+    "K": 2293755051,
+    "A": 18341803
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0047",
+    "canon": "TOM DU",
+    "screen": "TOM DU",
+    "rank": 48,
+    "P": 186249883,
+    "K": 5027236175,
+    "A": 15073104
+   },
+   "d2": {
+    "rank": 58,
+    "list_row": 58,
+    "name": "TOM DU",
+    "P": 195642001,
+    "K": 5027236175,
+    "A": 23292404
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0100",
+    "canon": "Cokon 1000",
+    "screen": "Cokon 1000",
+    "rank": 95,
+    "P": 161634939,
+    "K": 1993834575,
+    "A": 17756833
+   },
+   "d2": {
+    "rank": 59,
+    "list_row": 59,
+    "name": "Cokon 1000",
+    "P": 195209252,
+    "K": 1993834575,
+    "A": 4232830
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0035",
+    "canon": "FLAMES",
+    "screen": "FLAMES",
+    "rank": 61,
+    "P": 176302115,
+    "K": 2583294395,
+    "A": 4857800
+   },
+   "d2": {
+    "rank": 60,
+    "list_row": 60,
+    "name": "FLAMES",
+    "P": 193473458,
+    "K": 2583294396,
+    "A": 4154400
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0083",
+    "canon": "Mardröm Draugr",
+    "screen": "Mardröm Draugr",
+    "rank": 47,
+    "P": 186419619,
+    "K": 5409035466,
+    "A": 9817166
+   },
+   "d2": {
+    "rank": 61,
+    "list_row": 61,
+    "name": "Mardröm Draugr",
+    "P": 193148064,
+    "K": 5409035466,
+    "A": 3876907
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0070",
+    "canon": "Lord of Dragon",
+    "screen": "Lord of Dragon",
+    "rank": 64,
+    "P": 174855208,
+    "K": 4706152740,
+    "A": 9428406
+   },
+   "d2": {
+    "rank": 62,
+    "list_row": 62,
+    "name": "Lord of Dragon",
+    "P": 192757676,
+    "K": 4706152740,
+    "A": 17660010
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0097",
+    "canon": "Mintael",
+    "screen": "Mintael",
+    "rank": 93,
+    "P": 162981921,
+    "K": 885564378,
+    "A": 50206262
+   },
+   "d2": {
+    "rank": 63,
+    "list_row": 63,
+    "name": "Mintael",
+    "P": 191248504,
+    "K": 885564378,
+    "A": 58680995
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0101",
+    "canon": "Vietgangz",
+    "screen": "Vietgangz",
+    "rank": 60,
+    "P": 176636727,
+    "K": 2317600447,
+    "A": 9948647
+   },
+   "d2": {
+    "rank": 64,
+    "list_row": 64,
+    "name": "Vietgangz",
+    "P": 191154204,
+    "K": 2317600447,
+    "A": 514000
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0061",
+    "canon": "FalconN",
+    "screen": "FalconN",
+    "rank": 62,
+    "P": 175841576,
+    "K": 2581937846,
+    "A": 8855861
+   },
+   "d2": {
+    "rank": 65,
+    "list_row": 65,
+    "name": "FalconN",
+    "P": 190898713,
+    "K": 2581937846,
+    "A": 0
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0078",
+    "canon": "A R",
+    "screen": "A R",
+    "rank": 54,
+    "P": 181252345,
+    "K": 3289387367,
+    "A": 25840350
+   },
+   "d2": {
+    "rank": 66,
+    "list_row": 66,
+    "name": "A R",
+    "P": 190743791,
+    "K": 3289387367,
+    "A": 33675459
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0029",
+    "canon": "GoJoeGo",
+    "screen": "GoJoeGo",
+    "rank": 55,
+    "P": 181139177,
+    "K": 8550649930,
+    "A": 18550977
+   },
+   "d2": {
+    "rank": 67,
+    "list_row": 67,
+    "name": "GoJoeGo",
+    "P": 189058490,
+    "K": 8550649930,
+    "A": 26298561
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0079",
+    "canon": "Phong Anh Kiet",
+    "screen": "Phong Anh Kiet",
+    "rank": 65,
+    "P": 173367185,
+    "K": 2354765622,
+    "A": 10370346
+   },
+   "d2": {
+    "rank": 68,
+    "list_row": 68,
+    "name": "Phong Anh Kiet",
+    "P": 187835986,
+    "K": 2354765622,
+    "A": 18676325
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0154",
+    "canon": "Kenvin Tai",
+    "screen": "Kenvin Tai",
+    "rank": 111,
+    "P": 156249571,
+    "K": 1167891499,
+    "A": 8687697
+   },
+   "d2": {
+    "rank": 69,
+    "list_row": 69,
+    "name": "Kenvin Tai",
+    "P": 187700376,
+    "K": 1167891499,
+    "A": 16183822
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0209",
+    "canon": "AHT",
+    "screen": "AHT",
+    "rank": 67,
+    "P": 172833505,
+    "K": 2359765940,
+    "A": 16572300
+   },
+   "d2": {
+    "rank": 70,
+    "list_row": 70,
+    "name": "AHT",
+    "P": 187296293,
+    "K": 2359765940,
+    "A": 5066987
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0049",
+    "canon": "v Roki v",
+    "screen": "v Roki v",
+    "rank": 74,
+    "P": 169981829,
+    "K": 4162034009,
+    "A": 10451570
+   },
+   "d2": {
+    "rank": 71,
+    "list_row": 71,
+    "name": "v Roki v",
+    "P": 187177279,
+    "K": 4162034009,
+    "A": 4609924
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0063",
+    "canon": "T1 Tarek",
+    "screen": "T1 Tarek",
+    "rank": 63,
+    "P": 175272752,
+    "K": 2309062300,
+    "A": 10390956
+   },
+   "d2": {
+    "rank": 72,
+    "list_row": 72,
+    "name": "T1 Tarek",
+    "P": 186220010,
+    "K": 2309062300,
+    "A": 3948900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0075",
+    "canon": "Catler",
+    "screen": "Catler",
+    "rank": 70,
+    "P": 172307088,
+    "K": 2698116736,
+    "A": 4826700
+   },
+   "d2": {
+    "rank": 73,
+    "list_row": 73,
+    "name": "Catler",
+    "P": 186045481,
+    "K": 2698116736,
+    "A": 5812153
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0257",
+    "canon": "SWS70",
+    "screen": "SWS70",
+    "rank": 57,
+    "P": 179126187,
+    "K": 3527447256,
+    "A": 4782188
+   },
+   "d2": {
+    "rank": 74,
+    "list_row": 74,
+    "name": "SWS70",
+    "P": 185591748,
+    "K": 3527447256,
+    "A": 7010528
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0046",
+    "canon": "Beckett fett",
+    "screen": "Beckett fett",
+    "rank": 78,
+    "P": 169247919,
+    "K": 3772548003,
+    "A": 821600
+   },
+   "d2": {
+    "rank": 75,
+    "list_row": 75,
+    "name": "Beckett fett",
+    "P": 184311302,
+    "K": 3772548003,
+    "A": 9084433
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0080",
+    "canon": "Quantum",
+    "screen": "Quantum",
+    "rank": 92,
+    "P": 163722900,
+    "K": 1225099931,
+    "A": 19415789
+   },
+   "d2": {
+    "rank": 76,
+    "list_row": 76,
+    "name": "Quantum",
+    "P": 182998270,
+    "K": 1225099931,
+    "A": 27581363
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0060",
+    "canon": "EternalDeath",
+    "screen": "EternalDeath",
+    "rank": 72,
+    "P": 171884741,
+    "K": 5548895901,
+    "A": 17205094
+   },
+   "d2": {
+    "rank": 77,
+    "list_row": 77,
+    "name": "EternalDeath",
+    "P": 182520392,
+    "K": 5548895901,
+    "A": 25520794
+   }
+  },
+  {
+   "mtype": "renamed",
+   "pass": 2,
+   "name_similarity": 0.89,
+   "name_evidence": true,
+   "competitors": 1,
+   "competitor_pairs": [
+    [
+     "R350-0074",
+     95
+    ]
+   ],
+   "pool_pairs_in_window": 3,
+   "neighbourhood_size": 151,
+   "stable_across_ceilings": true,
+   "artefact": false,
+   "status": "confirmed",
+   "problems": [],
+   "note": "renamed (Pass 2): dPower +5.01%, dKP +0.0000%, name similarity 0.89, competitors 1, neighbourhood_size 151",
+   "d1": {
+    "id": "R350-0044",
+    "canon": "KatalonEc",
+    "screen": "KatáløņEc",
+    "rank": 66,
+    "P": 172858316,
+    "K": 9359834165,
+    "A": 304500
+   },
+   "d2": {
+    "rank": 78,
+    "list_row": 78,
+    "name": "KatalønEc",
+    "P": 181982886,
+    "K": 9359834165,
+    "A": 73100
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0125",
+    "canon": "EzeKiel",
+    "screen": "EzeKiel",
+    "rank": 84,
+    "P": 168524312,
+    "K": 4550550908,
+    "A": 7088486
+   },
+   "d2": {
+    "rank": 79,
+    "list_row": 79,
+    "name": "EzeKiel",
+    "P": 181831410,
+    "K": 4550550908,
+    "A": 15552338
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"brayan\"",
+   "d1": {
+    "id": "R350-0098",
+    "canon": "braya1",
+    "screen": "brayan",
+    "rank": 86,
+    "P": 167262313,
+    "K": 1306975587,
+    "A": 99978894
+   },
+   "d2": {
+    "rank": 80,
+    "list_row": 80,
+    "name": "brayan",
+    "P": 181821043,
+    "K": 1306975587,
+    "A": 108175950
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0126",
+    "canon": "Barcode",
+    "screen": "Barcode",
+    "rank": 68,
+    "P": 172767703,
+    "K": 3029698442,
+    "A": 25848743
+   },
+   "d2": {
+    "rank": 81,
+    "list_row": 81,
+    "name": "Barcode",
+    "P": 181015053,
+    "K": 3029698442,
+    "A": 33973816
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0071",
+    "canon": "Công Đạo",
+    "screen": "Công Đạo",
+    "rank": 80,
+    "P": 169039686,
+    "K": 3550991285,
+    "A": 9538257
+   },
+   "d2": {
+    "rank": 82,
+    "list_row": 82,
+    "name": "Công Đạo",
+    "P": 179968622,
+    "K": 3550991285,
+    "A": 4725400
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0068",
+    "canon": "zapekanka",
+    "screen": "zapekanka",
+    "rank": 99,
+    "P": 160811379,
+    "K": 3019119299,
+    "A": 603200
+   },
+   "d2": {
+    "rank": 83,
+    "list_row": 83,
+    "name": "zapekanka",
+    "P": 179864460,
+    "K": 3019119299,
+    "A": 3849385
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0054",
+    "canon": "Grace",
+    "screen": "Grace",
+    "rank": 116,
+    "P": 154860416,
+    "K": 2298855720,
+    "A": 5280500
+   },
+   "d2": {
+    "rank": 84,
+    "list_row": 84,
+    "name": "Grace",
+    "P": 178959157,
+    "K": 2298855720,
+    "A": 13129500
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0052",
+    "canon": "MRS DEATH",
+    "screen": "MRS DEATH",
+    "rank": 71,
+    "P": 172260964,
+    "K": 3284874494,
+    "A": 10773395
+   },
+   "d2": {
+    "rank": 85,
+    "list_row": 85,
+    "name": "MRS DEATH",
+    "P": 177911444,
+    "K": 3284874494,
+    "A": 18393608
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0053",
+    "canon": "Toroto",
+    "screen": "Toroto",
+    "rank": 89,
+    "P": 165972820,
+    "K": 4000590717,
+    "A": 25175443
+   },
+   "d2": {
+    "rank": 86,
+    "list_row": 86,
+    "name": "Toroto",
+    "P": 177524559,
+    "K": 4000590717,
+    "A": 33301806
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0092",
+    "canon": "MeLioDas",
+    "screen": "MeLioDas",
+    "rank": 85,
+    "P": 168174755,
+    "K": 1245023260,
+    "A": 18182135
+   },
+   "d2": {
+    "rank": 87,
+    "list_row": 87,
+    "name": "MeLioDas",
+    "P": 177492262,
+    "K": 1245023260,
+    "A": 184300
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0038",
+    "canon": "SozYazarTpYapar",
+    "screen": "SozYazarTpYapar",
+    "rank": 82,
+    "P": 169011680,
+    "K": 12368192171,
+    "A": 4634800
+   },
+   "d2": {
+    "rank": 88,
+    "list_row": 88,
+    "name": "SozYazarTpYapar",
+    "P": 177010724,
+    "K": 12368192192,
+    "A": 12727477
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0093",
+    "canon": "Barb",
+    "screen": "Barb",
+    "rank": 98,
+    "P": 160840427,
+    "K": 17362061839,
+    "A": 527000
+   },
+   "d2": {
+    "rank": 89,
+    "list_row": 89,
+    "name": "Barb",
+    "P": 176948041,
+    "K": 17362061839,
+    "A": 7876200
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0077",
+    "canon": "Inspector Crow",
+    "screen": "Inspector Crow",
+    "rank": 90,
+    "P": 165749808,
+    "K": 3715351213,
+    "A": 20799079
+   },
+   "d2": {
+    "rank": 90,
+    "list_row": 90,
+    "name": "Inspector Crow",
+    "P": 176855204,
+    "K": 3715351213,
+    "A": 28387540
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0105",
+    "canon": "DickeY",
+    "screen": "DickeY",
+    "rank": 79,
+    "P": 169106416,
+    "K": 5473961017,
+    "A": 18273449
+   },
+   "d2": {
+    "rank": 91,
+    "list_row": 91,
+    "name": "DickeY",
+    "P": 176502494,
+    "K": 5473961017,
+    "A": 26773901
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0135",
+    "canon": "Sir",
+    "screen": "S i r",
+    "rank": 91,
+    "P": 165232326,
+    "K": 1400181843,
+    "A": 15131374
+   },
+   "d2": {
+    "rank": 92,
+    "list_row": 92,
+    "name": "S i r",
+    "P": 175882719,
+    "K": 1400181843,
+    "A": 4270200
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"RenatDoc\"",
+   "d1": {
+    "id": "R350-0104",
+    "canon": "RenatĐộc",
+    "screen": "RenatDoc",
+    "rank": 135,
+    "P": 150157523,
+    "K": 6263055859,
+    "A": 4894529
+   },
+   "d2": {
+    "rank": 93,
+    "list_row": 93,
+    "name": "RenatDoc",
+    "P": 175815219,
+    "K": 6263055859,
+    "A": 13025263
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0200",
+    "canon": "o0oHackDiep68",
+    "screen": "o0oHackDiep68",
+    "rank": 101,
+    "P": 160696625,
+    "K": 1374460158,
+    "A": 16975082
+   },
+   "d2": {
+    "rank": 94,
+    "list_row": 94,
+    "name": "o0oHackDiep68",
+    "P": 175793490,
+    "K": 1374460158,
+    "A": 25107982
+   }
+  },
+  {
+   "mtype": "renamed",
+   "pass": 2,
+   "name_similarity": 0.67,
+   "name_evidence": true,
+   "competitors": 1,
+   "competitor_pairs": [
+    [
+     "R350-0044",
+     78
+    ]
+   ],
+   "pool_pairs_in_window": 3,
+   "neighbourhood_size": 151,
+   "stable_across_ceilings": true,
+   "artefact": false,
+   "status": "confirmed",
+   "problems": [],
+   "note": "renamed (Pass 2): dPower +3.63%, dKP +0.0000%, name similarity 0.67, competitors 1, neighbourhood_size 151",
+   "d1": {
+    "id": "R350-0074",
+    "canon": "Simēply",
+    "screen": "Simeply",
+    "rank": 77,
+    "P": 169332556,
+    "K": 5710665925,
+    "A": 13147954
+   },
+   "d2": {
+    "rank": 95,
+    "list_row": 95,
+    "name": "Simeply 3k usd",
+    "P": 175707808,
+    "K": 5710665925,
+    "A": 15915783
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0065",
+    "canon": "Urethral Queef",
+    "screen": "Urethral Queef",
+    "rank": 73,
+    "P": 170309661,
+    "K": 13406750553,
+    "A": 4756100
+   },
+   "d2": {
+    "rank": 96,
+    "list_row": 96,
+    "name": "Urethral Queef",
+    "P": 175278857,
+    "K": 13406750553,
+    "A": 3845800
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"彡MiaMoR彡\"",
+   "d1": {
+    "id": "R350-0106",
+    "canon": "ツ MiaMoR ツ",
+    "screen": "彡MiaMoR彡",
+    "rank": 145,
+    "P": 144820703,
+    "K": 1089197551,
+    "A": 5955600
+   },
+   "d2": {
+    "rank": 97,
+    "list_row": 97,
+    "name": "彡MiaMoR彡",
+    "P": 174768003,
+    "K": 1089197551,
+    "A": 4704300
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0258",
+    "canon": "UNITY",
+    "screen": "UNITY",
+    "rank": 76,
+    "P": 169470545,
+    "K": 2307682967,
+    "A": 4560376
+   },
+   "d2": {
+    "rank": 98,
+    "list_row": 98,
+    "name": "UNITY",
+    "P": 174496862,
+    "K": 2307682967,
+    "A": 12452826
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0124",
+    "canon": "l3omb",
+    "screen": "l3omb",
+    "rank": 69,
+    "P": 172339390,
+    "K": 1390095238,
+    "A": 24203696
+   },
+   "d2": {
+    "rank": 99,
+    "list_row": 99,
+    "name": "l3omb",
+    "P": 174426238,
+    "K": 1390095238,
+    "A": 6053833
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0259",
+    "canon": "Fride",
+    "screen": "Fride",
+    "rank": 100,
+    "P": 160705410,
+    "K": 3421473154,
+    "A": 4821623
+   },
+   "d2": {
+    "rank": 100,
+    "list_row": 100,
+    "name": "Fride",
+    "P": 174387087,
+    "K": 3421473154,
+    "A": 852835
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0120",
+    "canon": "Noixa",
+    "screen": "Noixa",
+    "rank": 113,
+    "P": 155631648,
+    "K": 3120228448,
+    "A": 51412713
+   },
+   "d2": {
+    "rank": 101,
+    "list_row": 101,
+    "name": "Noixa",
+    "P": 174182184,
+    "K": 3120228448,
+    "A": 6304996
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0059",
+    "canon": "Mifeng",
+    "screen": "Mifeng",
+    "rank": 83,
+    "P": 168935505,
+    "K": 3781488421,
+    "A": 17508876
+   },
+   "d2": {
+    "rank": 102,
+    "list_row": 102,
+    "name": "Mifeng",
+    "P": 173596901,
+    "K": 3781488421,
+    "A": 3747100
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0057",
+    "canon": "So1o",
+    "screen": "So1o",
+    "rank": 139,
+    "P": 147306140,
+    "K": 13427958392,
+    "A": 24948204
+   },
+   "d2": {
+    "rank": 103,
+    "list_row": 103,
+    "name": "So1o",
+    "P": 173544450,
+    "K": 13427958392,
+    "A": 4738900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0082",
+    "canon": "Nastenblsh",
+    "screen": "Nastenblsh",
+    "rank": 121,
+    "P": 153204047,
+    "K": 5433829362,
+    "A": 35911676
+   },
+   "d2": {
+    "rank": 104,
+    "list_row": 104,
+    "name": "Nastenblsh",
+    "P": 173187239,
+    "K": 5433829362,
+    "A": 44391124
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0137",
+    "canon": "YouKnow",
+    "screen": "YouKnow",
+    "rank": 118,
+    "P": 154019631,
+    "K": 1396664266,
+    "A": 19159280
+   },
+   "d2": {
+    "rank": 105,
+    "list_row": 105,
+    "name": "YouKnow",
+    "P": 173064483,
+    "K": 1396664266,
+    "A": 27216741
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0033",
+    "canon": "Nephrite",
+    "screen": "Nephrite",
+    "rank": 87,
+    "P": 167001807,
+    "K": 9055708478,
+    "A": 9587504
+   },
+   "d2": {
+    "rank": 106,
+    "list_row": 106,
+    "name": "Nephrite",
+    "P": 171524378,
+    "K": 9055708478,
+    "A": 3834448
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0066",
+    "canon": "Ragnar Pedro",
+    "screen": "Ragnar Pedro",
+    "rank": 94,
+    "P": 162079394,
+    "K": 3330580980,
+    "A": 79654390
+   },
+   "d2": {
+    "rank": 107,
+    "list_row": 107,
+    "name": "Ragnar Pedro",
+    "P": 171113399,
+    "K": 3330580980,
+    "A": 88237790
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0113",
+    "canon": "Okeanisa",
+    "screen": "Okeanisa",
+    "rank": 115,
+    "P": 154895453,
+    "K": 1036389488,
+    "A": 25038404
+   },
+   "d2": {
+    "rank": 108,
+    "list_row": 108,
+    "name": "Okeanisa",
+    "P": 171063492,
+    "K": 1036389488,
+    "A": 32968585
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0153",
+    "canon": "Leoo",
+    "screen": "Leoo",
+    "rank": 96,
+    "P": 161617910,
+    "K": 3358043081,
+    "A": 15490229
+   },
+   "d2": {
+    "rank": 109,
+    "list_row": 109,
+    "name": "Leoo",
+    "P": 170430584,
+    "K": 3358043081,
+    "A": 5653359
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0128",
+    "canon": "LaLand",
+    "screen": "Laland",
+    "rank": 104,
+    "P": 158884036,
+    "K": 1207908597,
+    "A": 66086960
+   },
+   "d2": {
+    "rank": 110,
+    "list_row": 110,
+    "name": "Laland",
+    "P": 170141581,
+    "K": 1207908597,
+    "A": 74141003
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0127",
+    "canon": "RemarkNess",
+    "screen": "RemarkNess",
+    "rank": 120,
+    "P": 153633282,
+    "K": 1538715579,
+    "A": 18339937
+   },
+   "d2": {
+    "rank": 111,
+    "list_row": 111,
+    "name": "RemarkNess",
+    "P": 169580318,
+    "K": 1538715579,
+    "A": 26111619
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0115",
+    "canon": "hab1st",
+    "screen": "hab1st",
+    "rank": 112,
+    "P": 155805677,
+    "K": 2248473995,
+    "A": 10083472
+   },
+   "d2": {
+    "rank": 112,
+    "list_row": 112,
+    "name": "hab1st",
+    "P": 169533182,
+    "K": 2248473995,
+    "A": 18027939
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"Griffin\"",
+   "d1": {
+    "id": "R350-0145",
+    "canon": "l Griffin l",
+    "screen": "Griffin",
+    "rank": 107,
+    "P": 157153535,
+    "K": 3002371367,
+    "A": 655100
+   },
+   "d2": {
+    "rank": 113,
+    "list_row": 113,
+    "name": "Griffin",
+    "P": 169337738,
+    "K": 3002371367,
+    "A": 5097200
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0122",
+    "canon": "54oLeNkA54",
+    "screen": "54oLeNkA54",
+    "rank": 105,
+    "P": 158739794,
+    "K": 1085922483,
+    "A": 19145434
+   },
+   "d2": {
+    "rank": 114,
+    "list_row": 114,
+    "name": "54oLeNkA54",
+    "P": 169043423,
+    "K": 1085922483,
+    "A": 94739
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0158",
+    "canon": "Mumford",
+    "screen": "Mumford",
+    "rank": 106,
+    "P": 157557474,
+    "K": 477077754,
+    "A": 52377020
+   },
+   "d2": {
+    "rank": 115,
+    "list_row": 115,
+    "name": "Mumford",
+    "P": 168690411,
+    "K": 477077754,
+    "A": 60998008
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0159",
+    "canon": "KillaT",
+    "screen": "KillaT",
+    "rank": 109,
+    "P": 156480235,
+    "K": 7132285431,
+    "A": 15560222
+   },
+   "d2": {
+    "rank": 116,
+    "list_row": 116,
+    "name": "KillaT",
+    "P": 168208720,
+    "K": 7132285431,
+    "A": 257000
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0133",
+    "canon": "ТагилРу",
+    "screen": "ТагилРу",
+    "rank": 131,
+    "P": 150419811,
+    "K": 1169348935,
+    "A": 15073487
+   },
+   "d2": {
+    "rank": 117,
+    "list_row": 117,
+    "name": "ТагилРу",
+    "P": 168160276,
+    "K": 1169348935,
+    "A": 4369862
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0165",
+    "canon": "ioRi yaGami",
+    "screen": "ioRi yaGami",
+    "rank": 122,
+    "P": 152977134,
+    "K": 7179863646,
+    "A": 19843249
+   },
+   "d2": {
+    "rank": 118,
+    "list_row": 118,
+    "name": "ioRi yaGami",
+    "P": 168146254,
+    "K": 7179863707,
+    "A": 630517
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0119",
+    "canon": "Quang Vi",
+    "screen": "Quang Vi",
+    "rank": 125,
+    "P": 151377107,
+    "K": 1741572627,
+    "A": 9182531
+   },
+   "d2": {
+    "rank": 119,
+    "list_row": 119,
+    "name": "Quang Vi",
+    "P": 167968499,
+    "K": 1741572627,
+    "A": 4048830
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0076",
+    "canon": "peacefall",
+    "screen": "peacefall",
+    "rank": 108,
+    "P": 156717219,
+    "K": 3691010717,
+    "A": 18210237
+   },
+   "d2": {
+    "rank": 120,
+    "list_row": 120,
+    "name": "peacefall",
+    "P": 167086349,
+    "K": 3691010717,
+    "A": 3893700
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0091",
+    "canon": "Peace",
+    "screen": "Peace",
+    "rank": 103,
+    "P": 160103505,
+    "K": 4124715749,
+    "A": 96785567
+   },
+   "d2": {
+    "rank": 121,
+    "list_row": 121,
+    "name": "Peace",
+    "P": 167020627,
+    "K": 4124715749,
+    "A": 105266082
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0114",
+    "canon": "nirr",
+    "screen": "nirr",
+    "rank": 126,
+    "P": 151306226,
+    "K": 3314371634,
+    "A": 449000
+   },
+   "d2": {
+    "rank": 122,
+    "list_row": 122,
+    "name": "nirr",
+    "P": 167020476,
+    "K": 3314371634,
+    "A": 9008744
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0131",
+    "canon": "Viddar160",
+    "screen": "Viddar160",
+    "rank": 97,
+    "P": 161150291,
+    "K": 571343743,
+    "A": 48788420
+   },
+   "d2": {
+    "rank": 123,
+    "list_row": 123,
+    "name": "Viddar160",
+    "P": 166559194,
+    "K": 571343743,
+    "A": 56690348
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0099",
+    "canon": "Peegee",
+    "screen": "Peegee",
+    "rank": 114,
+    "P": 155418569,
+    "K": 1825910955,
+    "A": 18763232
+   },
+   "d2": {
+    "rank": 124,
+    "list_row": 124,
+    "name": "Peegee",
+    "P": 166470310,
+    "K": 1825910955,
+    "A": 190200
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0069",
+    "canon": "Còi",
+    "screen": "Còi",
+    "rank": 127,
+    "P": 151158165,
+    "K": 3001347355,
+    "A": 579500
+   },
+   "d2": {
+    "rank": 125,
+    "list_row": 125,
+    "name": "Còi",
+    "P": 166448860,
+    "K": 3001347355,
+    "A": 8584839
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0055",
+    "canon": "BRAVE",
+    "screen": "BRAVE",
+    "rank": 110,
+    "P": 156423165,
+    "K": 6078407139,
+    "A": 18589919
+   },
+   "d2": {
+    "rank": 127,
+    "list_row": 127,
+    "name": "BRAVE",
+    "P": 164802657,
+    "K": 6078407139,
+    "A": 25312819
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0102",
+    "canon": "MR HuyCuong90",
+    "screen": "MR HuyCuong90",
+    "rank": 136,
+    "P": 148325935,
+    "K": 1757994525,
+    "A": 17669147
+   },
+   "d2": {
+    "rank": 128,
+    "list_row": 128,
+    "name": "MR HuyCuong90",
+    "P": 164726951,
+    "K": 1757994525,
+    "A": 390700
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0264",
+    "canon": "Vladislav",
+    "screen": "Vladislav",
+    "rank": 140,
+    "P": 146781003,
+    "K": 3116142010,
+    "A": 4937427
+   },
+   "d2": {
+    "rank": 129,
+    "list_row": 129,
+    "name": "Vladislav",
+    "P": 164443293,
+    "K": 3116142010,
+    "A": 4252013
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0107",
+    "canon": "SPUDIman",
+    "screen": "SPUDIman",
+    "rank": 129,
+    "P": 150948137,
+    "K": 984626000,
+    "A": 20100140
+   },
+   "d2": {
+    "rank": 130,
+    "list_row": 130,
+    "name": "SPUDlman",
+    "P": 164367892,
+    "K": 984626000,
+    "A": 26801309
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0148",
+    "canon": "nephew",
+    "screen": "nephew",
+    "rank": 152,
+    "P": 143587064,
+    "K": 3022950366,
+    "A": 4988100
+   },
+   "d2": {
+    "rank": 131,
+    "list_row": 131,
+    "name": "nephew",
+    "P": 163838184,
+    "K": 3022950366,
+    "A": 12853165
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0111",
+    "canon": "ДаНуНа",
+    "screen": "ДаНуНа",
+    "rank": 123,
+    "P": 152001394,
+    "K": 1897060853,
+    "A": 26225968
+   },
+   "d2": {
+    "rank": 132,
+    "list_row": 132,
+    "name": "ДаНуНа",
+    "P": 162936985,
+    "K": 1897060853,
+    "A": 34920467
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0202",
+    "canon": "EgoisT",
+    "screen": "EgoisT",
+    "rank": 124,
+    "P": 151469922,
+    "K": 1847713961,
+    "A": 15959016
+   },
+   "d2": {
+    "rank": 133,
+    "list_row": 133,
+    "name": "EgoisT",
+    "P": 162905591,
+    "K": 1847713961,
+    "A": 23783050
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0095",
+    "canon": "AMAK",
+    "screen": "AMAK",
+    "rank": 133,
+    "P": 150357365,
+    "K": 4854227988,
+    "A": 674600
+   },
+   "d2": {
+    "rank": 134,
+    "list_row": 134,
+    "name": "AMAK",
+    "P": 162630933,
+    "K": 4854227988,
+    "A": 66200
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0084",
+    "canon": "UHTRED BR",
+    "screen": "UHTRED BR",
+    "rank": 148,
+    "P": 144590159,
+    "K": 3260748489,
+    "A": 10807041
+   },
+   "d2": {
+    "rank": 135,
+    "list_row": 135,
+    "name": "UHTRED BR",
+    "P": 162401802,
+    "K": 3260748489,
+    "A": 19329225
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0112",
+    "canon": "zklmn",
+    "screen": "zklmn",
+    "rank": 137,
+    "P": 147753298,
+    "K": 1714675120,
+    "A": 23966022
+   },
+   "d2": {
+    "rank": 136,
+    "list_row": 136,
+    "name": "zklmn",
+    "P": 162241996,
+    "K": 1714675120,
+    "A": 32168248
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0156",
+    "canon": "ТиарА",
+    "screen": "ТиарА",
+    "rank": 117,
+    "P": 154086161,
+    "K": 791531858,
+    "A": 72700
+   },
+   "d2": {
+    "rank": 137,
+    "list_row": 137,
+    "name": "ТиарА",
+    "P": 162065320,
+    "K": 791531858,
+    "A": 8422352
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0260",
+    "canon": "FallenAngel",
+    "screen": "FallenAngel",
+    "rank": 134,
+    "P": 150251336,
+    "K": 4038284032,
+    "A": 4681866
+   },
+   "d2": {
+    "rank": 138,
+    "list_row": 138,
+    "name": "FallenAngel",
+    "P": 161591713,
+    "K": 4038284032,
+    "A": 13085476
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0262",
+    "canon": "VALN",
+    "screen": "VALN",
+    "rank": 147,
+    "P": 144667724,
+    "K": 1439281497,
+    "A": 4873779
+   },
+   "d2": {
+    "rank": 139,
+    "list_row": 139,
+    "name": "VALN",
+    "P": 160381161,
+    "K": 1439281497,
+    "A": 6589792
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0141",
+    "canon": "MarQ",
+    "screen": "MarQ",
+    "rank": 130,
+    "P": 150544654,
+    "K": 1443300830,
+    "A": 14851030
+   },
+   "d2": {
+    "rank": 140,
+    "list_row": 140,
+    "name": "MarQ",
+    "P": 160088946,
+    "K": 1443300830,
+    "A": 6986377
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0186",
+    "canon": "Rebel Valkyrie",
+    "screen": "Rebel Valkyrie",
+    "rank": 161,
+    "P": 139637910,
+    "K": 2768448070,
+    "A": 469400
+   },
+   "d2": {
+    "rank": 141,
+    "list_row": 141,
+    "name": "Rebel Valkyrie",
+    "P": 159888495,
+    "K": 2768448070,
+    "A": 8571600
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0067",
+    "canon": "Bonk",
+    "screen": "Bonk",
+    "rank": 142,
+    "P": 146342096,
+    "K": 3668900072,
+    "A": 382636
+   },
+   "d2": {
+    "rank": 142,
+    "list_row": 142,
+    "name": "Bonk",
+    "P": 159776804,
+    "K": 3668900072,
+    "A": 49500
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0138",
+    "canon": "Naineti",
+    "screen": "Naineti",
+    "rank": 157,
+    "P": 141787274,
+    "K": 1160465165,
+    "A": 98350230
+   },
+   "d2": {
+    "rank": 143,
+    "list_row": 143,
+    "name": "Naineti",
+    "P": 159763581,
+    "K": 1160465165,
+    "A": 106202399
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0136",
+    "canon": "x Kraken x",
+    "screen": "x Kraken x",
+    "rank": 119,
+    "P": 153906190,
+    "K": 1757101216,
+    "A": 62747079
+   },
+   "d2": {
+    "rank": 144,
+    "list_row": 144,
+    "name": "x Kraken x",
+    "P": 159439094,
+    "K": 1757101216,
+    "A": 70727779
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0130",
+    "canon": "KaRaSu",
+    "screen": "KaRaSu",
+    "rank": 132,
+    "P": 150410323,
+    "K": 1878170508,
+    "A": 91309397
+   },
+   "d2": {
+    "rank": 145,
+    "list_row": 145,
+    "name": "KaRaSu",
+    "P": 159318581,
+    "K": 1878170508,
+    "A": 99174187
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0116",
+    "canon": "Tinuviel",
+    "screen": "Tinuviel",
+    "rank": 128,
+    "P": 151128811,
+    "K": 1417118209,
+    "A": 94154416
+   },
+   "d2": {
+    "rank": 146,
+    "list_row": 146,
+    "name": "Tinuviel",
+    "P": 159221931,
+    "K": 1417118209,
+    "A": 102498736
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0117",
+    "canon": "Herooo",
+    "screen": "Herooo",
+    "rank": 144,
+    "P": 146032792,
+    "K": 1301872531,
+    "A": 9442332
+   },
+   "d2": {
+    "rank": 147,
+    "list_row": 147,
+    "name": "Herooo",
+    "P": 159200622,
+    "K": 1301872531,
+    "A": 17468434
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0142",
+    "canon": "Simona",
+    "screen": "Simona",
+    "rank": 154,
+    "P": 142811698,
+    "K": 6346455407,
+    "A": 4677100
+   },
+   "d2": {
+    "rank": 148,
+    "list_row": 148,
+    "name": "Simona",
+    "P": 158568145,
+    "K": 6346455407,
+    "A": 12565600
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0188",
+    "canon": "RAIJIN",
+    "screen": "RAIJIN",
+    "rank": 155,
+    "P": 142675362,
+    "K": 8438013831,
+    "A": 8220160
+   },
+   "d2": {
+    "rank": 149,
+    "list_row": 149,
+    "name": "RAIJIN",
+    "P": 158435567,
+    "K": 8438013831,
+    "A": 16916436
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0132",
+    "canon": "RusVikingGirl",
+    "screen": "RusVikingGirl",
+    "rank": 143,
+    "P": 146337871,
+    "K": 2682031897,
+    "A": 17029400
+   },
+   "d2": {
+    "rank": 150,
+    "list_row": 150,
+    "name": "RusVikingGirl",
+    "P": 158197683,
+    "K": 2682031897,
+    "A": 127600
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0261",
+    "canon": "BORYA ROCKSTAR",
+    "screen": "BORYA ROCKSTAR",
+    "rank": 138,
+    "P": 147425527,
+    "K": 4808734300,
+    "A": 4861300
+   },
+   "d2": {
+    "rank": 151,
+    "list_row": 151,
+    "name": "BORYA ROCKSTAR",
+    "P": 158162604,
+    "K": 4808734300,
+    "A": 13207600
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0161",
+    "canon": "QuangChau",
+    "screen": "QuangChau",
+    "rank": 160,
+    "P": 139806143,
+    "K": 1519758258,
+    "A": 43334780
+   },
+   "d2": {
+    "rank": 152,
+    "list_row": 152,
+    "name": "QuangChau",
+    "P": 158089252,
+    "K": 1519758258,
+    "A": 111200
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0096",
+    "canon": "Dima 1",
+    "screen": "Dima 1",
+    "rank": 180,
+    "P": 129715314,
+    "K": 1780321922,
+    "A": 83647093
+   },
+   "d2": {
+    "rank": 153,
+    "list_row": 153,
+    "name": "Dima 1",
+    "P": 157782102,
+    "K": 1780321922,
+    "A": 91849243
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0152",
+    "canon": "XxLilithxX",
+    "screen": "XxLilithxX",
+    "rank": 159,
+    "P": 140536787,
+    "K": 1784284005,
+    "A": 525860
+   },
+   "d2": {
+    "rank": 154,
+    "list_row": 154,
+    "name": "XxLilithxX",
+    "P": 157007786,
+    "K": 1784284005,
+    "A": 218900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0164",
+    "canon": "Nuca",
+    "screen": "Nuca",
+    "rank": 178,
+    "P": 130870224,
+    "K": 2101828535,
+    "A": 27571628
+   },
+   "d2": {
+    "rank": 155,
+    "list_row": 155,
+    "name": "Nuca",
+    "P": 156427247,
+    "K": 2101828535,
+    "A": 35892802
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0175",
+    "canon": "Bối Bối",
+    "screen": "Bối Bối",
+    "rank": 149,
+    "P": 144341481,
+    "K": 903132911,
+    "A": 18290842
+   },
+   "d2": {
+    "rank": 156,
+    "list_row": 156,
+    "name": "Bối Bối",
+    "P": 155488778,
+    "K": 903132911,
+    "A": 412500
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0183",
+    "canon": "Layla",
+    "screen": "Layla",
+    "rank": 164,
+    "P": 136904393,
+    "K": 1317619202,
+    "A": 16752225
+   },
+   "d2": {
+    "rank": 157,
+    "list_row": 157,
+    "name": "Layla",
+    "P": 154337653,
+    "K": 1317619202,
+    "A": 4840100
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0265",
+    "canon": "KRONUS",
+    "screen": "KRONUS",
+    "rank": 150,
+    "P": 144230001,
+    "K": 1125516589,
+    "A": 4765229
+   },
+   "d2": {
+    "rank": 158,
+    "list_row": 158,
+    "name": "KRONUS",
+    "P": 154016499,
+    "K": 1125516589,
+    "A": 13049810
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0094",
+    "canon": "Abadi",
+    "screen": "Abadi",
+    "rank": 141,
+    "P": 146433702,
+    "K": 1547677151,
+    "A": 57644758
+   },
+   "d2": {
+    "rank": 159,
+    "list_row": 159,
+    "name": "Abadi",
+    "P": 153855177,
+    "K": 1547677151,
+    "A": 65586618
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0263",
+    "canon": "Winchesterr",
+    "screen": "Winchesterr",
+    "rank": 146,
+    "P": 144730658,
+    "K": 2833217617,
+    "A": 642300
+   },
+   "d2": {
+    "rank": 160,
+    "list_row": 160,
+    "name": "Winchesterr",
+    "P": 153715841,
+    "K": 2833217617,
+    "A": 7815700
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0173",
+    "canon": "Witch",
+    "screen": "Witch",
+    "rank": 158,
+    "P": 140983482,
+    "K": 3107371606,
+    "A": 15333848
+   },
+   "d2": {
+    "rank": 161,
+    "list_row": 161,
+    "name": "Witch",
+    "P": 153288513,
+    "K": 3107371606,
+    "A": 63900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0170",
+    "canon": "Пуша",
+    "screen": "Пуша",
+    "rank": 169,
+    "P": 135223218,
+    "K": 2398539732,
+    "A": 655100
+   },
+   "d2": {
+    "rank": 162,
+    "list_row": 162,
+    "name": "Пуша",
+    "P": 151779634,
+    "K": 2398539732,
+    "A": 5893400
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0109",
+    "canon": "Starry Nights",
+    "screen": "Starry Nights",
+    "rank": 162,
+    "P": 138810859,
+    "K": 2472147393,
+    "A": 8475478
+   },
+   "d2": {
+    "rank": 163,
+    "list_row": 163,
+    "name": "Starry Nights",
+    "P": 150492993,
+    "K": 2472147393,
+    "A": 16358570
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"Enem\"",
+   "d1": {
+    "id": "R350-0160",
+    "canon": "ENèM",
+    "screen": "Enem",
+    "rank": 167,
+    "P": 136275965,
+    "K": 3633005764,
+    "A": 63549799
+   },
+   "d2": {
+    "rank": 164,
+    "list_row": 164,
+    "name": "Enem",
+    "P": 149218590,
+    "K": 3633005764,
+    "A": 7848271
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0167",
+    "canon": "Cros",
+    "screen": "Cros",
+    "rank": 151,
+    "P": 143746096,
+    "K": 852949174,
+    "A": 49038326
+   },
+   "d2": {
+    "rank": 165,
+    "list_row": 165,
+    "name": "Cros",
+    "P": 148675103,
+    "K": 852949174,
+    "A": 57223215
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0144",
+    "canon": "Macabeyi",
+    "screen": "Macabeyi",
+    "rank": 165,
+    "P": 136391435,
+    "K": 3812631057,
+    "A": 18604187
+   },
+   "d2": {
+    "rank": 166,
+    "list_row": 166,
+    "name": "Macabeyi",
+    "P": 148274726,
+    "K": 3812631057,
+    "A": 629100
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0121",
+    "canon": "FAKEINSHIT",
+    "screen": "FAKEINSHIT",
+    "rank": 175,
+    "P": 133108450,
+    "K": 2018579719,
+    "A": 60408806
+   },
+   "d2": {
+    "rank": 167,
+    "list_row": 167,
+    "name": "FAKEINSHIT",
+    "P": 147950718,
+    "K": 2018579719,
+    "A": 68448476
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0267",
+    "canon": "Severo",
+    "screen": "Severo",
+    "rank": 176,
+    "P": 131951412,
+    "K": 1213899164,
+    "A": 894502
+   },
+   "d2": {
+    "rank": 168,
+    "list_row": 168,
+    "name": "Severo",
+    "P": 147485798,
+    "K": 1213899164,
+    "A": 4898990
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0146",
+    "canon": "FishツKa",
+    "screen": "Fishツ Ka",
+    "rank": 153,
+    "P": 143563960,
+    "K": 686989293,
+    "A": 28411280
+   },
+   "d2": {
+    "rank": 169,
+    "list_row": 169,
+    "name": "FishツKa",
+    "P": 147254889,
+    "K": 686989293,
+    "A": 36050119
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0087",
+    "canon": "Mjølner",
+    "screen": "Mjølner",
+    "rank": 163,
+    "P": 137931041,
+    "K": 1165055339,
+    "A": 26177808
+   },
+   "d2": {
+    "rank": 170,
+    "list_row": 170,
+    "name": "Mjølner",
+    "P": 147200072,
+    "K": 1165055339,
+    "A": 34666098
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0179",
+    "canon": "Surgeon OfDeath",
+    "screen": "Surgeon OfDeath",
+    "rank": 168,
+    "P": 135957018,
+    "K": 3307711098,
+    "A": 18371307
+   },
+   "d2": {
+    "rank": 171,
+    "list_row": 171,
+    "name": "Surgeon OfDeath",
+    "P": 146614902,
+    "K": 3307711098,
+    "A": 26562891
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0151",
+    "canon": "Ma 5asaK",
+    "screen": "Ma 5asaK",
+    "rank": 156,
+    "P": 142491997,
+    "K": 1456935820,
+    "A": 54746662
+   },
+   "d2": {
+    "rank": 172,
+    "list_row": 172,
+    "name": "Ma 5asaK",
+    "P": 146337886,
+    "K": 1456935820,
+    "A": 62348177
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0176",
+    "canon": "Cold Blood",
+    "screen": "Cold Blood",
+    "rank": 173,
+    "P": 133525979,
+    "K": 1469247797,
+    "A": 15180927
+   },
+   "d2": {
+    "rank": 173,
+    "list_row": 173,
+    "name": "Cold Blood",
+    "P": 144454750,
+    "K": 1469247797,
+    "A": 4937900
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0212",
+    "canon": "Katrin195",
+    "screen": "Katrin195",
+    "rank": 179,
+    "P": 130044760,
+    "K": 497607203,
+    "A": 4502900
+   },
+   "d2": {
+    "rank": 174,
+    "list_row": 174,
+    "name": "Katrin195",
+    "P": 144068966,
+    "K": 497607203,
+    "A": 12859871
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0171",
+    "canon": "KanaeL",
+    "screen": "KanaeL",
+    "rank": 166,
+    "P": 136330161,
+    "K": 797707635,
+    "A": 61882181
+   },
+   "d2": {
+    "rank": 175,
+    "list_row": 175,
+    "name": "KanaeL",
+    "P": 143752819,
+    "K": 797707635,
+    "A": 70009816
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0181",
+    "canon": "Mqmr",
+    "screen": "Mqmr",
+    "rank": 181,
+    "P": 129423664,
+    "K": 4458978388,
+    "A": 14672088
+   },
+   "d2": {
+    "rank": 176,
+    "list_row": 176,
+    "name": "Mqmr",
+    "P": 142448706,
+    "K": 4458978388,
+    "A": 474300
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0196",
+    "canon": "Lucid Dream",
+    "screen": "Lucid Dream",
+    "rank": 177,
+    "P": 131220436,
+    "K": 3000221061,
+    "A": 25225813
+   },
+   "d2": {
+    "rank": 177,
+    "list_row": 177,
+    "name": "Lucid Dream",
+    "P": 142003668,
+    "K": 3000221061,
+    "A": 33487310
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0266",
+    "canon": "SERGEY ESENIN",
+    "screen": "SERGEY ESENIN",
+    "rank": 172,
+    "P": 133835384,
+    "K": 5791815757,
+    "A": 4639000
+   },
+   "d2": {
+    "rank": 178,
+    "list_row": 178,
+    "name": "SERGEY ESENIN",
+    "P": 140826505,
+    "K": 5791815757,
+    "A": 12812465
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0182",
+    "canon": "xxx KABUTO xxx",
+    "screen": "xxx KABUTO xxx",
+    "rank": 170,
+    "P": 134802526,
+    "K": 879054614,
+    "A": 59213954
+   },
+   "d2": {
+    "rank": 179,
+    "list_row": 179,
+    "name": "xxx KABUTO xxx",
+    "P": 139969002,
+    "K": 879054614,
+    "A": 67746928
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0270",
+    "canon": "Bec",
+    "screen": "Bec",
+    "rank": 184,
+    "P": 126039213,
+    "K": 3105993210,
+    "A": 4688800
+   },
+   "d2": {
+    "rank": 180,
+    "list_row": 180,
+    "name": "Bec",
+    "P": 138933978,
+    "K": 3105993210,
+    "A": 12691639
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"ĐaVoRa\"",
+   "d1": {
+    "id": "R350-0210",
+    "canon": "DaVoRa",
+    "screen": "ĐaVoRa",
+    "rank": 185,
+    "P": 125733239,
+    "K": 939836890,
+    "A": 16750008
+   },
+   "d2": {
+    "rank": 181,
+    "list_row": 181,
+    "name": "ĐaVoRa",
+    "P": 138191866,
+    "K": 939836890,
+    "A": 24688906
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"Zvyagovna\"",
+   "d1": {
+    "id": "R350-0195",
+    "canon": "MicroZvyagovna",
+    "screen": "Zvyagovna",
+    "rank": 171,
+    "P": 134311741,
+    "K": 710370758,
+    "A": 24359347
+   },
+   "d2": {
+    "rank": 182,
+    "list_row": 182,
+    "name": "Zvyagovna",
+    "P": 137693001,
+    "K": 710370758,
+    "A": 32203947
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0268",
+    "canon": "Ksatras",
+    "screen": "Ksatras",
+    "rank": 182,
+    "P": 129226977,
+    "K": 2104130270,
+    "A": 4601464
+   },
+   "d2": {
+    "rank": 183,
+    "list_row": 183,
+    "name": "Ksatras",
+    "P": 135300672,
+    "K": 2104130270,
+    "A": 12802811
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0187",
+    "canon": "D R A G 0 N",
+    "screen": "D R A G 0 N",
+    "rank": 174,
+    "P": 133205945,
+    "K": 2833268195,
+    "A": 8284687
+   },
+   "d2": {
+    "rank": 184,
+    "list_row": 184,
+    "name": "D R A G 0 N",
+    "P": 134668338,
+    "K": 2833268195,
+    "A": 491400
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0269",
+    "canon": "Veto4ka",
+    "screen": "Veto4ka",
+    "rank": 183,
+    "P": 126630271,
+    "K": 1036274905,
+    "A": 4586600
+   },
+   "d2": {
+    "rank": 185,
+    "list_row": 185,
+    "name": "Veto4ka",
+    "P": 134244208,
+    "K": 1036274905,
+    "A": 6441265
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0185",
+    "canon": "hugoelse",
+    "screen": "hugoelse",
+    "rank": 190,
+    "P": 122589253,
+    "K": 5460923291,
+    "A": 28752979
+   },
+   "d2": {
+    "rank": 186,
+    "list_row": 186,
+    "name": "hugoelse",
+    "P": 133327159,
+    "K": 5460923291,
+    "A": 37411428
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0189",
+    "canon": "Деонисс",
+    "screen": "Деонисс",
+    "rank": 192,
+    "P": 120412891,
+    "K": 856282541,
+    "A": 59241089
+   },
+   "d2": {
+    "rank": 187,
+    "list_row": 187,
+    "name": "Деонисс",
+    "P": 132204276,
+    "K": 856282541,
+    "A": 66877914
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0273",
+    "canon": "Lara4ka",
+    "screen": "Lara4ka",
+    "rank": 189,
+    "P": 122601166,
+    "K": 753891557,
+    "A": 4673826
+   },
+   "d2": {
+    "rank": 188,
+    "list_row": 188,
+    "name": "Lara4ka",
+    "P": 131519079,
+    "K": 753891557,
+    "A": 3953500
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0271",
+    "canon": "Tyr Olafsson",
+    "screen": "Tyr Olafsson",
+    "rank": 188,
+    "P": 123871546,
+    "K": 5968916477,
+    "A": 171900
+   },
+   "d2": {
+    "rank": 189,
+    "list_row": 189,
+    "name": "Tyr Olafsson",
+    "P": 131164446,
+    "K": 5968916477,
+    "A": 4820703
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0274",
+    "canon": "KsuKoX",
+    "screen": "KsuKoX",
+    "rank": 193,
+    "P": 119396563,
+    "K": 1114355533,
+    "A": 4668980
+   },
+   "d2": {
+    "rank": 190,
+    "list_row": 190,
+    "name": "KsuKoX",
+    "P": 129687191,
+    "K": 1114355533,
+    "A": 7502959
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0169",
+    "canon": "Anton152",
+    "screen": "Anton152",
+    "rank": 186,
+    "P": 125533110,
+    "K": 626898003,
+    "A": 8716974
+   },
+   "d2": {
+    "rank": 191,
+    "list_row": 191,
+    "name": "Anton152",
+    "P": 128360846,
+    "K": 626898003,
+    "A": 16914474
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0272",
+    "canon": "викинг 22",
+    "screen": "викинг 22",
+    "rank": 187,
+    "P": 124386084,
+    "K": 3634319100,
+    "A": 4662229
+   },
+   "d2": {
+    "rank": 192,
+    "list_row": 192,
+    "name": "викинг 22",
+    "P": 127375826,
+    "K": 3634319100,
+    "A": 12137780
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via alias screen name \"Leader392837282\"",
+   "d1": {
+    "id": "R350-0193",
+    "canon": "leader362717362",
+    "screen": "Leader392837282",
+    "rank": 191,
+    "P": 121990497,
+    "K": 1214919955,
+    "A": 82930778
+   },
+   "d2": {
+    "rank": 193,
+    "list_row": 193,
+    "name": "Leader392837282",
+    "P": 126600767,
+    "K": 1214919955,
+    "A": 90508478
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0217",
+    "canon": "kira21",
+    "screen": "kira21",
+    "rank": 194,
+    "P": 111231939,
+    "K": 450287336,
+    "A": 15915830
+   },
+   "d2": {
+    "rank": 194,
+    "list_row": 194,
+    "name": "kira21",
+    "P": 124861250,
+    "K": 450287336,
+    "A": 7567888
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0275",
+    "canon": "dimon29epta",
+    "screen": "dimon29epta",
+    "rank": 195,
+    "P": 108902634,
+    "K": 3236827577,
+    "A": 4721900
+   },
+   "d2": {
+    "rank": 195,
+    "list_row": 195,
+    "name": "dimon29epta",
+    "P": 118538039,
+    "K": 3236827577,
+    "A": 12714518
+   }
+  },
+  {
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0198",
+    "canon": "Баночка",
+    "screen": "Баночка",
+    "rank": 197,
+    "P": 85148484,
+    "K": 110780163,
+    "A": 25618131
+   },
+   "d2": {
+    "rank": 196,
+    "list_row": 196,
+    "name": "Баночка",
+    "P": 85603903,
+    "K": 110780163,
+    "A": 33714654
+   }
+  }
+ ],
+ "departures": [
+  {
+   "evidence_type": "A",
+   "evidence": "Power falls between D2 rows 48 TRiSTAN (201,612,165) and 49 Axe Ex Mashina (199,604,593), observed adjacent in the same panel: YES",
+   "d1": {
+    "id": "R350-0025",
+    "canon": "Viktorvad",
+    "screen": "Viktorvad",
+    "rank": 35,
+    "P": 199640503,
+    "K": 7530972114,
+    "A": 6371926
+   }
+  },
+  {
+   "evidence_type": "A",
+   "evidence": "Power falls between D2 rows 114 54oLeNkA54 (169,043,423) and 115 Mumford (168,690,411), observed adjacent in the same panel: YES",
+   "d1": {
+    "id": "R350-0103",
+    "canon": "NYC Gangz",
+    "screen": "xxx LEGACY xxx",
+    "rank": 81,
+    "P": 169030293,
+    "K": 1176893224,
+    "A": 17895087
+   }
+  },
+  {
+   "evidence_type": "A",
+   "evidence": "Power falls between D2 rows 126 Doc7Ragnar (166,377,565) and 127 BRAVE (164,802,657), observed adjacent in the same panel: YES",
+   "d1": {
+    "id": "R350-0073",
+    "canon": "Grimmy",
+    "screen": "Grimmy",
+    "rank": 88,
+    "P": 166259569,
+    "K": 6931080433,
+    "A": 5255500
+   }
+  },
+  {
+   "evidence_type": "A",
+   "evidence": "Power falls between D2 rows 195 dimon29epta (118,538,039) and 196 Баночка (85,603,903), observed adjacent in the same panel: YES",
+   "d1": {
+    "id": "R350-0184",
+    "canon": "iLove350",
+    "screen": "iLove350",
+    "rank": 196,
+    "P": 107950373,
+    "K": 1627173555,
+    "A": 6643151
+   }
+  }
+ ],
+ "d2_only": [
+  {
+   "excluded": false,
+   "exclude_reason": null,
+   "rejoin_candidates": [
+    {
+     "id": "R350-0062",
+     "name": "K25",
+     "last_seen": "2026-09-06",
+     "days": 46,
+     "dKP_pct": 0.0,
+     "pct_per_day": 0.0,
+     "dPower_pct": 10.43,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": true,
+     "rejected": false
+    },
+    {
+     "id": "R350-0088",
+     "name": "GRiZLiK 18 rus",
+     "last_seen": "2026-09-06",
+     "days": 46,
+     "dKP_pct": 5.459,
+     "pct_per_day": 0.119,
+     "dPower_pct": 18.88,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": false,
+     "rejected": false
+    },
+    {
+     "id": "R350-0129",
+     "name": "SKORP",
+     "last_seen": "2026-09-06",
+     "days": 46,
+     "dKP_pct": 40.336,
+     "pct_per_day": 0.877,
+     "dPower_pct": 29.73,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": false,
+     "rejected": false
+    }
+   ],
+   "name_in_recent_notes": false,
+   "d2": {
+    "rank": 44,
+    "list_row": 44,
+    "name": "K25",
+    "P": 202903645,
+    "K": 2344873263,
+    "A": 4230700
+   }
+  },
+  {
+   "excluded": false,
+   "exclude_reason": null,
+   "rejoin_candidates": [
+    {
+     "id": "R350-0040",
+     "name": "Pisos",
+     "last_seen": "2026-09-11",
+     "days": 41,
+     "dKP_pct": 0.0,
+     "pct_per_day": 0.0,
+     "dPower_pct": 2.7,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": false,
+     "rejected": true
+    }
+   ],
+   "name_in_recent_notes": false,
+   "d2": {
+    "rank": 51,
+    "list_row": 51,
+    "name": "contactmeboys",
+    "P": 199227059,
+    "K": 6370896410,
+    "A": 5047606
+   }
+  },
+  {
+   "excluded": false,
+   "exclude_reason": null,
+   "rejoin_candidates": [
+    {
+     "id": "R350-0123",
+     "name": "Doc7Ragnar",
+     "last_seen": "2026-09-06",
+     "days": 46,
+     "dKP_pct": 0.0,
+     "pct_per_day": 0.0,
+     "dPower_pct": 5.09,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": true,
+     "rejected": false
+    },
+    {
+     "id": "R350-0155",
+     "name": "marquinhozulu",
+     "last_seen": "2026-09-06",
+     "days": 46,
+     "dKP_pct": 0.385,
+     "pct_per_day": 0.008,
+     "dPower_pct": 5.92,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": false,
+     "rejected": false
+    },
+    {
+     "id": "R350-0191",
+     "name": "Death Note",
+     "last_seen": "2026-09-06",
+     "days": 46,
+     "dKP_pct": 2.489,
+     "pct_per_day": 0.054,
+     "dPower_pct": 19.95,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": false,
+     "rejected": false
+    },
+    {
+     "id": "R350-0247",
+     "name": "RelaxBaby",
+     "last_seen": "2026-08-10",
+     "days": 73,
+     "dKP_pct": 7.692,
+     "pct_per_day": 0.105,
+     "dPower_pct": 7.85,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": false,
+     "rejected": false
+    },
+    {
+     "id": "R350-0249",
+     "name": "ZvyagovnaHelp",
+     "last_seen": "2026-08-15",
+     "days": 68,
+     "dKP_pct": 7.12,
+     "pct_per_day": 0.105,
+     "dPower_pct": 18.12,
+     "other_d2_rows_pointing_here": [],
+     "confirmed": false,
+     "rejected": false
+    }
+   ],
+   "name_in_recent_notes": false,
+   "d2": {
+    "rank": 126,
+    "list_row": 126,
+    "name": "Doc7Ragnar",
+    "P": 166377565,
+    "K": 939357476,
+    "A": 4871800
+   }
+  }
+ ],
+ "anomalies": [
+  {
+   "kind": "act_reset",
+   "detail": "Act 17,989,232 -> 1,600 (leave/rejoin?)",
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0018",
+    "canon": "ZVYAG",
+    "screen": "ZVYAG",
+    "rank": 18,
+    "P": 222430787,
+    "K": 18606936752,
+    "A": 17989232
+   },
+   "d2": {
+    "rank": 20,
+    "list_row": 20,
+    "name": "ZVYAG",
+    "P": 234052328,
+    "K": 18606936752,
+    "A": 1600
+   }
+  },
+  {
+   "kind": "act_reset",
+   "detail": "Act 8,855,861 -> 0 (leave/rejoin?)",
+   "mtype": "exact",
+   "pass": 1,
+   "status": "confirmed",
+   "note": "Exact name match (Pass 1) via canonical",
+   "d1": {
+    "id": "R350-0061",
+    "canon": "FalconN",
+    "screen": "FalconN",
+    "rank": 62,
+    "P": 175841576,
+    "K": 2581937846,
+    "A": 8855861
+   },
+   "d2": {
+    "rank": 65,
+    "list_row": 65,
+    "name": "FalconN",
+    "P": 190898713,
+    "K": 2581937846,
+    "A": 0
+   }
+  }
+ ]
+}

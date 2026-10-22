@@ -1,0 +1,52 @@
+{
+ "capture_date_confirmed": true,
+ "ui_count": 196,
+ "confirmed_pairs": [
+  {
+   "d1_id": "R350-0008",
+   "d2_rank": 7,
+   "said": "Chow 22/10: giu ten cu CRx StalinIV, khong doi",
+   "date": "2026-10-22"
+  },
+  {
+   "d1_id": "R350-0044",
+   "d2_rank": 78,
+   "said": "Chow 22/10: giu ten cu KatáløņEc, khong doi",
+   "date": "2026-10-22"
+  },
+  {
+   "d1_id": "R350-0074",
+   "d2_rank": 95,
+   "said": "Chow 22/10: giu ten cu Simeply, khong doi",
+   "date": "2026-10-22"
+  }
+ ],
+ "rejected_pairs": [],
+ "confirmed_rejoins": [
+  {
+   "id": "R350-0062",
+   "d2_rank": 44,
+   "said": "Chow 22/10: ok (self-decided: cung ten K25, dKP 0%)",
+   "date": "2026-10-22"
+  },
+  {
+   "id": "R350-0123",
+   "d2_rank": 126,
+   "said": "Chow 22/10: ok (self-decided: cung ten Doc7Ragnar, dKP 0%)",
+   "date": "2026-10-22"
+  }
+ ],
+ "rejected_rejoins": [
+  {
+   "id": "R350-0040",
+   "d2_rank": 51,
+   "said": "Chow 22/10: ok (self-decided safest: ten khac han Pisos vs contactmeboys -> thanh vien moi)",
+   "date": "2026-10-22"
+  }
+ ],
+ "exclude_d2": [],
+ "departures_confirmed": true,
+ "canonical_renames": [],
+ "snapshot_note_extra": "Chow 22/10: giu nguyen ten canonical cu (Chugush, CRx StalinIV, KatáløņEc, Simeply); contactmeboys (dong 51) la thanh vien moi.",
+ "note_i18n": null
+}
