@@ -1,0 +1,163 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 190,
+ "resolution": "1568x884",
+ "calibration": {
+  "table_band_y": [
+   275,
+   830
+  ],
+  "band_px": 555,
+  "scroll_crop_x": [
+   285,
+   1195
+  ],
+  "name_column_x": [
+   295,
+   520
+  ],
+  "pitch_px": 96.506,
+  "pitch_method": "median of 2701 multi-interval row-centre gaps, SE 0.027",
+  "c_1": 67.9,
+  "c_N_settled": 491.2
+ },
+ "scroll": {
+  "dy_range": [
+   -390,
+   390
+  ],
+  "minovl": 150,
+  "span_mae_only": 9141.0,
+  "span_after_row_template": 9430.0,
+  "max_dy": 324,
+  "min_dy": -72,
+  "max_mae": 11.204,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [],
+  "corrections": [
+   {
+    "a": "frames/f_0162.jpg",
+    "b": "frames/f_0163.jpg",
+    "mae_dy": -155,
+    "mae": 7.505,
+    "margin": 0.876,
+    "tmpl_dy": 38.42,
+    "support": 4,
+    "delta": 193.42,
+    "k_pitch": 2.004
+   },
+   {
+    "a": "frames/f_0163.jpg",
+    "b": "frames/f_0164.jpg",
+    "mae_dy": 32,
+    "mae": 11.204,
+    "margin": 2.117,
+    "tmpl_dy": 225.34,
+    "support": 3,
+    "delta": 193.34,
+    "k_pitch": 2.003
+   },
+   {
+    "a": "frames/f_0167.jpg",
+    "b": "frames/f_0168.jpg",
+    "mae_dy": 96,
+    "mae": 7.095,
+    "margin": 1.169,
+    "tmpl_dy": -0.53,
+    "support": 5,
+    "delta": -96.53,
+    "k_pitch": -1.0
+   }
+  ],
+  "seam_verification": {
+   "f_0162->f_0163,f_0163->f_0164,f_0167->f_0168": {
+    "wide_pair": "f_0158->f_0168",
+    "expected_sum": 358,
+    "mae_wide": 360,
+    "template_wide": 359.77,
+    "verdict": "VALIDATED"
+   }
+  },
+  "support_lt_2_seams_resolved": true
+ },
+ "overscroll": {
+  "peak_scroll": 9502.0,
+  "peak_frame": "frames/f_0184.jpg",
+  "settled_scroll": 9430.0,
+  "settled_from_frame": "frames/f_0185.jpg",
+  "overscroll_frames": [
+   "frames/f_0183.jpg",
+   "frames/f_0184.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 275..405, x 285..1195",
+  "baseline": -8.76,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0034.jpg",
+   "frames/f_0035.jpg",
+   "frames/f_0036.jpg",
+   "frames/f_0037.jpg",
+   "frames/f_0038.jpg",
+   "frames/f_0039.jpg",
+   "frames/f_0040.jpg",
+   "frames/f_0163.jpg",
+   "frames/f_0164.jpg",
+   "frames/f_0165.jpg",
+   "frames/f_0166.jpg",
+   "frames/f_0167.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 100,
+  "longest_dup_cluster": 7,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 27,
+  "maxstep": 458.5,
+  "step_min": 198.0,
+  "step_max": 447.0,
+  "gaps_over_maxstep": []
+ },
+ "stitches": {
+  "count": 7,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 199,
+  "grid_phase_test": {
+   "197": {
+    "expected_span": 18491.9,
+    "delta_px": -9061.9,
+    "delta_rows": -93.9
+   },
+   "198": {
+    "expected_span": 18588.4,
+    "delta_px": -9158.4,
+    "delta_rows": -94.9
+   },
+   "199": {
+    "expected_span": 18684.9,
+    "delta_px": -9254.9,
+    "delta_rows": -95.9
+   },
+   "200": {
+    "expected_span": 18781.4,
+    "delta_px": -9351.4,
+    "delta_rows": -96.9
+   },
+   "201": {
+    "expected_span": 18877.9,
+    "delta_px": -9447.9,
+    "delta_rows": -97.9
+   }
+  },
+  "bottom_of_list_test": 103.47,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}

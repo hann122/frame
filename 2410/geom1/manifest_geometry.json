@@ -1,0 +1,272 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 182,
+ "resolution": "1568x884",
+ "calibration": {
+  "table_band_y": [
+   275,
+   830
+  ],
+  "band_px": 555,
+  "scroll_crop_x": [
+   285,
+   1195
+  ],
+  "name_column_x": [
+   295,
+   520
+  ],
+  "pitch_px": 96.473,
+  "pitch_method": "median of 2609 multi-interval row-centre gaps, SE 0.054",
+  "c_1": 52.6,
+  "c_N_settled": 466.7
+ },
+ "scroll": {
+  "dy_range": [
+   -390,
+   390
+  ],
+  "minovl": 150,
+  "span_mae_only": 8855.0,
+  "span_after_row_template": 9531.0,
+  "max_dy": 309,
+  "min_dy": -12,
+  "max_mae": 11.623,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [
+   {
+    "a": "frames/f_0029.jpg",
+    "b": "frames/f_0030.jpg",
+    "dy": -115,
+    "mae": 8.788,
+    "margin": 0.786
+   },
+   {
+    "a": "frames/f_0057.jpg",
+    "b": "frames/f_0058.jpg",
+    "dy": -96,
+    "mae": 7.346,
+    "margin": 0.768
+   },
+   {
+    "a": "frames/f_0062.jpg",
+    "b": "frames/f_0063.jpg",
+    "dy": 111,
+    "mae": 7.878,
+    "margin": 0.034
+   },
+   {
+    "a": "frames/f_0090.jpg",
+    "b": "frames/f_0091.jpg",
+    "dy": -97,
+    "mae": 8.187,
+    "margin": 0.374
+   },
+   {
+    "a": "frames/f_0135.jpg",
+    "b": "frames/f_0136.jpg",
+    "dy": 281,
+    "mae": 5.277,
+    "margin": 0.57
+   },
+   {
+    "a": "frames/f_0162.jpg",
+    "b": "frames/f_0163.jpg",
+    "dy": 0,
+    "mae": 8.249,
+    "margin": 0.322
+   },
+   {
+    "a": "frames/f_0181.jpg",
+    "b": "frames/f_0182.jpg",
+    "dy": 275,
+    "mae": 5.634,
+    "margin": 0.701
+   }
+  ],
+  "corrections": [
+   {
+    "a": "frames/f_0029.jpg",
+    "b": "frames/f_0030.jpg",
+    "mae_dy": -115,
+    "mae": 8.788,
+    "margin": 0.786,
+    "tmpl_dy": 174.99,
+    "support": 3,
+    "delta": 289.99,
+    "k_pitch": 3.006
+   },
+   {
+    "a": "frames/f_0057.jpg",
+    "b": "frames/f_0058.jpg",
+    "mae_dy": -96,
+    "mae": 7.346,
+    "margin": 0.768,
+    "tmpl_dy": 0.96,
+    "support": 5,
+    "delta": 96.96,
+    "k_pitch": 1.005
+   },
+   {
+    "a": "frames/f_0060.jpg",
+    "b": "frames/f_0061.jpg",
+    "mae_dy": -4,
+    "mae": 8.909,
+    "margin": 3.412,
+    "tmpl_dy": 91.79,
+    "support": 4,
+    "delta": 95.79,
+    "k_pitch": 0.993
+   },
+   {
+    "a": "frames/f_0061.jpg",
+    "b": "frames/f_0062.jpg",
+    "mae_dy": -20,
+    "mae": 11.623,
+    "margin": 2.03,
+    "tmpl_dy": 172.82,
+    "support": 3,
+    "delta": 192.82,
+    "k_pitch": 1.999
+   },
+   {
+    "a": "frames/f_0062.jpg",
+    "b": "frames/f_0063.jpg",
+    "mae_dy": 111,
+    "mae": 7.878,
+    "margin": 0.034,
+    "tmpl_dy": 14.05,
+    "support": 5,
+    "delta": -96.95,
+    "k_pitch": -1.005
+   },
+   {
+    "a": "frames/f_0090.jpg",
+    "b": "frames/f_0091.jpg",
+    "mae_dy": -97,
+    "mae": 8.187,
+    "margin": 0.374,
+    "tmpl_dy": 0.1,
+    "support": 5,
+    "delta": 97.1,
+    "k_pitch": 1.006
+   }
+  ],
+  "seam_verification": {
+   "f_0029->f_0030": {
+    "wide_pair": "f_0025->f_0035",
+    "expected_sum": 388,
+    "mae_wide": 388,
+    "template_wide": 388.36,
+    "verdict": "VALIDATED"
+   },
+   "f_0057->f_0058,f_0060->f_0061,f_0061->f_0062": {
+    "wide_pair": "f_0057->f_0062",
+    "expected_sum": 266,
+    "template_wide": 265.73,
+    "note": "MAE wide gave -121 (pitch alias, 4 pitches off); template consensus matches",
+    "verdict": "VALIDATED"
+   },
+   "f_0060->f_0061,f_0061->f_0062,f_0062->f_0063": {
+    "wide_pair": "f_0058->f_0063",
+    "expected_sum": 279,
+    "mae_wide": 279,
+    "template_wide": 278.93,
+    "verdict": "VALIDATED"
+   },
+   "f_0090->f_0091": {
+    "wide_pair": "f_0089->f_0094",
+    "expected_sum": -9,
+    "template_wide": -9.15,
+    "note": "MAE wide gave -106 (1 pitch alias); template consensus matches",
+    "verdict": "VALIDATED"
+   }
+  },
+  "support_lt_2_seams_resolved": true
+ },
+ "overscroll": {
+  "peak_scroll": 9531.0,
+  "peak_frame": "frames/f_0182.jpg",
+  "settled_scroll": 9531.0,
+  "settled_from_frame": "frames/f_0182.jpg",
+  "overscroll_frames": []
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 275..405, x 285..1195",
+  "baseline": -8.74,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0030.jpg",
+   "frames/f_0031.jpg",
+   "frames/f_0032.jpg",
+   "frames/f_0033.jpg",
+   "frames/f_0034.jpg",
+   "frames/f_0058.jpg",
+   "frames/f_0059.jpg",
+   "frames/f_0060.jpg",
+   "frames/f_0061.jpg",
+   "frames/f_0062.jpg",
+   "frames/f_0091.jpg",
+   "frames/f_0092.jpg",
+   "frames/f_0093.jpg",
+   "frames/f_0094.jpg",
+   "frames/f_0095.jpg",
+   "frames/f_0163.jpg",
+   "frames/f_0164.jpg",
+   "frames/f_0165.jpg",
+   "frames/f_0166.jpg",
+   "frames/f_0167.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 97,
+  "longest_dup_cluster": 7,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 27,
+  "maxstep": 458.5,
+  "step_min": 274.0,
+  "step_max": 457.0,
+  "gaps_over_maxstep": []
+ },
+ "stitches": {
+  "count": 7,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 199,
+  "grid_phase_test": {
+   "197": {
+    "expected_span": 18494.7,
+    "delta_px": -8963.7,
+    "delta_rows": -92.914
+   },
+   "198": {
+    "expected_span": 18591.2,
+    "delta_px": -9060.2,
+    "delta_rows": -93.914
+   },
+   "199": {
+    "expected_span": 18687.6,
+    "delta_px": -9156.6,
+    "delta_rows": -94.914
+   },
+   "200": {
+    "expected_span": 18784.1,
+    "delta_px": -9253.1,
+    "delta_rows": -95.914
+   },
+   "201": {
+    "expected_span": 18880.6,
+    "delta_px": -9349.6,
+    "delta_rows": -96.914
+   }
+  },
+  "bottom_of_list_test": 104.55,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
