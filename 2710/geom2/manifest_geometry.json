@@ -1,0 +1,221 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 167,
+ "resolution": "1568x884",
+ "calibration": {
+  "table_band_y": [
+   275,
+   830
+  ],
+  "band_px": 555,
+  "scroll_crop_x": [
+   285,
+   1195
+  ],
+  "name_column_x": [
+   295,
+   520
+  ],
+  "pitch_px": 96.492,
+  "pitch_method": "median of 2366 multi-interval row-centre gaps, SE 0.060",
+  "c_1": 48.8,
+  "c_N_settled": 491.3
+ },
+ "scroll": {
+  "dy_range": [
+   -390,
+   390
+  ],
+  "minovl": 150,
+  "span_mae_only": 8436.0,
+  "span_after_row_template": 8710.0,
+  "max_dy": 316,
+  "min_dy": -32,
+  "max_mae": 11.153,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [
+   {
+    "a": "frames/f_0045.jpg",
+    "b": "frames/f_0046.jpg",
+    "dy": 0,
+    "mae": 7.557,
+    "margin": 0.26
+   },
+   {
+    "a": "frames/f_0112.jpg",
+    "b": "frames/f_0113.jpg",
+    "dy": -95,
+    "mae": 7.893,
+    "margin": 0.302
+   },
+   {
+    "a": "frames/f_0124.jpg",
+    "b": "frames/f_0125.jpg",
+    "dy": 96,
+    "mae": 8.122,
+    "margin": 0.145
+   }
+  ],
+  "corrections": [
+   {
+    "a": "frames/f_0040.jpg",
+    "b": "frames/f_0041.jpg",
+    "mae_dy": -96,
+    "mae": 7.344,
+    "margin": 1.123,
+    "tmpl_dy": 0.26,
+    "support": 5,
+    "delta": 96.26,
+    "k_pitch": 0.998
+   },
+   {
+    "a": "frames/f_0112.jpg",
+    "b": "frames/f_0113.jpg",
+    "mae_dy": -95,
+    "mae": 7.893,
+    "margin": 0.302,
+    "tmpl_dy": 1.07,
+    "support": 5,
+    "delta": 96.07,
+    "k_pitch": 0.996
+   },
+   {
+    "a": "frames/f_0121.jpg",
+    "b": "frames/f_0122.jpg",
+    "mae_dy": -14,
+    "mae": 10.736,
+    "margin": 1.363,
+    "tmpl_dy": 179.09,
+    "support": 3,
+    "delta": 193.09,
+    "k_pitch": 2.001
+   },
+   {
+    "a": "frames/f_0122.jpg",
+    "b": "frames/f_0123.jpg",
+    "mae_dy": 15,
+    "mae": 11.153,
+    "margin": 1.179,
+    "tmpl_dy": 0.14,
+    "support": 2,
+    "delta": -14.86,
+    "k_pitch": -0.154
+   },
+   {
+    "a": "frames/f_0124.jpg",
+    "b": "frames/f_0125.jpg",
+    "mae_dy": 96,
+    "mae": 8.122,
+    "margin": 0.145,
+    "tmpl_dy": 0.02,
+    "support": 5,
+    "delta": -95.98,
+    "k_pitch": -0.995
+   }
+  ],
+  "seam_verification": {
+   "f_0122_to_f_0123_FALSE_CONSENSUS": {
+    "recorded_dy": 0,
+    "recorded_tmpl_dy": 0.14,
+    "support": 2,
+    "finding": "FALSE template consensus caused by static rally banner overlaying the name column. Visual check: f_0122 top rows Winchesterr/KRONUS, f_0123 top rows FAKEINSHIT/Mqmr -> true scroll is ~2 rows (~193px), NOT 0. Wide pair f_0118->f_0126 also failed (MAE dy=1, template None) because true scroll 372px is near dlim 400 and banner confuses matching. Consequence: cumulative scroll after f_0123 is undercounted by ~193px (~2 rows); stitch_meta row numbers for panels 20-26 are ~2 rows too low. Merge MUST use member-identity anchor (overlap with video 1), not script row numbers, for video 2 panels after this seam.",
+    "visual_evidence": "f_0121: Пуwa/Ma 5asaK/Winchesterr/KRONUS/FAKEINSHIT; f_0122: Winchesterr/KRONUS/FAKEINSHIT/Mqmr/Macabeyi; f_0123: FAKEINSHIT/Mqmr/Macabeyi/Katrin195/Witch; f_0126: FAKEINSHIT/Mqmr/Macabeyi/Katrin195/Witch (identical to f_0123)",
+    "validated_seams": {
+     "f_0040_to_f_0041": "wide f_0037->f_0046: MAE 152, template 151.96 vs expected 151 -> VALIDATED",
+     "f_0112_to_f_0113": "wide f_0110->f_0118: MAE 243, template 242.89 vs expected 241 -> VALIDATED",
+     "f_0121_to_f_0122": "visual 2-row shift (Пуwa/Ma 5asaK gone) + cluster context -> VALIDATED as ~179px"
+    }
+   }
+  },
+  "support_lt_2_seams_resolved": true
+ },
+ "overscroll": {
+  "peak_scroll": 8763.0,
+  "peak_frame": "frames/f_0162.jpg",
+  "settled_scroll": 8710.0,
+  "settled_from_frame": "frames/f_0164.jpg",
+  "overscroll_frames": [
+   "frames/f_0162.jpg",
+   "frames/f_0163.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 275..405, x 285..1195",
+  "baseline": -8.74,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0004.jpg",
+   "frames/f_0005.jpg",
+   "frames/f_0006.jpg",
+   "frames/f_0007.jpg",
+   "frames/f_0008.jpg",
+   "frames/f_0009.jpg",
+   "frames/f_0041.jpg",
+   "frames/f_0042.jpg",
+   "frames/f_0043.jpg",
+   "frames/f_0044.jpg",
+   "frames/f_0045.jpg",
+   "frames/f_0113.jpg",
+   "frames/f_0114.jpg",
+   "frames/f_0115.jpg",
+   "frames/f_0116.jpg",
+   "frames/f_0117.jpg",
+   "frames/f_0120.jpg",
+   "frames/f_0121.jpg",
+   "frames/f_0122.jpg",
+   "frames/f_0123.jpg",
+   "frames/f_0124.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 90,
+  "longest_dup_cluster": 9,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 26,
+  "maxstep": 458.5,
+  "step_min": 62.0,
+  "step_max": 453.0,
+  "gaps_over_maxstep": []
+ },
+ "stitches": {
+  "count": 7,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 198,
+  "grid_phase_test": {
+   "196": {
+    "expected_span": 18373.4,
+    "delta_px": -9663.4,
+    "delta_rows": -100.147
+   },
+   "197": {
+    "expected_span": 18469.9,
+    "delta_px": -9759.9,
+    "delta_rows": -101.147
+   },
+   "198": {
+    "expected_span": 18566.3,
+    "delta_px": -9856.3,
+    "delta_rows": -102.147
+   },
+   "199": {
+    "expected_span": 18662.8,
+    "delta_px": -9952.8,
+    "delta_rows": -103.147
+   },
+   "200": {
+    "expected_span": 18759.3,
+    "delta_px": -10049.3,
+    "delta_rows": -104.147
+   }
+  },
+  "bottom_of_list_test": 96.02,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
