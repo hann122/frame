@@ -1,0 +1,103 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 181,
+ "resolution": "1568x884",
+ "calibration": {
+  "table_band_y": [
+   275,
+   830
+  ],
+  "band_px": 555,
+  "scroll_crop_x": [
+   285,
+   1195
+  ],
+  "name_column_x": [
+   295,
+   520
+  ],
+  "pitch_px": 96.438,
+  "pitch_method": "median of 2650 multi-interval row-centre gaps, SE 0.022",
+  "c_1": 52.7,
+  "c_N_settled": 451.7
+ },
+ "scroll": {
+  "dy_range": [
+   -390,
+   390
+  ],
+  "minovl": 150,
+  "span_mae_only": 8663.0,
+  "span_after_row_template": 8663.0,
+  "max_dy": 317,
+  "min_dy": 0,
+  "max_mae": 5.573,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [],
+  "corrections": []
+ },
+ "overscroll": {
+  "peak_scroll": 8663.0,
+  "peak_frame": "frames/f_0181.jpg",
+  "settled_scroll": 8663.0,
+  "settled_from_frame": "frames/f_0181.jpg",
+  "overscroll_frames": []
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 275..405, x 285..1195",
+  "baseline": -8.73,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": []
+ },
+ "dedupe": {
+  "viewports": 79,
+  "longest_dup_cluster": 10,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 24,
+  "maxstep": 458.6,
+  "step_min": 144.0,
+  "step_max": 446.0,
+  "gaps_over_maxstep": []
+ },
+ "stitches": {
+  "count": 6,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 199,
+  "grid_phase_test": {
+   "197": {
+    "expected_span": 18502.9,
+    "delta_px": -9839.9,
+    "delta_rows": -102.033
+   },
+   "198": {
+    "expected_span": 18599.3,
+    "delta_px": -9936.3,
+    "delta_rows": -103.033
+   },
+   "199": {
+    "expected_span": 18695.7,
+    "delta_px": -10032.7,
+    "delta_rows": -104.033
+   },
+   "200": {
+    "expected_span": 18792.2,
+    "delta_px": -10129.2,
+    "delta_rows": -105.033
+   },
+   "201": {
+    "expected_span": 18888.6,
+    "delta_px": -10225.6,
+    "delta_rows": -106.033
+   }
+  },
+  "bottom_of_list_test": 95.58,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
