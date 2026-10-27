@@ -1,0 +1,125 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 210,
+ "resolution": "1568x884",
+ "calibration": {
+  "table_band_y": [
+   275,
+   830
+  ],
+  "band_px": 555,
+  "scroll_crop_x": [
+   285,
+   1195
+  ],
+  "name_column_x": [
+   295,
+   520
+  ],
+  "pitch_px": 96.482,
+  "pitch_method": "median of 2961 multi-interval row-centre gaps, SE 0.018",
+  "c_1": 49.7,
+  "c_N_settled": 491.2
+ },
+ "scroll": {
+  "dy_range": [
+   -390,
+   390
+  ],
+  "minovl": 150,
+  "span_mae_only": 10372.0,
+  "span_after_row_template": 10372.0,
+  "max_dy": 352,
+  "min_dy": -75,
+  "max_mae": 5.66,
+  "support_lt_2_seams": 1,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [],
+  "corrections": [],
+  "seam_verification": [
+   {
+    "seam": "frames/f_0040.jpg -> frames/f_0041.jpg",
+    "per_seam_dy": 275,
+    "wide_pair": "frames/f_0035.jpg -> frames/f_0041.jpg",
+    "wide_pair_per_seam_sum": 318,
+    "wide_pair_template_cons": 318.39,
+    "verdict": "VALIDATED (diff 0.39px)"
+   }
+  ],
+  "support_lt_2_seams_resolved": true
+ },
+ "overscroll": {
+  "peak_scroll": 10404.0,
+  "peak_frame": "frames/f_0203.jpg",
+  "settled_scroll": 10372.0,
+  "settled_from_frame": "frames/f_0204.jpg",
+  "overscroll_frames": [
+   "frames/f_0203.jpg",
+   "frames/f_0208.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 275..405, x 285..1195",
+  "baseline": -8.74,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0042.jpg",
+   "frames/f_0043.jpg",
+   "frames/f_0044.jpg",
+   "frames/f_0045.jpg",
+   "frames/f_0046.jpg",
+   "frames/f_0047.jpg",
+   "frames/f_0048.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 99,
+  "longest_dup_cluster": 7,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 28,
+  "maxstep": 458.5,
+  "step_min": 275.0,
+  "step_max": 442.0,
+  "gaps_over_maxstep": []
+ },
+ "stitches": {
+  "count": 7,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 199,
+  "grid_phase_test": {
+   "197": {
+    "expected_span": 18469.1,
+    "delta_px": -8097.1,
+    "delta_rows": -83.923
+   },
+   "198": {
+    "expected_span": 18565.6,
+    "delta_px": -8193.6,
+    "delta_rows": -84.923
+   },
+   "199": {
+    "expected_span": 18662.0,
+    "delta_px": -8290.0,
+    "delta_rows": -85.923
+   },
+   "200": {
+    "expected_span": 18758.5,
+    "delta_px": -8386.5,
+    "delta_rows": -86.923
+   },
+   "201": {
+    "expected_span": 18855.0,
+    "delta_px": -8483.0,
+    "delta_rows": -87.923
+   }
+  },
+  "bottom_of_list_test": 113.25,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
