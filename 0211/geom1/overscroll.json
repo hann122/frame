@@ -1,0 +1,10 @@
+{
+ "peak_scroll": 17283.0,
+ "peak_frame": "frames/f_0292.jpg",
+ "settled_scroll": 17232.0,
+ "settled_from_frame": "frames/f_0293.jpg",
+ "overscroll_frames": [
+  "frames/f_0291.jpg",
+  "frames/f_0292.jpg"
+ ]
+}

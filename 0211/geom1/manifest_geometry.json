@@ -1,0 +1,227 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 300,
+ "resolution": "1440x812",
+ "calibration": {
+  "table_band_y": [
+   253,
+   762
+  ],
+  "band_px": 509,
+  "scroll_crop_x": [
+   262,
+   1098
+  ],
+  "name_column_x": [
+   271,
+   478
+  ],
+  "pitch_px": 88.663,
+  "pitch_method": "median of 4321 multi-interval row-centre gaps, SE 0.027",
+  "c_1": 48.2,
+  "c_N_settled": 450.1
+ },
+ "scroll": {
+  "dy_range": [
+   -358,
+   358
+  ],
+  "minovl": 138,
+  "span_mae_only": 16931.0,
+  "span_after_row_template": 17232.0,
+  "max_dy": 322,
+  "min_dy": -51,
+  "max_mae": 12.111,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [
+   {
+    "a": "frames/f_0136.jpg",
+    "b": "frames/f_0137.jpg",
+    "dy": -78,
+    "mae": 7.894,
+    "margin": 0.361
+   },
+   {
+    "a": "frames/f_0164.jpg",
+    "b": "frames/f_0165.jpg",
+    "dy": 89,
+    "mae": 6.834,
+    "margin": 0.086
+   },
+   {
+    "a": "frames/f_0272.jpg",
+    "b": "frames/f_0273.jpg",
+    "dy": -83,
+    "mae": 8.095,
+    "margin": 0.526
+   },
+   {
+    "a": "frames/f_0273.jpg",
+    "b": "frames/f_0274.jpg",
+    "dy": 0,
+    "mae": 12.111,
+    "margin": 0.218
+   },
+   {
+    "a": "frames/f_0277.jpg",
+    "b": "frames/f_0278.jpg",
+    "dy": 0,
+    "mae": 7.336,
+    "margin": 0.525
+   }
+  ],
+  "corrections": [
+   {
+    "a": "frames/f_0136.jpg",
+    "b": "frames/f_0137.jpg",
+    "mae_dy": -78,
+    "mae": 7.894,
+    "margin": 0.361,
+    "tmpl_dy": 10.71,
+    "support": 4,
+    "delta": 88.71,
+    "k_pitch": 1.001
+   },
+   {
+    "a": "frames/f_0159.jpg",
+    "b": "frames/f_0160.jpg",
+    "mae_dy": -88,
+    "mae": 6.562,
+    "margin": 1.071,
+    "tmpl_dy": 0.67,
+    "support": 5,
+    "delta": 88.67,
+    "k_pitch": 1.0
+   },
+   {
+    "a": "frames/f_0164.jpg",
+    "b": "frames/f_0165.jpg",
+    "mae_dy": 89,
+    "mae": 6.834,
+    "margin": 0.086,
+    "tmpl_dy": -0.09,
+    "support": 5,
+    "delta": -89.09,
+    "k_pitch": -1.005
+   },
+   {
+    "a": "frames/f_0272.jpg",
+    "b": "frames/f_0273.jpg",
+    "mae_dy": -83,
+    "mae": 8.095,
+    "margin": 0.526,
+    "tmpl_dy": 5.76,
+    "support": 5,
+    "delta": 88.76,
+    "k_pitch": 1.001
+   },
+   {
+    "a": "frames/f_0273.jpg",
+    "b": "frames/f_0274.jpg",
+    "mae_dy": 0,
+    "mae": 12.111,
+    "margin": 0.218,
+    "tmpl_dy": 123.05,
+    "support": 4,
+    "delta": 123.05,
+    "k_pitch": 1.388
+   }
+  ],
+  "seam_verification": {
+   "f_0136_to_f_0137": "VALIDATED wide pair f_0131->f_0141: per-seam sum 344.00 vs template consensus 343.0 (support 1, popup region), diff 1.0px - negligible vs 88.663px pitch.",
+   "f_0159_to_f_0160": "VALIDATED wide pair f_0155->f_0163: per-seam sum 349.00 vs template consensus 350.06 (support 1), diff 1.06px - negligible.",
+   "f_0164_to_f_0165": "VALIDATED wide pair f_0160->f_0168: per-seam sum 341.00 vs template consensus 340.97 (support 2), diff 0.03px.",
+   "f_0272_to_f_0273": "VALIDATED wide pair f_0267->f_0273: per-seam sum 353.00 vs template consensus 353.8 (support 1), diff 0.8px - negligible.",
+   "f_0273_to_f_0274": "VALIDATED wide pair f_0273->f_0278: per-seam sum 154.00 vs template consensus 153.82 (support 4), diff 0.18px."
+  }
+ },
+ "overscroll": {
+  "peak_scroll": 17283.0,
+  "peak_frame": "frames/f_0292.jpg",
+  "settled_scroll": 17232.0,
+  "settled_from_frame": "frames/f_0293.jpg",
+  "overscroll_frames": [
+   "frames/f_0291.jpg",
+   "frames/f_0292.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 253..383, x 262..1098",
+  "baseline": -8.75,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0130.jpg",
+   "frames/f_0131.jpg",
+   "frames/f_0132.jpg",
+   "frames/f_0133.jpg",
+   "frames/f_0134.jpg",
+   "frames/f_0135.jpg",
+   "frames/f_0137.jpg",
+   "frames/f_0138.jpg",
+   "frames/f_0139.jpg",
+   "frames/f_0140.jpg",
+   "frames/f_0141.jpg",
+   "frames/f_0160.jpg",
+   "frames/f_0161.jpg",
+   "frames/f_0162.jpg",
+   "frames/f_0163.jpg",
+   "frames/f_0164.jpg",
+   "frames/f_0273.jpg",
+   "frames/f_0274.jpg",
+   "frames/f_0275.jpg",
+   "frames/f_0276.jpg",
+   "frames/f_0277.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 184,
+  "longest_dup_cluster": 9,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 52,
+  "maxstep": 420.3,
+  "step_min": 136.0,
+  "step_max": 396.0,
+  "gaps_over_maxstep": []
+ },
+ "stitches": {
+  "count": 13,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 200,
+  "grid_phase_test": {
+   "198": {
+    "expected_span": 17064.8,
+    "delta_px": 167.2,
+    "delta_rows": 1.885
+   },
+   "199": {
+    "expected_span": 17153.5,
+    "delta_px": 78.5,
+    "delta_rows": 0.885
+   },
+   "200": {
+    "expected_span": 17242.2,
+    "delta_px": -10.2,
+    "delta_rows": -0.115
+   },
+   "201": {
+    "expected_span": 17330.8,
+    "delta_px": -98.8,
+    "delta_rows": -1.115
+   },
+   "202": {
+    "expected_span": 17419.5,
+    "delta_px": -187.5,
+    "delta_rows": -2.115
+   }
+  },
+  "bottom_of_list_test": 200.09,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
