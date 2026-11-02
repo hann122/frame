@@ -1,0 +1,112 @@
+{
+ "capture_date_confirmed": true,
+ "ui_count": 200,
+ "confirmed_pairs": [
+  {
+   "d1_id": "R350-0008",
+   "d2_rank": 9,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0069",
+   "d2_rank": 162,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0261",
+   "d2_rank": 140,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0164",
+   "d2_rank": 143,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0179",
+   "d2_rank": 173,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0195",
+   "d2_rank": 186,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0187",
+   "d2_rank": 181,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0217",
+   "d2_rank": 199,
+   "said": "chốt hết các cặp đổi tên",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0044",
+   "d2_rank": 81,
+   "said": "chốt cả 3 cặp ở số 3",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0137",
+   "d2_rank": 97,
+   "said": "chốt cả 3 cặp ở số 3",
+   "date": "2026-11-02"
+  },
+  {
+   "d1_id": "R350-0156",
+   "d2_rank": 125,
+   "said": "chốt cả 3 cặp ở số 3",
+   "date": "2026-11-02"
+  }
+ ],
+ "rejected_pairs": [],
+ "confirmed_rejoins": [
+  {
+   "id": "R350-0189",
+   "d2_rank": 192,
+   "said": "rejoin Деонисс là đúng",
+   "date": "2026-11-02"
+  }
+ ],
+ "rejected_rejoins": [
+  {
+   "id": "R350-0143",
+   "d2_rank": 192,
+   "said": "Consequential to Chow's verdict 'rejoin Деонисс là đúng' (2026-11-02): Stiven I is a wrong candidate for row 192 (different name, absent since 2026-09-06); rejected so row 192 is matched to R350-0189 Деонисс, not to a wrong old ID.",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "R350-0213",
+   "d2_rank": 192,
+   "said": "Consequential to Chow's verdict 'rejoin Деонисс là đúng' (2026-11-02): MOHISHAM XIII is a wrong candidate for row 192 (different name, absent since 2026-09-06); rejected.",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "R350-0085",
+   "d2_rank": 192,
+   "said": "Consequential to Chow's verdict 'rejoin Деонисс là đúng' (2026-11-02): Ali is a wrong candidate for row 192 (different name, absent since 2026-09-06); rejected.",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "R350-0162",
+   "d2_rank": 192,
+   "said": "Consequential to Chow's verdict 'rejoin Деонисс là đúng' (2026-11-02): Одуванчик is a wrong candidate for row 192 (different name, absent since 2026-09-06); rejected.",
+   "date": "2026-11-02"
+  }
+ ],
+ "exclude_d2": [],
+ "departures_confirmed": true,
+ "canonical_renames": [],
+ "snapshot_note_extra": "Chow 2026-11-02: confirmed all 8 rename pairs (CRx StalinIV->StalinV, Còi->Côi, BORYA ROCKSTAR llllllllllll, Nuca llllllllll, Surgeon OfDeath llllllllllll, Zvyagovna llllllllllll, D R A G 0 N->D R A G O N, kira21 kira is sleepy->kira need sleep), rejoin R350-0189 Деонисс (row 192), and all 3 section-3 pairs (KatalonEc->БукваЮ row 81, YouKnow->Xx Blodreina xX row 97, ТиарА->TиapA row 125). No-rename rule applied: all canonical names kept. No departures (left 0). Normal day per Chow (not migration/special). Act resets noted: 133tz 15,000->2,900; Thaunt 38,876,862->0. Simona back under canonical name Simona (llllllllllll alias drops).",
+ "note_i18n": null
+}
