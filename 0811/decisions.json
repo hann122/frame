@@ -1,0 +1,42 @@
+{
+ "capture_date_confirmed": true,
+ "ui_count": 198,
+ "confirmed_pairs": [
+  {"d1_id": "R350-0021", "d2_rank": 12, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0044", "d2_rank": 128, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0261", "d2_rank": 122, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0102", "d2_rank": 143, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0179", "d2_rank": 153, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0195", "d2_rank": 193, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0254", "d2_rank": 41, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0098", "d2_rank": 69, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0137", "d2_rank": 109, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0164", "d2_rank": 132, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0183", "d2_rank": 166, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0082", "d2_rank": 150, "said": "các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"d1_id": "R350-0133", "d2_rank": 127, "said": "TarunPy là ТагилРу", "date": "2026-11-08"}
+ ],
+ "rejected_pairs": [
+  {"d1_id": "R350-0133", "d2_rank": 177, "said": "Bác theo quyết của Chow (phương án B): TarunPy là ТагилРу (dòng 127); cặp script ТагилРу->kwitchypoo dòng 177 không đúng", "date": "2026-11-08"}
+ ],
+ "confirmed_rejoins": [
+  {"id": "R350-0192", "d2_rank": 177, "said": "kwitchpoo là 1 người cũ tên gần giống vậy trong DB, xem lại xem có thấy ko; các cặp còn lại ok hết", "date": "2026-11-08"},
+  {"id": "R350-0197", "d2_rank": 195, "said": "PrincessSunless rejoin + Nasty junior người mới --> ok", "date": "2026-11-08"}
+ ],
+ "rejected_rejoins": [
+  {"id": "R350-0139", "d2_rank": 127, "said": "Bác: dòng 127 TarunPy là ТагилРу (cặp đã xác nhận), không phải rejoin VotTakVot", "date": "2026-11-08"},
+  {"id": "R350-0166", "d2_rank": 127, "said": "Bác: dòng 127 TarunPy là ТагилРу (cặp đã xác nhận), không phải rejoin RoryWest", "date": "2026-11-08"},
+  {"id": "R350-0192", "d2_rank": 127, "said": "Bác: dòng 127 TarunPy là ТагилРу (cặp đã xác nhận); R350-0192 kwitchypoo là người của dòng 177 (rejoin đã xác nhận)", "date": "2026-11-08"},
+  {"id": "R350-0168", "d2_rank": 127, "said": "Bác: dòng 127 TarunPy là ТагилРу (cặp đã xác nhận), không phải rejoin Nana", "date": "2026-11-08"},
+  {"id": "R350-0178", "d2_rank": 127, "said": "Bác: dòng 127 TarunPy là ТагилРу (cặp đã xác nhận), không phải rejoin Cute foggy", "date": "2026-11-08"},
+  {"id": "R350-0235", "d2_rank": 195, "said": "Bác: dòng 195 PrincessSunless là rejoin R350-0197 (cùng tên), không phải Легионx", "date": "2026-11-08"},
+  {"id": "R350-0215", "d2_rank": 195, "said": "Bác: dòng 195 PrincessSunless là rejoin R350-0197 (cùng tên), không phải Alf der Held", "date": "2026-11-08"},
+  {"id": "R350-0214", "d2_rank": 195, "said": "Bác: dòng 195 PrincessSunless là rejoin R350-0197 (cùng tên), không phải CinouDZ", "date": "2026-11-08"},
+  {"id": "R350-0216", "d2_rank": 195, "said": "Bác: dòng 195 PrincessSunless là rejoin R350-0197 (cùng tên), không phải Джамбо123", "date": "2026-11-08"}
+ ],
+ "exclude_d2": [],
+ "departures_confirmed": true,
+ "canonical_renames": [],
+ "snapshot_note_extra": "Capture 2026-11-07 (Chow xac nhan 08/11: du lieu nay cua ngay 7/11); ngay thuong (Chow: ngay thuong; script: khong phai special day, turnover 0.04). Quyet ТагилРу: TarunPy dong 127 la ТагилРу (phuong an B theo Chow); cap script ТагилРу->kwitchypoo dong 177 bi bac; kwitchypoo dong 177 la rejoin R350-0192 (trung ten y het, trong DB 17/7-6/9, P +4.80% / KP +8.22% sau 62 ngay). PrincessSunless dong 195 rejoin R350-0197 (cung ten, vang tu 6/9). Nasty junior dong 198 nguoi moi that (cap ID moi). Dong 132 ten bi avatar che kin (ghi [?]) ghep voi Nuca theo chi so, Chow da chot. 6 cap doi ten + 6 cap 3.4 deu duoc Chow chot (cac cap con lai ok het). 5 roi toc loai A da xac nhan. Bat thuong: So1o Power -33.8% (KP khong giam, danh nhau nang); AMAK Act 78,800 -> 700 (act_reset).",
+ "note_i18n": null
+}
