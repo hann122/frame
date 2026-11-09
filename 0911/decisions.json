@@ -1,0 +1,23 @@
+{
+ "capture_date_confirmed": true,
+ "ui_count": 198,
+ "confirmed_pairs": [
+  {"d1_id": "R350-0021", "d2_rank": 14, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0254", "d2_rank": 29, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0098", "d2_rank": 73, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0261", "d2_rank": 130, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0164", "d2_rank": 134, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0114", "d2_rank": 144, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0146", "d2_rank": 148, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0179", "d2_rank": 153, "said": "chốt đi", "date": "2026-11-09"},
+  {"d1_id": "R350-0195", "d2_rank": 188, "said": "chốt đi", "date": "2026-11-09"}
+ ],
+ "rejected_pairs": [],
+ "confirmed_rejoins": [],
+ "rejected_rejoins": [],
+ "exclude_d2": [],
+ "departures_confirmed": true,
+ "canonical_renames": [],
+ "snapshot_note_extra": "Capture 2026-11-09 (Chow xac nhan: 9/11, 198 mem); ngay thuong (quy tac mac dinh tu 09/11: Chow khong noi gi thi la ngay thuong, khong hoi migration; script: khong phai special day, turnover 0.01). Chow chot het 9 cap doi ten (DANIEL SHEHU 12l->14l dong 14; Grigoryan dong 29 Power +7.55%; braya1 9l->10l dong 73; BORYA ROCKSTAR dong 130; Nuca dong 134 ten van bi avatar che kin [?] ca 2 vong; nirr->Enirr dong 144 (chu E dau bi avatar che mot phan, Chow da chot theo ban doc); FishTsKa->FishUKa dong 148 (KP khop y het, dKP 0.0000%); Surgeon OfDeath dong 153 KP dung yen; MicroZvyagovna 14l->12l dong 188 Power +12.94% KP dung yen). 1 roi toc loai A: UHTRED BR. 1 nguoi moi: xvhuanghuang dong 198 (P 7,735,041 / KP 0 / Act 0, khong co ung vien rejoin). Act-reset: DoraB 716,000->700; TRiSTAN 1,195,961->4,100; Nephrite 939,300->0; Simona 1,092,600->0; Bec 854,900->1,500. Ti le rot Act nhom doi chung 5.3% nen tin hieu Act~0 khong dung duoc vong nay.",
+ "note_i18n": null
+}
