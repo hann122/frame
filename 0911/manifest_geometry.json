@@ -1,0 +1,344 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 326,
+ "resolution": "1424x800",
+ "calibration": {
+  "table_band_y": [
+   249,
+   751
+  ],
+  "band_px": 502,
+  "scroll_crop_x": [
+   259,
+   1086
+  ],
+  "name_column_x": [
+   268,
+   473
+  ],
+  "pitch_px": 87.364,
+  "pitch_method": "median of 4621 multi-interval row-centre gaps, SE 0.040",
+  "c_1": 48.0,
+  "c_N_settled": 444.7
+ },
+ "scroll": {
+  "dy_range": [
+   -354,
+   354
+  ],
+  "minovl": 136,
+  "span_mae_only": 16033.0,
+  "span_after_row_template": 16820.0,
+  "max_dy": 291,
+  "min_dy": -88,
+  "max_mae": 11.798,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [
+   {
+    "a": "frames/f_0070.jpg",
+    "b": "frames/f_0071.jpg",
+    "dy": 0,
+    "mae": 7.087,
+    "margin": 0.025
+   },
+   {
+    "a": "frames/f_0075.jpg",
+    "b": "frames/f_0076.jpg",
+    "dy": 99,
+    "mae": 7.572,
+    "margin": 0.125
+   },
+   {
+    "a": "frames/f_0093.jpg",
+    "b": "frames/f_0094.jpg",
+    "dy": -137,
+    "mae": 7.87,
+    "margin": 0.151
+   },
+   {
+    "a": "frames/f_0098.jpg",
+    "b": "frames/f_0099.jpg",
+    "dy": 0,
+    "mae": 8.022,
+    "margin": 0.323
+   },
+   {
+    "a": "frames/f_0140.jpg",
+    "b": "frames/f_0141.jpg",
+    "dy": -109,
+    "mae": 7.868,
+    "margin": 0.659
+   },
+   {
+    "a": "frames/f_0208.jpg",
+    "b": "frames/f_0209.jpg",
+    "dy": -105,
+    "mae": 7.19,
+    "margin": 0.61
+   },
+   {
+    "a": "frames/f_0224.jpg",
+    "b": "frames/f_0225.jpg",
+    "dy": -86,
+    "mae": 8.021,
+    "margin": 0.584
+   },
+   {
+    "a": "frames/f_0237.jpg",
+    "b": "frames/f_0238.jpg",
+    "dy": 269,
+    "mae": 5.562,
+    "margin": 0.266
+   },
+   {
+    "a": "frames/f_0246.jpg",
+    "b": "frames/f_0247.jpg",
+    "dy": 0,
+    "mae": 7.364,
+    "margin": 0.397
+   },
+   {
+    "a": "frames/f_0251.jpg",
+    "b": "frames/f_0252.jpg",
+    "dy": 0,
+    "mae": 7.087,
+    "margin": 0.672
+   },
+   {
+    "a": "frames/f_0264.jpg",
+    "b": "frames/f_0265.jpg",
+    "dy": 262,
+    "mae": 4.952,
+    "margin": 0.454
+   }
+  ],
+  "corrections": [
+   {
+    "a": "frames/f_0075.jpg",
+    "b": "frames/f_0076.jpg",
+    "mae_dy": 99,
+    "mae": 7.572,
+    "margin": 0.125,
+    "tmpl_dy": 12.14,
+    "support": 5,
+    "delta": -86.86,
+    "k_pitch": -0.994
+   },
+   {
+    "a": "frames/f_0093.jpg",
+    "b": "frames/f_0094.jpg",
+    "mae_dy": -137,
+    "mae": 7.87,
+    "margin": 0.151,
+    "tmpl_dy": 125.13,
+    "support": 3,
+    "delta": 262.13,
+    "k_pitch": 3.0
+   },
+   {
+    "a": "frames/f_0140.jpg",
+    "b": "frames/f_0141.jpg",
+    "mae_dy": -109,
+    "mae": 7.868,
+    "margin": 0.659,
+    "tmpl_dy": 153.28,
+    "support": 3,
+    "delta": 262.28,
+    "k_pitch": 3.002
+   },
+   {
+    "a": "frames/f_0208.jpg",
+    "b": "frames/f_0209.jpg",
+    "mae_dy": -105,
+    "mae": 7.19,
+    "margin": 0.61,
+    "tmpl_dy": 157.12,
+    "support": 4,
+    "delta": 262.12,
+    "k_pitch": 3.0
+   },
+   {
+    "a": "frames/f_0224.jpg",
+    "b": "frames/f_0225.jpg",
+    "mae_dy": -86,
+    "mae": 8.021,
+    "margin": 0.584,
+    "tmpl_dy": 1.58,
+    "support": 5,
+    "delta": 87.58,
+    "k_pitch": 1.002
+   }
+  ],
+  "seam_verification": {
+   "f_0075_to_f_0076": {
+    "wide": "f_0072->f_0078",
+    "per_seam_sum": 334,
+    "mae_wide": 334,
+    "template_cons": 333.85,
+    "support": 2,
+    "diff_px": 0.15,
+    "verdict": "VALIDATED"
+   },
+   "f_0093_to_f_0094": {
+    "wide": "f_0091->f_0096",
+    "per_seam_sum": 220,
+    "template_cons": 220.15,
+    "support": 2,
+    "diff_px": 0.15,
+    "verdict": "VALIDATED (MAE wide -130 spurious, popup region)"
+   },
+   "f_0140_to_f_0141": {
+    "wide": "f_0138->f_0142",
+    "per_seam_sum": 309,
+    "template_cons": 308.62,
+    "support": 2,
+    "diff_px": 0.38,
+    "verdict": "VALIDATED"
+   },
+   "f_0208_to_f_0209": {
+    "wide": "f_0206->f_0210",
+    "per_seam_sum": 325,
+    "template_cons": 324.48,
+    "support": 2,
+    "diff_px": 0.52,
+    "verdict": "VALIDATED"
+   },
+   "f_0224_to_f_0225": {
+    "wide": "f_0222->f_0226",
+    "per_seam_sum": 81,
+    "template_cons": 79.58,
+    "support": 4,
+    "diff_px": 1.42,
+    "verdict": "VALIDATED"
+   },
+   "f_0125_to_f_0130_PANEL_GAP": {
+    "wide": "f_0125->f_0130 direct",
+    "per_seam_chain": [
+     146,
+     1,
+     1,
+     96,
+     202
+    ],
+    "per_seam_sum": 446,
+    "template_wide": "cons=None support=0 (no overlapping row: 446px scroll leaves <1 row overlap in band)",
+    "visual": "f_0125 last row Vietgangz (row 77) == f_0130 first (cut) row Vietgangz; f_0125 rows FLAMES/barcode/MRS DEATH/hab1st/Cokon 1000/Vietgangz, f_0130 rows Vietgangz/EternalDeath/D R A G 0 N/Okeanisa/DickeY/SosiPisoS; Powers strictly descending across the boundary; grid phase 0.068 for 198 and bottom 198.27 both land on 198",
+    "verdict": "RESOLVED - no hole, fast scroll over 5 frames (intermediates f_0126-f_0129 popup-covered, excluded from panel selection); row coverage continuous P21 [73..77] -> P22 [78..82]"
+   }
+  },
+  "support_lt_2_seams_resolved": true,
+  "panel_gap_f_0125_to_f_0130_resolved": true
+ },
+ "overscroll": {
+  "peak_scroll": 16908.0,
+  "peak_frame": "frames/f_0321.jpg",
+  "settled_scroll": 16820.0,
+  "settled_from_frame": "frames/f_0322.jpg",
+  "overscroll_frames": [
+   "frames/f_0320.jpg",
+   "frames/f_0321.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 249..379, x 259..1086",
+  "baseline": -8.82,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0016.jpg",
+   "frames/f_0017.jpg",
+   "frames/f_0018.jpg",
+   "frames/f_0019.jpg",
+   "frames/f_0071.jpg",
+   "frames/f_0072.jpg",
+   "frames/f_0073.jpg",
+   "frames/f_0074.jpg",
+   "frames/f_0075.jpg",
+   "frames/f_0094.jpg",
+   "frames/f_0095.jpg",
+   "frames/f_0096.jpg",
+   "frames/f_0097.jpg",
+   "frames/f_0098.jpg",
+   "frames/f_0126.jpg",
+   "frames/f_0127.jpg",
+   "frames/f_0128.jpg",
+   "frames/f_0129.jpg",
+   "frames/f_0141.jpg",
+   "frames/f_0142.jpg",
+   "frames/f_0143.jpg",
+   "frames/f_0144.jpg",
+   "frames/f_0145.jpg",
+   "frames/f_0209.jpg",
+   "frames/f_0210.jpg",
+   "frames/f_0211.jpg",
+   "frames/f_0212.jpg",
+   "frames/f_0213.jpg",
+   "frames/f_0225.jpg",
+   "frames/f_0226.jpg",
+   "frames/f_0227.jpg",
+   "frames/f_0228.jpg",
+   "frames/f_0229.jpg",
+   "frames/f_0247.jpg",
+   "frames/f_0248.jpg",
+   "frames/f_0249.jpg",
+   "frames/f_0250.jpg",
+   "frames/f_0251.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 201,
+  "longest_dup_cluster": 10,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 53,
+  "maxstep": 414.6,
+  "step_min": 117.0,
+  "step_max": 446.0,
+  "gaps_over_maxstep": [
+   [
+    "frames/f_0125.jpg",
+    "frames/f_0130.jpg",
+    446.0
+   ]
+  ]
+ },
+ "stitches": {
+  "count": 14,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 198,
+  "grid_phase_test": {
+   "196": {
+    "expected_span": 16639.4,
+    "delta_px": 180.6,
+    "delta_rows": 2.068
+   },
+   "197": {
+    "expected_span": 16726.7,
+    "delta_px": 93.3,
+    "delta_rows": 1.068
+   },
+   "198": {
+    "expected_span": 16814.1,
+    "delta_px": 5.9,
+    "delta_rows": 0.068
+   },
+   "199": {
+    "expected_span": 16901.5,
+    "delta_px": -81.5,
+    "delta_rows": -0.932
+   },
+   "200": {
+    "expected_span": 16988.8,
+    "delta_px": -168.8,
+    "delta_rows": -1.932
+   }
+  },
+  "bottom_of_list_test": 198.27,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
