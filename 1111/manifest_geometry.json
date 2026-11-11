@@ -1,0 +1,327 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 359,
+ "resolution": "1408x792",
+ "calibration": {
+  "table_band_y": [
+   246,
+   743
+  ],
+  "band_px": 497,
+  "scroll_crop_x": [
+   256,
+   1074
+  ],
+  "name_column_x": [
+   265,
+   468
+  ],
+  "pitch_px": 86.497,
+  "pitch_method": "median of 4936 multi-interval row-centre gaps, SE 0.036",
+  "c_1": 47.8,
+  "c_N_settled": 440.5
+ },
+ "scroll": {
+  "dy_range": [
+   -350,
+   350
+  ],
+  "minovl": 134,
+  "span_mae_only": 16464.0,
+  "span_after_row_template": 16552.0,
+  "max_dy": 290,
+  "min_dy": -40,
+  "max_mae": 12.076,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [
+   {
+    "a": "frames/f_0032.jpg",
+    "b": "frames/f_0033.jpg",
+    "dy": -59,
+    "mae": 8.084,
+    "margin": 0.74
+   },
+   {
+    "a": "frames/f_0070.jpg",
+    "b": "frames/f_0071.jpg",
+    "dy": 0,
+    "mae": 7.024,
+    "margin": 0.405
+   },
+   {
+    "a": "frames/f_0177.jpg",
+    "b": "frames/f_0178.jpg",
+    "dy": 172,
+    "mae": 4.806,
+    "margin": 0.305
+   },
+   {
+    "a": "frames/f_0252.jpg",
+    "b": "frames/f_0253.jpg",
+    "dy": -87,
+    "mae": 7.738,
+    "margin": 0.575
+   },
+   {
+    "a": "frames/f_0253.jpg",
+    "b": "frames/f_0254.jpg",
+    "dy": 128,
+    "mae": 12.076,
+    "margin": 0.667
+   },
+   {
+    "a": "frames/f_0278.jpg",
+    "b": "frames/f_0279.jpg",
+    "dy": 0,
+    "mae": 8.172,
+    "margin": 0.58
+   },
+   {
+    "a": "frames/f_0314.jpg",
+    "b": "frames/f_0315.jpg",
+    "dy": -105,
+    "mae": 7.626,
+    "margin": 0.542
+   },
+   {
+    "a": "frames/f_0319.jpg",
+    "b": "frames/f_0320.jpg",
+    "dy": 259,
+    "mae": 6.935,
+    "margin": 0.037
+   },
+   {
+    "a": "frames/f_0344.jpg",
+    "b": "frames/f_0345.jpg",
+    "dy": 173,
+    "mae": 7.018,
+    "margin": 0.231
+   }
+  ],
+  "corrections": [
+   {
+    "a": "frames/f_0032.jpg",
+    "b": "frames/f_0033.jpg",
+    "mae_dy": -59,
+    "mae": 8.084,
+    "margin": 0.74,
+    "tmpl_dy": 27.64,
+    "support": 5,
+    "delta": 86.64,
+    "k_pitch": 1.002
+   },
+   {
+    "a": "frames/f_0252.jpg",
+    "b": "frames/f_0253.jpg",
+    "mae_dy": -87,
+    "mae": 7.738,
+    "margin": 0.575,
+    "tmpl_dy": 85.63,
+    "support": 3,
+    "delta": 172.63,
+    "k_pitch": 1.996
+   },
+   {
+    "a": "frames/f_0314.jpg",
+    "b": "frames/f_0315.jpg",
+    "mae_dy": -105,
+    "mae": 7.626,
+    "margin": 0.542,
+    "tmpl_dy": 154.63,
+    "support": 3,
+    "delta": 259.63,
+    "k_pitch": 3.002
+   },
+   {
+    "a": "frames/f_0319.jpg",
+    "b": "frames/f_0320.jpg",
+    "mae_dy": 259,
+    "mae": 6.935,
+    "margin": 0.037,
+    "tmpl_dy": -0.07,
+    "support": 5,
+    "delta": -259.07,
+    "k_pitch": -2.995
+   },
+   {
+    "a": "frames/f_0344.jpg",
+    "b": "frames/f_0345.jpg",
+    "mae_dy": 173,
+    "mae": 7.018,
+    "margin": 0.231,
+    "tmpl_dy": 0.08,
+    "support": 5,
+    "delta": -172.92,
+    "k_pitch": -1.999
+   }
+  ],
+  "seam_verification": {
+   "f_0032_to_f_0033": {
+    "wide_pair": "f_0030->f_0035",
+    "per_seam_sum": 320,
+    "template_consensus": 320.32,
+    "support": 1,
+    "diff_px": 0.32,
+    "verdict": "VALIDATED (MAE wide -112 spurious in popup region f_0033-f_0037)"
+   },
+   "f_0252_to_f_0253": {
+    "wide_pair": "f_0250->f_0255",
+    "per_seam_sum": 214,
+    "template_consensus": 214.42,
+    "support": 2,
+    "diff_px": 0.42,
+    "verdict": "VALIDATED"
+   },
+   "f_0314_to_f_0315": {
+    "wide_pair": "f_0312->f_0317",
+    "per_seam_sum": 147,
+    "template_consensus": 146.03,
+    "support": 4,
+    "diff_px": 0.97,
+    "verdict": "VALIDATED"
+   },
+   "f_0319_to_f_0320": {
+    "wide_pair": "f_0317->f_0322",
+    "per_seam_sum": 182,
+    "template_consensus": 181.77,
+    "support": 3,
+    "diff_px": 0.23,
+    "verdict": "VALIDATED (MAE wide 182 agrees)"
+   },
+   "f_0344_to_f_0345": {
+    "wide_pair": "f_0342->f_0347",
+    "per_seam_sum": 346,
+    "template_consensus": 345.24,
+    "support": 1,
+    "diff_px": 0.76,
+    "verdict": "VALIDATED (MAE wide 345 agrees)"
+   }
+  },
+  "support_lt_2_seams_resolved": true,
+  "panel_gap_f_0116_to_f_0122_resolved": true,
+  "panel_gap_f_0116_to_f_0122": {
+   "panel_step_px": 425.0,
+   "per_seam_chain": {
+    "f_0116": 152,
+    "f_0117": 2,
+    "f_0118": 1,
+    "f_0119": 0,
+    "f_0120": 30,
+    "f_0121": 240
+   },
+   "chain_sum": 425,
+   "note": "Intermediates f_0117-f_0121 are popup suspects excluded from panel selection; per-seam chain fully measured (all support>=3) and sums exactly to the panel step. Direct wide-pair f_0116->f_0122 impossible (425px scroll leaves <1 row overlap in the 497px band). No hole; row coverage continuous P18 [64..69] -> P19 [70..74] (check stitch_meta). Visual boundary check: see f_0116/f_0122 views.",
+   "visual_proof": "f_0116 (bottom row Vietgangz 178,471,982 / 2,754,447,163 / 977,300) and f_0122 (top row Vietgangz, same values) share Vietgangz as the boundary row; Powers strictly descending across the boundary (Vietgangz 178,471,982 -> Okeanisa 178,317,708). No rows skipped or duplicated."
+  }
+ },
+ "overscroll": {
+  "peak_scroll": 16600.0,
+  "peak_frame": "frames/f_0354.jpg",
+  "settled_scroll": 16552.0,
+  "settled_from_frame": "frames/f_0356.jpg",
+  "overscroll_frames": [
+   "frames/f_0354.jpg",
+   "frames/f_0355.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 246..376, x 256..1074",
+  "baseline": -8.79,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0033.jpg",
+   "frames/f_0034.jpg",
+   "frames/f_0035.jpg",
+   "frames/f_0036.jpg",
+   "frames/f_0037.jpg",
+   "frames/f_0066.jpg",
+   "frames/f_0067.jpg",
+   "frames/f_0068.jpg",
+   "frames/f_0069.jpg",
+   "frames/f_0070.jpg",
+   "frames/f_0117.jpg",
+   "frames/f_0118.jpg",
+   "frames/f_0119.jpg",
+   "frames/f_0120.jpg",
+   "frames/f_0121.jpg",
+   "frames/f_0253.jpg",
+   "frames/f_0254.jpg",
+   "frames/f_0255.jpg",
+   "frames/f_0256.jpg",
+   "frames/f_0257.jpg",
+   "frames/f_0279.jpg",
+   "frames/f_0280.jpg",
+   "frames/f_0281.jpg",
+   "frames/f_0282.jpg",
+   "frames/f_0283.jpg",
+   "frames/f_0284.jpg",
+   "frames/f_0315.jpg",
+   "frames/f_0316.jpg",
+   "frames/f_0317.jpg",
+   "frames/f_0318.jpg",
+   "frames/f_0319.jpg",
+   "frames/f_0340.jpg",
+   "frames/f_0341.jpg",
+   "frames/f_0342.jpg",
+   "frames/f_0343.jpg",
+   "frames/f_0344.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 187,
+  "longest_dup_cluster": 10,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 52,
+  "maxstep": 410.5,
+  "step_min": 112.0,
+  "step_max": 425.0,
+  "gaps_over_maxstep": [
+   [
+    "frames/f_0116.jpg",
+    "frames/f_0122.jpg",
+    425.0
+   ]
+  ]
+ },
+ "stitches": {
+  "count": 13,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": 197,
+  "grid_phase_test": {
+   "195": {
+    "expected_span": 16387.8,
+    "delta_px": 164.2,
+    "delta_rows": 1.898
+   },
+   "196": {
+    "expected_span": 16474.3,
+    "delta_px": 77.7,
+    "delta_rows": 0.898
+   },
+   "197": {
+    "expected_span": 16560.8,
+    "delta_px": -8.8,
+    "delta_rows": -0.102
+   },
+   "198": {
+    "expected_span": 16647.3,
+    "delta_px": -95.3,
+    "delta_rows": -1.102
+   },
+   "199": {
+    "expected_span": 16733.8,
+    "delta_px": -181.8,
+    "delta_rows": -2.102
+   }
+  },
+  "bottom_of_list_test": 197.1,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
