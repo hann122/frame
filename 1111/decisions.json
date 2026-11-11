@@ -1,0 +1,148 @@
+{
+ "capture_date_confirmed": true,
+ "ui_count": 197,
+ "confirmed_pairs": [
+  {
+   "d1_id": "R350-0021",
+   "d2_rank": 11,
+   "said": "6 cặp đổi tên ok",
+   "date": "2026-11-11"
+  },
+  {
+   "d1_id": "R350-0098",
+   "d2_rank": 67,
+   "said": "6 cặp đổi tên ok",
+   "date": "2026-11-11"
+  },
+  {
+   "d1_id": "R350-0044",
+   "d2_rank": 121,
+   "said": "6 cặp đổi tên ok",
+   "date": "2026-11-11"
+  },
+  {
+   "d1_id": "R350-0261",
+   "d2_rank": 125,
+   "said": "6 cặp đổi tên ok",
+   "date": "2026-11-11"
+  },
+  {
+   "d1_id": "R350-0164",
+   "d2_rank": 136,
+   "said": "6 cặp đổi tên ok",
+   "date": "2026-11-11"
+  },
+  {
+   "d1_id": "R350-0195",
+   "d2_rank": 187,
+   "said": "6 cặp đổi tên ok",
+   "date": "2026-11-11"
+  },
+  {
+   "d1_id": "R350-0217",
+   "d2_rank": 195,
+   "said": "cặp kira là 1 người",
+   "date": "2026-11-11"
+  }
+ ],
+ "rejected_pairs": [],
+ "confirmed_rejoins": [
+  {
+   "id": "R350-0084",
+   "d2_rank": 109,
+   "said": "UHTRED BR rejoin ok",
+   "date": "2026-11-11"
+  }
+ ],
+ "rejected_rejoins": [
+  {
+   "id": "R350-0066",
+   "d2_rank": 109,
+   "said": "Bác: dòng 109 UHTRED BR là rejoin R350-0084 (cùng tên), không phải Ragnar Pedro",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0134",
+   "d2_rank": 109,
+   "said": "Bác: dòng 109 UHTRED BR là rejoin R350-0084 (cùng tên), không phải darkhof",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0149",
+   "d2_rank": 109,
+   "said": "Bác: dòng 109 UHTRED BR là rejoin R350-0084 (cùng tên), không phải Jon Jones",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0118",
+   "d2_rank": 109,
+   "said": "Bác: dòng 109 UHTRED BR là rejoin R350-0084 (cùng tên), không phải ALANchik",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0211",
+   "d2_rank": 192,
+   "said": "Bác: dòng 192 FoxWarrior là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin OmerW",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0219",
+   "d2_rank": 192,
+   "said": "Bác: dòng 192 FoxWarrior là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin Ultralisk",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0238",
+   "d2_rank": 192,
+   "said": "Bác: dòng 192 FoxWarrior là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin Tirrioner",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0240",
+   "d2_rank": 192,
+   "said": "Bác: dòng 192 FoxWarrior là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin Легион7",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0242",
+   "d2_rank": 192,
+   "said": "Bác: dòng 192 FoxWarrior là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin RimidalV",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0219",
+   "d2_rank": 196,
+   "said": "Bác: dòng 196 VOZVR là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin Ultralisk",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0238",
+   "d2_rank": 196,
+   "said": "Bác: dòng 196 VOZVR là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin Tirrioner",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0224",
+   "d2_rank": 196,
+   "said": "Bác: dòng 196 VOZVR là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin Легион6",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0240",
+   "d2_rank": 196,
+   "said": "Bác: dòng 196 VOZVR là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin Легион7",
+   "date": "2026-11-11"
+  },
+  {
+   "id": "R350-0242",
+   "d2_rank": 196,
+   "said": "Bác: dòng 196 VOZVR là người mới (Chow: cho 2 ông kia ID mới), không phải rejoin RimidalV",
+   "date": "2026-11-11"
+  }
+ ],
+ "exclude_d2": [],
+ "departures_confirmed": true,
+ "canonical_renames": [],
+ "snapshot_note_extra": "Chow 11/11: 6 cặp đổi tên ok (DANIEL SHEHU->WølFツ, braya1 10l->9l, KatalonEc KatálønEc->KatälønEc, BORYA ROCKSTAR 13l->12l, Nuca [?] lần 3, MicroZvyagovna 12l); kira21 = kira mean count (1 người); UHTRED BR rejoin R350-0084; FoxWarrior + VOZVR là người mới (cấp ID mới); 4 ca rời tộc ok (FinistBrFalcon, Shebeastinem, Mqmr loại A; xvhuanghuang loại B, đáy đã chứng minh bằng geometry). Ngày thường. nirr về lại tên nirr (chữ E vòng 9/11 là artifact do avatar che); FishツKa và Surgeon OfDeath về lại tên canonical. Tín hiệu rejoin Act≈0 không dùng được (nhóm đối chứng tụt Act 12,8%). 4 act_reset: Toroto, Inspector Crow, So1o, Witch.",
+ "note_i18n": null
+}
