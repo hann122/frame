@@ -1,0 +1,357 @@
+{
+ "sop": "VR_extraction_SOP_v9.md",
+ "script": "vr_geometry.py",
+ "frames": 329,
+ "resolution": "1408x792",
+ "calibration": {
+  "table_band_y": [
+   246,
+   743
+  ],
+  "band_px": 497,
+  "scroll_crop_x": [
+   256,
+   1074
+  ],
+  "name_column_x": [
+   265,
+   468
+  ],
+  "pitch_px": 86.445,
+  "pitch_method": "median of 4670 multi-interval row-centre gaps, SE 0.033",
+  "c_1": 47.9,
+  "c_N_settled": 440.5
+ },
+ "scroll": {
+  "dy_range": [
+   -350,
+   350
+  ],
+  "minovl": 134,
+  "span_mae_only": 15106.0,
+  "span_after_row_template": 16710.0,
+  "max_dy": 287,
+  "min_dy": -43,
+  "max_mae": 11.617,
+  "support_lt_2_seams": 0,
+  "seams_at_dy_limit": [],
+  "low_margin_pairs": [
+   {
+    "a": "frames/f_0007.jpg",
+    "b": "frames/f_0008.jpg",
+    "dy": -87,
+    "mae": 8.024,
+    "margin": 0.329
+   },
+   {
+    "a": "frames/f_0025.jpg",
+    "b": "frames/f_0026.jpg",
+    "dy": -255,
+    "mae": 8.235,
+    "margin": 0.078
+   },
+   {
+    "a": "frames/f_0026.jpg",
+    "b": "frames/f_0027.jpg",
+    "dy": 51,
+    "mae": 11.442,
+    "margin": 0.541
+   },
+   {
+    "a": "frames/f_0179.jpg",
+    "b": "frames/f_0180.jpg",
+    "dy": 251,
+    "mae": 5.74,
+    "margin": 0.431
+   },
+   {
+    "a": "frames/f_0181.jpg",
+    "b": "frames/f_0182.jpg",
+    "dy": -85,
+    "mae": 7.497,
+    "margin": 0.572
+   },
+   {
+    "a": "frames/f_0184.jpg",
+    "b": "frames/f_0185.jpg",
+    "dy": 56,
+    "mae": 10.174,
+    "margin": 0.722
+   },
+   {
+    "a": "frames/f_0185.jpg",
+    "b": "frames/f_0186.jpg",
+    "dy": -20,
+    "mae": 11.017,
+    "margin": 0.255
+   },
+   {
+    "a": "frames/f_0191.jpg",
+    "b": "frames/f_0192.jpg",
+    "dy": 8,
+    "mae": 6.063,
+    "margin": 0.077
+   },
+   {
+    "a": "frames/f_0276.jpg",
+    "b": "frames/f_0277.jpg",
+    "dy": 256,
+    "mae": 5.69,
+    "margin": 0.527
+   },
+   {
+    "a": "frames/f_0311.jpg",
+    "b": "frames/f_0312.jpg",
+    "dy": 53,
+    "mae": 11.617,
+    "margin": 0.683
+   },
+   {
+    "a": "frames/f_0314.jpg",
+    "b": "frames/f_0315.jpg",
+    "dy": 87,
+    "mae": 9.247,
+    "margin": 0.231
+   },
+   {
+    "a": "frames/f_0322.jpg",
+    "b": "frames/f_0323.jpg",
+    "dy": -114,
+    "mae": 10.346,
+    "margin": 0.001
+   },
+   {
+    "a": "frames/f_0323.jpg",
+    "b": "frames/f_0324.jpg",
+    "dy": 0,
+    "mae": 10.155,
+    "margin": 0.418
+   },
+   {
+    "a": "frames/f_0324.jpg",
+    "b": "frames/f_0325.jpg",
+    "dy": -43,
+    "mae": 9.885,
+    "margin": 0.252
+   }
+  ],
+  "corrections": [
+   {
+    "a": "frames/f_0007.jpg",
+    "b": "frames/f_0008.jpg",
+    "mae_dy": -87,
+    "mae": 8.024,
+    "margin": 0.329,
+    "tmpl_dy": 0.21,
+    "support": 5,
+    "delta": 87.21,
+    "k_pitch": 1.009
+   },
+   {
+    "a": "frames/f_0025.jpg",
+    "b": "frames/f_0026.jpg",
+    "mae_dy": -255,
+    "mae": 8.235,
+    "margin": 0.078,
+    "tmpl_dy": 91.16,
+    "support": 4,
+    "delta": 346.16,
+    "k_pitch": 4.004
+   },
+   {
+    "a": "frames/f_0181.jpg",
+    "b": "frames/f_0182.jpg",
+    "mae_dy": -85,
+    "mae": 7.497,
+    "margin": 0.572,
+    "tmpl_dy": 1.68,
+    "support": 4,
+    "delta": 86.68,
+    "k_pitch": 1.003
+   },
+   {
+    "a": "frames/f_0185.jpg",
+    "b": "frames/f_0186.jpg",
+    "mae_dy": -20,
+    "mae": 11.017,
+    "margin": 0.255,
+    "tmpl_dy": 153.51,
+    "support": 3,
+    "delta": 173.51,
+    "k_pitch": 2.007
+   },
+   {
+    "a": "frames/f_0191.jpg",
+    "b": "frames/f_0192.jpg",
+    "mae_dy": 8,
+    "mae": 6.063,
+    "margin": 0.077,
+    "tmpl_dy": 267.89,
+    "support": 2,
+    "delta": 259.89,
+    "k_pitch": 3.006
+   },
+   {
+    "a": "frames/f_0263.jpg",
+    "b": "frames/f_0264.jpg",
+    "mae_dy": -216,
+    "mae": 6.645,
+    "margin": 0.944,
+    "tmpl_dy": 42.97,
+    "support": 4,
+    "delta": 258.97,
+    "k_pitch": 2.996
+   },
+   {
+    "a": "frames/f_0310.jpg",
+    "b": "frames/f_0311.jpg",
+    "mae_dy": -95,
+    "mae": 8.987,
+    "margin": 1.252,
+    "tmpl_dy": 163.97,
+    "support": 2,
+    "delta": 258.97,
+    "k_pitch": 2.996
+   },
+   {
+    "a": "frames/f_0314.jpg",
+    "b": "frames/f_0315.jpg",
+    "mae_dy": 87,
+    "mae": 9.247,
+    "margin": 0.231,
+    "tmpl_dy": 0.44,
+    "support": 5,
+    "delta": -86.56,
+    "k_pitch": -1.001
+   },
+   {
+    "a": "frames/f_0322.jpg",
+    "b": "frames/f_0323.jpg",
+    "mae_dy": -114,
+    "mae": 10.346,
+    "margin": 0.001,
+    "tmpl_dy": 59.46,
+    "support": 4,
+    "delta": 173.46,
+    "k_pitch": 2.007
+   },
+   {
+    "a": "frames/f_0323.jpg",
+    "b": "frames/f_0324.jpg",
+    "mae_dy": 0,
+    "mae": 10.155,
+    "margin": 0.418,
+    "tmpl_dy": 45.64,
+    "support": 4,
+    "delta": 45.64,
+    "k_pitch": 0.528
+   }
+  ]
+ },
+ "overscroll": {
+  "peak_scroll": 16789.0,
+  "peak_frame": "frames/f_0324.jpg",
+  "settled_scroll": 16710.0,
+  "settled_from_frame": "frames/f_0326.jpg",
+  "overscroll_frames": [
+   "frames/f_0323.jpg",
+   "frames/f_0324.jpg",
+   "frames/f_0325.jpg"
+  ]
+ },
+ "popup": {
+  "metric": "mean(R-B) over y 246..376, x 256..1074",
+  "baseline": -8.78,
+  "threshold_abs_deviation": 1.0,
+  "suspect_frames": [
+   "frames/f_0008.jpg",
+   "frames/f_0009.jpg",
+   "frames/f_0010.jpg",
+   "frames/f_0011.jpg",
+   "frames/f_0012.jpg",
+   "frames/f_0026.jpg",
+   "frames/f_0027.jpg",
+   "frames/f_0028.jpg",
+   "frames/f_0029.jpg",
+   "frames/f_0030.jpg",
+   "frames/f_0138.jpg",
+   "frames/f_0139.jpg",
+   "frames/f_0140.jpg",
+   "frames/f_0141.jpg",
+   "frames/f_0142.jpg",
+   "frames/f_0143.jpg",
+   "frames/f_0182.jpg",
+   "frames/f_0183.jpg",
+   "frames/f_0184.jpg",
+   "frames/f_0185.jpg",
+   "frames/f_0186.jpg",
+   "frames/f_0264.jpg",
+   "frames/f_0265.jpg",
+   "frames/f_0266.jpg",
+   "frames/f_0267.jpg",
+   "frames/f_0311.jpg",
+   "frames/f_0312.jpg",
+   "frames/f_0313.jpg",
+   "frames/f_0314.jpg",
+   "frames/f_0323.jpg",
+   "frames/f_0324.jpg",
+   "frames/f_0325.jpg",
+   "frames/f_0326.jpg"
+  ]
+ },
+ "dedupe": {
+  "viewports": 215,
+  "longest_dup_cluster": 7,
+  "threshold": 4.0
+ },
+ "panels": {
+  "count": 52,
+  "maxstep": 410.6,
+  "step_min": 204.0,
+  "step_max": 472.0,
+  "gaps_over_maxstep": [
+   [
+    "frames/f_0137.jpg",
+    "frames/f_0144.jpg",
+    472.0
+   ]
+  ]
+ },
+ "stitches": {
+  "count": 13,
+  "panels_per_stitch": 4,
+  "gap_px": 6
+ },
+ "expected_members": {
+  "from_ha_ui": null,
+  "grid_phase_test": {
+   "188": {
+    "expected_span": 15772.6,
+    "delta_px": 937.4,
+    "delta_rows": 10.844
+   },
+   "189": {
+    "expected_span": 15859.1,
+    "delta_px": 850.9,
+    "delta_rows": 9.844
+   },
+   "190": {
+    "expected_span": 15945.5,
+    "delta_px": 764.5,
+    "delta_rows": 8.844
+   },
+   "191": {
+    "expected_span": 16032.0,
+    "delta_px": 678.0,
+    "delta_rows": 7.844
+   },
+   "192": {
+    "expected_span": 16118.4,
+    "delta_px": 591.6,
+    "delta_rows": 6.844
+   }
+  },
+  "bottom_of_list_test": 199.05,
+  "note": "Reference only. The ONLY expected count is the one Ha reads on the game UI."
+ }
+}
