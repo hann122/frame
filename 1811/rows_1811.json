@@ -1,0 +1,1610 @@
+{
+ "date": "2026-11-18",
+ "server": "R350",
+ "count": 199,
+ "rows": [
+  {
+   "rank": 1,
+   "name": "Чугуш",
+   "power": 819765999,
+   "kill_points": 54467104328,
+   "activity_points": 2751588
+  },
+  {
+   "rank": 2,
+   "name": "Единств",
+   "power": 661861817,
+   "kill_points": 93680903399,
+   "activity_points": 111699978
+  },
+  {
+   "rank": 3,
+   "name": "133tz",
+   "power": 547027273,
+   "kill_points": 12742068513,
+   "activity_points": 675700
+  },
+  {
+   "rank": 4,
+   "name": "Timmeee",
+   "power": 378011668,
+   "kill_points": 45175232826,
+   "activity_points": 2797800
+  },
+  {
+   "rank": 5,
+   "name": "ASTERION",
+   "power": 315558399,
+   "kill_points": 32598315954,
+   "activity_points": 2574100
+  },
+  {
+   "rank": 6,
+   "name": "FinistBrFalcon",
+   "power": 300701112,
+   "kill_points": 43795151620,
+   "activity_points": 991509
+  },
+  {
+   "rank": 7,
+   "name": "Shebeastinem",
+   "power": 279539984,
+   "kill_points": 53429331728,
+   "activity_points": 1058600
+  },
+  {
+   "rank": 8,
+   "name": "CRx StalinIV",
+   "power": 272178898,
+   "kill_points": 14181617396,
+   "activity_points": 2678571
+  },
+  {
+   "rank": 9,
+   "name": "Lastangel001",
+   "power": 245084603,
+   "kill_points": 28207338326,
+   "activity_points": 2734840
+  },
+  {
+   "rank": 10,
+   "name": "skywraith",
+   "power": 240326375,
+   "kill_points": 9918284218,
+   "activity_points": 873491
+  },
+  {
+   "rank": 11,
+   "name": "Nordic Oak",
+   "power": 237899096,
+   "kill_points": 17014722978,
+   "activity_points": 1105100
+  },
+  {
+   "rank": 12,
+   "name": "MONSTER DONG",
+   "power": 233188303,
+   "kill_points": 50006788540,
+   "activity_points": 1211506
+  },
+  {
+   "rank": 13,
+   "name": "Colt Canon",
+   "power": 231406236,
+   "kill_points": 16483072312,
+   "activity_points": 2694154
+  },
+  {
+   "rank": 14,
+   "name": "HellHool",
+   "power": 230118229,
+   "kill_points": 9221793678,
+   "activity_points": 1029100
+  },
+  {
+   "rank": 15,
+   "name": "WølFツ",
+   "power": 227647720,
+   "kill_points": 24940884541,
+   "activity_points": 2351800
+  },
+  {
+   "rank": 16,
+   "name": "Jiren",
+   "power": 225036674,
+   "kill_points": 5497721232,
+   "activity_points": 38749142
+  },
+  {
+   "rank": 17,
+   "name": "Frozen",
+   "power": 224457724,
+   "kill_points": 2847860273,
+   "activity_points": 10828469
+  },
+  {
+   "rank": 18,
+   "name": "TikiCat",
+   "power": 224145975,
+   "kill_points": 11517343007,
+   "activity_points": 2505000
+  },
+  {
+   "rank": 19,
+   "name": "MILFnCookies",
+   "power": 223973350,
+   "kill_points": 7770166863,
+   "activity_points": 397500
+  },
+  {
+   "rank": 20,
+   "name": "Falcon",
+   "power": 222775876,
+   "kill_points": 4649911988,
+   "activity_points": 2947343
+  },
+  {
+   "rank": 21,
+   "name": "IMPACT",
+   "power": 221832865,
+   "kill_points": 11498203386,
+   "activity_points": 25105277
+  },
+  {
+   "rank": 22,
+   "name": "Viktorvad",
+   "power": 221589847,
+   "kill_points": 8771235350,
+   "activity_points": 212700
+  },
+  {
+   "rank": 23,
+   "name": "WithLove",
+   "power": 221037106,
+   "kill_points": 15911419728,
+   "activity_points": 5200
+  },
+  {
+   "rank": 24,
+   "name": "DEATH INC",
+   "power": 219177866,
+   "kill_points": 18443580758,
+   "activity_points": 2859548
+  },
+  {
+   "rank": 25,
+   "name": "Kumiho",
+   "power": 217230780,
+   "kill_points": 8330492626,
+   "activity_points": 2572287
+  },
+  {
+   "rank": 26,
+   "name": "ZVYAG",
+   "power": 214429138,
+   "kill_points": 23172528245,
+   "activity_points": 2279800
+  },
+  {
+   "rank": 27,
+   "name": "Cookies",
+   "power": 213790775,
+   "kill_points": 24999876084,
+   "activity_points": 1031925
+  },
+  {
+   "rank": 28,
+   "name": "ОлежикА5",
+   "power": 212428549,
+   "kill_points": 4464725918,
+   "activity_points": 3080553
+  },
+  {
+   "rank": 29,
+   "name": "Морфей",
+   "power": 211127713,
+   "kill_points": 2474297973,
+   "activity_points": 18344167
+  },
+  {
+   "rank": 30,
+   "name": "Mossad 007",
+   "power": 209932723,
+   "kill_points": 3749869448,
+   "activity_points": 85892592
+  },
+  {
+   "rank": 31,
+   "name": "DEATH isThe WAY",
+   "power": 209385375,
+   "kill_points": 1147024428,
+   "activity_points": 8863500
+  },
+  {
+   "rank": 32,
+   "name": "Mardröm Draugr",
+   "power": 209166180,
+   "kill_points": 6220846437,
+   "activity_points": 1777018
+  },
+  {
+   "rank": 33,
+   "name": "Thaunt",
+   "power": 207747641,
+   "kill_points": 6260462049,
+   "activity_points": 1965000
+  },
+  {
+   "rank": 34,
+   "name": "GRIGORYAN",
+   "power": 207445345,
+   "kill_points": 18042036121,
+   "activity_points": 2750100
+  },
+  {
+   "rank": 35,
+   "name": "Axe HongTrang",
+   "power": 206616279,
+   "kill_points": 4016851005,
+   "activity_points": 3930700
+  },
+  {
+   "rank": 36,
+   "name": "K25",
+   "power": 206388397,
+   "kill_points": 2393153724,
+   "activity_points": 2985700
+  },
+  {
+   "rank": 37,
+   "name": "KenAROK",
+   "power": 206076933,
+   "kill_points": 8020567685,
+   "activity_points": 3161542
+  },
+  {
+   "rank": 38,
+   "name": "Rusooo",
+   "power": 205142405,
+   "kill_points": 11171386252,
+   "activity_points": 2705500
+  },
+  {
+   "rank": 39,
+   "name": "Reggard",
+   "power": 204977720,
+   "kill_points": 6588017775,
+   "activity_points": 5293400
+  },
+  {
+   "rank": 40,
+   "name": "CoolFarm",
+   "power": 202263895,
+   "kill_points": 6881096928,
+   "activity_points": 1238763
+  },
+  {
+   "rank": 41,
+   "name": "SLOW DEATH",
+   "power": 202221244,
+   "kill_points": 4438502916,
+   "activity_points": 22143642
+  },
+  {
+   "rank": 42,
+   "name": "Be3vhunk",
+   "power": 201480532,
+   "kill_points": 5653433812,
+   "activity_points": 2661478
+  },
+  {
+   "rank": 43,
+   "name": "Dron B Kedax",
+   "power": 201368346,
+   "kill_points": 6719739443,
+   "activity_points": 2586200
+  },
+  {
+   "rank": 44,
+   "name": "MarceLo",
+   "power": 201155992,
+   "kill_points": 3749797760,
+   "activity_points": 2494250
+  },
+  {
+   "rank": 45,
+   "name": "FalconN",
+   "power": 198064047,
+   "kill_points": 2933502998,
+   "activity_points": 4394623
+  },
+  {
+   "rank": 46,
+   "name": "TRiSTAN",
+   "power": 196924333,
+   "kill_points": 3391278244,
+   "activity_points": 1404372
+  },
+  {
+   "rank": 47,
+   "name": "Lord of Dragon",
+   "power": 196180618,
+   "kill_points": 5619223768,
+   "activity_points": 2342100
+  },
+  {
+   "rank": 48,
+   "name": "Tieu Tam Sinh",
+   "power": 195104864,
+   "kill_points": 8331173385,
+   "activity_points": 49300
+  },
+  {
+   "rank": 49,
+   "name": "BeastofLebanon",
+   "power": 193574214,
+   "kill_points": 4405764727,
+   "activity_points": 937900
+  },
+  {
+   "rank": 50,
+   "name": "KOLOBOKK",
+   "power": 193018402,
+   "kill_points": 2366709232,
+   "activity_points": 13373672
+  },
+  {
+   "rank": 51,
+   "name": "Phong Anh Kiet",
+   "power": 192335222,
+   "kill_points": 2596703492,
+   "activity_points": 2307739
+  },
+  {
+   "rank": 52,
+   "name": "VasilyES",
+   "power": 191632070,
+   "kill_points": 13258584732,
+   "activity_points": 16431258
+  },
+  {
+   "rank": 53,
+   "name": "SozYazarTpYapar",
+   "power": 190998806,
+   "kill_points": 13794550953,
+   "activity_points": 309300
+  },
+  {
+   "rank": 54,
+   "name": "Catler",
+   "power": 189089198,
+   "kill_points": 3022504049,
+   "activity_points": 3077614
+  },
+  {
+   "rank": 55,
+   "name": "Toroto",
+   "power": 188662307,
+   "kill_points": 4482578743,
+   "activity_points": 932207
+  },
+  {
+   "rank": 56,
+   "name": "Phá Quân",
+   "power": 188620076,
+   "kill_points": 2457327326,
+   "activity_points": 17971189
+  },
+  {
+   "rank": 57,
+   "name": "Grimmy",
+   "power": 188588430,
+   "kill_points": 7367792451,
+   "activity_points": 3233184
+  },
+  {
+   "rank": 58,
+   "name": "v Roki v",
+   "power": 188373894,
+   "kill_points": 4901206783,
+   "activity_points": 2529570
+  },
+  {
+   "rank": 59,
+   "name": "Urethral Queef",
+   "power": 187098136,
+   "kill_points": 14475792972,
+   "activity_points": 0
+  },
+  {
+   "rank": 60,
+   "name": "Viettell",
+   "power": 186237806,
+   "kill_points": 3393944397,
+   "activity_points": 2370743
+  },
+  {
+   "rank": 61,
+   "name": "Элвис33",
+   "power": 184844969,
+   "kill_points": 4890000182,
+   "activity_points": 2689814
+  },
+  {
+   "rank": 62,
+   "name": "Quantum",
+   "power": 184219679,
+   "kill_points": 1545433771,
+   "activity_points": 2411431
+  },
+  {
+   "rank": 63,
+   "name": "A R",
+   "power": 182573010,
+   "kill_points": 4052206086,
+   "activity_points": 1267294
+  },
+  {
+   "rank": 64,
+   "name": "MRS DEATH",
+   "power": 182460839,
+   "kill_points": 3833202443,
+   "activity_points": 2355500
+  },
+  {
+   "rank": 65,
+   "name": "ТОНИГАН",
+   "power": 182447151,
+   "kill_points": 1543312994,
+   "activity_points": 2698607
+  },
+  {
+   "rank": 66,
+   "name": "Tora",
+   "power": 181932188,
+   "kill_points": 2453081527,
+   "activity_points": 984100
+  },
+  {
+   "rank": 67,
+   "name": "Beckett fett",
+   "power": 181765293,
+   "kill_points": 4144004731,
+   "activity_points": 1145347
+  },
+  {
+   "rank": 68,
+   "name": "Mintael",
+   "power": 180990636,
+   "kill_points": 1046275450,
+   "activity_points": 2724800
+  },
+  {
+   "rank": 69,
+   "name": "xxx LEGACY xxx",
+   "power": 180785459,
+   "kill_points": 1301606658,
+   "activity_points": 4469223
+  },
+  {
+   "rank": 70,
+   "name": "SosiPisoS",
+   "power": 180722688,
+   "kill_points": 6837348301,
+   "activity_points": 1507400
+  },
+  {
+   "rank": 71,
+   "name": "EternalDeath",
+   "power": 180462621,
+   "kill_points": 6249699906,
+   "activity_points": 2256500
+  },
+  {
+   "rank": 72,
+   "name": "Mifeng",
+   "power": 179387334,
+   "kill_points": 4005364173,
+   "activity_points": 762300
+  },
+  {
+   "rank": 73,
+   "name": "brayan",
+   "power": 179215156,
+   "kill_points": 1477072922,
+   "activity_points": 112169348
+  },
+  {
+   "rank": 74,
+   "name": "GoJoeGo",
+   "power": 179028107,
+   "kill_points": 11325020364,
+   "activity_points": 967200
+  },
+  {
+   "rank": 75,
+   "name": "MiaMoR",
+   "power": 178070120,
+   "kill_points": 1243230908,
+   "activity_points": 2652300
+  },
+  {
+   "rank": 76,
+   "name": "l3omb",
+   "power": 177996897,
+   "kill_points": 1464153496,
+   "activity_points": 2690357
+  },
+  {
+   "rank": 77,
+   "name": "SWS70",
+   "power": 177311199,
+   "kill_points": 4189154963,
+   "activity_points": 11481166
+  },
+  {
+   "rank": 78,
+   "name": "llllllllll",
+   "power": 175137072,
+   "kill_points": 2566176238,
+   "activity_points": 1101900
+  },
+  {
+   "rank": 79,
+   "name": "Turbonik",
+   "power": 174717250,
+   "kill_points": 3994822373,
+   "activity_points": 1010869
+  },
+  {
+   "rank": 80,
+   "name": "FLAMES",
+   "power": 174092160,
+   "kill_points": 2706475182,
+   "activity_points": 1299000
+  },
+  {
+   "rank": 81,
+   "name": "TOM DU",
+   "power": 172808518,
+   "kill_points": 6108646113,
+   "activity_points": 27648604
+  },
+  {
+   "rank": 82,
+   "name": "Noixa",
+   "power": 172531600,
+   "kill_points": 3604155491,
+   "activity_points": 10598207
+  },
+  {
+   "rank": 83,
+   "name": "DoraB",
+   "power": 172516966,
+   "kill_points": 4583950145,
+   "activity_points": 1125100
+  },
+  {
+   "rank": 84,
+   "name": "D R A G 0 N",
+   "power": 172370069,
+   "kill_points": 3230155992,
+   "activity_points": 2184100
+  },
+  {
+   "rank": 85,
+   "name": "Fride",
+   "power": 171717139,
+   "kill_points": 3941713116,
+   "activity_points": 2763835
+  },
+  {
+   "rank": 86,
+   "name": "EzeKiel",
+   "power": 171344000,
+   "kill_points": 5492919461,
+   "activity_points": 1124773
+  },
+  {
+   "rank": 87,
+   "name": "Leoo",
+   "power": 171317753,
+   "kill_points": 3503501295,
+   "activity_points": 9488537
+  },
+  {
+   "rank": 88,
+   "name": "DickeY",
+   "power": 171160174,
+   "kill_points": 6059018199,
+   "activity_points": 2598669
+  },
+  {
+   "rank": 89,
+   "name": "Хам",
+   "power": 171125067,
+   "kill_points": 11688531277,
+   "activity_points": 2583700
+  },
+  {
+   "rank": 90,
+   "name": "Belka",
+   "power": 171039786,
+   "kill_points": 14158219037,
+   "activity_points": 334164
+  },
+  {
+   "rank": 91,
+   "name": "Kenvin Tai",
+   "power": 170716307,
+   "kill_points": 1233290057,
+   "activity_points": 2435500
+  },
+  {
+   "rank": 92,
+   "name": "FallenAngel",
+   "power": 170559237,
+   "kill_points": 4647436353,
+   "activity_points": 1287900
+  },
+  {
+   "rank": 93,
+   "name": "Simeply 3k usd",
+   "power": 170421285,
+   "kill_points": 5731292873,
+   "activity_points": 643300
+  },
+  {
+   "rank": 94,
+   "name": "T1 Tarek",
+   "power": 170349816,
+   "kill_points": 2936725234,
+   "activity_points": 1046100
+  },
+  {
+   "rank": 95,
+   "name": "Barcode",
+   "power": 170097489,
+   "kill_points": 3125379285,
+   "activity_points": 37664436
+  },
+  {
+   "rank": 96,
+   "name": "peacefall",
+   "power": 169239081,
+   "kill_points": 4262489608,
+   "activity_points": 3139467
+  },
+  {
+   "rank": 97,
+   "name": "KaRaSu",
+   "power": 168605899,
+   "kill_points": 1947676140,
+   "activity_points": 2264100
+  },
+  {
+   "rank": 98,
+   "name": "El vengador",
+   "power": 168542080,
+   "kill_points": 1451224535,
+   "activity_points": 2030671
+  },
+  {
+   "rank": 99,
+   "name": "KillaT",
+   "power": 168375813,
+   "kill_points": 8451526043,
+   "activity_points": 2997826
+  },
+  {
+   "rank": 100,
+   "name": "o0oHackDiep68",
+   "power": 167773073,
+   "kill_points": 1439976648,
+   "activity_points": 201600
+  },
+  {
+   "rank": 101,
+   "name": "Vietgangz",
+   "power": 167678540,
+   "kill_points": 2911274073,
+   "activity_points": 2196100
+  },
+  {
+   "rank": 102,
+   "name": "Phúc XO",
+   "power": 167073500,
+   "kill_points": 3250424559,
+   "activity_points": 386164
+  },
+  {
+   "rank": 103,
+   "name": "S i r",
+   "power": 167010259,
+   "kill_points": 1474874854,
+   "activity_points": 1714400
+  },
+  {
+   "rank": 104,
+   "name": "BRAVE",
+   "power": 166819741,
+   "kill_points": 6937985989,
+   "activity_points": 2064000
+  },
+  {
+   "rank": 105,
+   "name": "Okeanisa",
+   "power": 166472557,
+   "kill_points": 1137758451,
+   "activity_points": 3043763
+  },
+  {
+   "rank": 106,
+   "name": "Nephrite",
+   "power": 166097970,
+   "kill_points": 10580483513,
+   "activity_points": 196300
+  },
+  {
+   "rank": 107,
+   "name": "Peace",
+   "power": 166079995,
+   "kill_points": 4634772358,
+   "activity_points": 3004277
+  },
+  {
+   "rank": 108,
+   "name": "Griffin",
+   "power": 165470091,
+   "kill_points": 3323162385,
+   "activity_points": 1911800
+  },
+  {
+   "rank": 109,
+   "name": "AHT",
+   "power": 164783820,
+   "kill_points": 2805518356,
+   "activity_points": 2687200
+  },
+  {
+   "rank": 110,
+   "name": "Inspector Crow",
+   "power": 164532187,
+   "kill_points": 3892163151,
+   "activity_points": 1047800
+  },
+  {
+   "rank": 111,
+   "name": "ioRi yaGami",
+   "power": 163534791,
+   "kill_points": 7675524214,
+   "activity_points": 1254974
+  },
+  {
+   "rank": 112,
+   "name": "Công Đạo",
+   "power": 162514461,
+   "kill_points": 3854069882,
+   "activity_points": 2100509
+  },
+  {
+   "rank": 113,
+   "name": "Mumford",
+   "power": 162325376,
+   "kill_points": 524605967,
+   "activity_points": 4770120
+  },
+  {
+   "rank": 114,
+   "name": "Cokon 1000",
+   "power": 162293531,
+   "kill_points": 2386083339,
+   "activity_points": 2803551
+  },
+  {
+   "rank": 115,
+   "name": "UHTRED BR",
+   "power": 161527538,
+   "kill_points": 3693645210,
+   "activity_points": 1129200
+  },
+  {
+   "rank": 116,
+   "name": "RemarkNess",
+   "power": 160880014,
+   "kill_points": 1696056625,
+   "activity_points": 2058700
+  },
+  {
+   "rank": 117,
+   "name": "VALN",
+   "power": 160773142,
+   "kill_points": 1574412030,
+   "activity_points": 11283061
+  },
+  {
+   "rank": 118,
+   "name": "ДаНуНа",
+   "power": 160238541,
+   "kill_points": 2299513447,
+   "activity_points": 2569448
+  },
+  {
+   "rank": 119,
+   "name": "llllllllllll",
+   "power": 159861173,
+   "kill_points": 6088253619,
+   "activity_points": 2466600
+  },
+  {
+   "rank": 120,
+   "name": "Bonk",
+   "power": 159642240,
+   "kill_points": 4284742373,
+   "activity_points": 2176243
+  },
+  {
+   "rank": 121,
+   "name": "QuangChau",
+   "power": 158640406,
+   "kill_points": 1763289065,
+   "activity_points": 2664746
+  },
+  {
+   "rank": 122,
+   "name": "Axe Ex Mashina",
+   "power": 158263485,
+   "kill_points": 11154523864,
+   "activity_points": 345453
+  },
+  {
+   "rank": 123,
+   "name": "Viddar160",
+   "power": 156863646,
+   "kill_points": 722928282,
+   "activity_points": 2765041
+  },
+  {
+   "rank": 124,
+   "name": "ТиарА",
+   "power": 156838080,
+   "kill_points": 868716093,
+   "activity_points": 1704148
+  },
+  {
+   "rank": 125,
+   "name": "[?]",
+   "power": 155657960,
+   "kill_points": 2410107672,
+   "activity_points": 2715409
+  },
+  {
+   "rank": 126,
+   "name": "Barb",
+   "power": 155609112,
+   "kill_points": 19478598265,
+   "activity_points": 2026600
+  },
+  {
+   "rank": 127,
+   "name": "nephew",
+   "power": 155482371,
+   "kill_points": 3238457342,
+   "activity_points": 17450565
+  },
+  {
+   "rank": 128,
+   "name": "Mjølner",
+   "power": 154854758,
+   "kill_points": 1189916896,
+   "activity_points": 39131098
+  },
+  {
+   "rank": 129,
+   "name": "Laland",
+   "power": 154236327,
+   "kill_points": 1328645856,
+   "activity_points": 2199320
+  },
+  {
+   "rank": 130,
+   "name": "RenatDoc",
+   "power": 153902061,
+   "kill_points": 6546394422,
+   "activity_points": 1019400
+  },
+  {
+   "rank": 131,
+   "name": "SPUDIman",
+   "power": 153898205,
+   "kill_points": 1086618365,
+   "activity_points": 2485100
+  },
+  {
+   "rank": 132,
+   "name": "Cros",
+   "power": 153785231,
+   "kill_points": 908249943,
+   "activity_points": 61578080
+  },
+  {
+   "rank": 133,
+   "name": "RusVikingGirl",
+   "power": 153551804,
+   "kill_points": 2930205789,
+   "activity_points": 4580256
+  },
+  {
+   "rank": 134,
+   "name": "nirr",
+   "power": 153322600,
+   "kill_points": 4297496916,
+   "activity_points": 2479762
+  },
+  {
+   "rank": 135,
+   "name": "Quang Vi",
+   "power": 153133829,
+   "kill_points": 2025951727,
+   "activity_points": 2235700
+  },
+  {
+   "rank": 136,
+   "name": "54oLeNkA54",
+   "power": 153042730,
+   "kill_points": 1190356560,
+   "activity_points": 2691874
+  },
+  {
+   "rank": 137,
+   "name": "Herooo",
+   "power": 152814203,
+   "kill_points": 1588978961,
+   "activity_points": 2676509
+  },
+  {
+   "rank": 138,
+   "name": "Omgmygold",
+   "power": 152390698,
+   "kill_points": 6039344583,
+   "activity_points": 48880545
+  },
+  {
+   "rank": 139,
+   "name": "Simona",
+   "power": 152271568,
+   "kill_points": 7822501703,
+   "activity_points": 1133500
+  },
+  {
+   "rank": 140,
+   "name": "MR HuyCuong90",
+   "power": 150350027,
+   "kill_points": 2154753468,
+   "activity_points": 4851783
+  },
+  {
+   "rank": 141,
+   "name": "Bối Bối",
+   "power": 150173043,
+   "kill_points": 1109549505,
+   "activity_points": 2216600
+  },
+  {
+   "rank": 142,
+   "name": "KRONUS",
+   "power": 150134250,
+   "kill_points": 1531912232,
+   "activity_points": 2548700
+  },
+  {
+   "rank": 143,
+   "name": "Naineti",
+   "power": 149299332,
+   "kill_points": 1256309479,
+   "activity_points": 1963165
+  },
+  {
+   "rank": 144,
+   "name": "Vladislav",
+   "power": 148646136,
+   "kill_points": 3865051161,
+   "activity_points": 2668363
+  },
+  {
+   "rank": 145,
+   "name": "MeLioDas",
+   "power": 148473827,
+   "kill_points": 1376360560,
+   "activity_points": 1067813
+  },
+  {
+   "rank": 146,
+   "name": "XxLilithxX",
+   "power": 148279022,
+   "kill_points": 2057232405,
+   "activity_points": 156163
+  },
+  {
+   "rank": 147,
+   "name": "Lucid Dream",
+   "power": 148198206,
+   "kill_points": 3235622159,
+   "activity_points": 2479100
+  },
+  {
+   "rank": 148,
+   "name": "RAIJIN",
+   "power": 146799546,
+   "kill_points": 9740377193,
+   "activity_points": 1230600
+  },
+  {
+   "rank": 149,
+   "name": "Tinuviel",
+   "power": 146749202,
+   "kill_points": 1516648033,
+   "activity_points": 106855537
+  },
+  {
+   "rank": 150,
+   "name": "Анютка",
+   "power": 146251871,
+   "kill_points": 1498761080,
+   "activity_points": 1920600
+  },
+  {
+   "rank": 151,
+   "name": "Peegee",
+   "power": 145917778,
+   "kill_points": 1963710909,
+   "activity_points": 4818966
+  },
+  {
+   "rank": 152,
+   "name": "zapekanka",
+   "power": 145596113,
+   "kill_points": 3432353708,
+   "activity_points": 2488897
+  },
+  {
+   "rank": 153,
+   "name": "Surgeon OfDeath",
+   "power": 145377497,
+   "kill_points": 3540735226,
+   "activity_points": 30980658
+  },
+  {
+   "rank": 154,
+   "name": "AMAK",
+   "power": 145244641,
+   "kill_points": 5365942447,
+   "activity_points": 57000
+  },
+  {
+   "rank": 155,
+   "name": "x Kraken x",
+   "power": 145017597,
+   "kill_points": 2141923741,
+   "activity_points": 2705014
+  },
+  {
+   "rank": 156,
+   "name": "FishツKa",
+   "power": 144866177,
+   "kill_points": 732396463,
+   "activity_points": 39278834
+  },
+  {
+   "rank": 157,
+   "name": "Rebel Valkyrie",
+   "power": 143745766,
+   "kill_points": 3171913209,
+   "activity_points": 2037435
+  },
+  {
+   "rank": 158,
+   "name": "Starry Nights",
+   "power": 143183246,
+   "kill_points": 2900502760,
+   "activity_points": 20593609
+  },
+  {
+   "rank": 159,
+   "name": "FAKEINSHIT",
+   "power": 142982268,
+   "kill_points": 2151782345,
+   "activity_points": 2303699
+  },
+  {
+   "rank": 160,
+   "name": "MarQ",
+   "power": 142490905,
+   "kill_points": 1523951349,
+   "activity_points": 2172843
+  },
+  {
+   "rank": 161,
+   "name": "ТагилРу",
+   "power": 142344197,
+   "kill_points": 1334990632,
+   "activity_points": 894400
+  },
+  {
+   "rank": 162,
+   "name": "Katrin195",
+   "power": 141831285,
+   "kill_points": 524477208,
+   "activity_points": 2295100
+  },
+  {
+   "rank": 163,
+   "name": "Ma 5asaK",
+   "power": 141316151,
+   "kill_points": 1535997299,
+   "activity_points": 1662800
+  },
+  {
+   "rank": 164,
+   "name": "Dima 1",
+   "power": 141213640,
+   "kill_points": 1864155593,
+   "activity_points": 95642645
+  },
+  {
+   "rank": 165,
+   "name": "KanaeL",
+   "power": 141210728,
+   "kill_points": 903079443,
+   "activity_points": 2380503
+  },
+  {
+   "rank": 166,
+   "name": "UNITY",
+   "power": 141073341,
+   "kill_points": 3125473353,
+   "activity_points": 2474200
+  },
+  {
+   "rank": 167,
+   "name": "Mqmr",
+   "power": 140656053,
+   "kill_points": 4813427709,
+   "activity_points": 1004681
+  },
+  {
+   "rank": 168,
+   "name": "zklmn",
+   "power": 138521781,
+   "kill_points": 1877079549,
+   "activity_points": 2156273
+  },
+  {
+   "rank": 169,
+   "name": "xxx KABUTO xxx",
+   "power": 138112181,
+   "kill_points": 918859949,
+   "activity_points": 71998788
+  },
+  {
+   "rank": 170,
+   "name": "Witch",
+   "power": 136049061,
+   "kill_points": 3526311056,
+   "activity_points": 1138500
+  },
+  {
+   "rank": 171,
+   "name": "Còi",
+   "power": 134981659,
+   "kill_points": 3762256858,
+   "activity_points": 1291700
+  },
+  {
+   "rank": 172,
+   "name": "Cold Blood",
+   "power": 134429529,
+   "kill_points": 1682031837,
+   "activity_points": 9030400
+  },
+  {
+   "rank": 173,
+   "name": "hugoelse",
+   "power": 133561590,
+   "kill_points": 5855613493,
+   "activity_points": 2484117
+  },
+  {
+   "rank": 174,
+   "name": "Enem",
+   "power": 133474340,
+   "kill_points": 4287048232,
+   "activity_points": 11991397
+  },
+  {
+   "rank": 175,
+   "name": "Veto4ka",
+   "power": 133408332,
+   "kill_points": 1142319532,
+   "activity_points": 4362338
+  },
+  {
+   "rank": 176,
+   "name": "Winchesterr",
+   "power": 133047883,
+   "kill_points": 3389825533,
+   "activity_points": 11594300
+  },
+  {
+   "rank": 177,
+   "name": "So1o",
+   "power": 132054977,
+   "kill_points": 14824047651,
+   "activity_points": 898730
+  },
+  {
+   "rank": 178,
+   "name": "Пуша",
+   "power": 131662878,
+   "kill_points": 2967143846,
+   "activity_points": 1294200
+  },
+  {
+   "rank": 179,
+   "name": "kwitchypoo",
+   "power": 131336442,
+   "kill_points": 1299934591,
+   "activity_points": 1938358
+  },
+  {
+   "rank": 180,
+   "name": "Doc7Ragnar",
+   "power": 130694842,
+   "kill_points": 1092289931,
+   "activity_points": 2380142
+  },
+  {
+   "rank": 181,
+   "name": "Tyr Olafsson",
+   "power": 130106221,
+   "kill_points": 6250611256,
+   "activity_points": 2000200
+  },
+  {
+   "rank": 182,
+   "name": "llllllllllll",
+   "power": 129857751,
+   "kill_points": 947315611,
+   "activity_points": 2421800
+  },
+  {
+   "rank": 183,
+   "name": "Деонисс",
+   "power": 129693096,
+   "kill_points": 893559223,
+   "activity_points": 1918900
+  },
+  {
+   "rank": 184,
+   "name": "Lara4ka",
+   "power": 129545046,
+   "kill_points": 833235401,
+   "activity_points": 2446500
+  },
+  {
+   "rank": 185,
+   "name": "Macabeyi",
+   "power": 129222168,
+   "kill_points": 4694892057,
+   "activity_points": 2149000
+  },
+  {
+   "rank": 186,
+   "name": "Bec",
+   "power": 128190714,
+   "kill_points": 3353244305,
+   "activity_points": 1253900
+  },
+  {
+   "rank": 187,
+   "name": "Ksatras",
+   "power": 127725821,
+   "kill_points": 2109147715,
+   "activity_points": 1538866
+  },
+  {
+   "rank": 188,
+   "name": "Severo",
+   "power": 126942733,
+   "kill_points": 1314485832,
+   "activity_points": 2520700
+  },
+  {
+   "rank": 189,
+   "name": "викинг 22",
+   "power": 125244439,
+   "kill_points": 3724835519,
+   "activity_points": 2616933
+  },
+  {
+   "rank": 190,
+   "name": "KsuKoX",
+   "power": 122455282,
+   "kill_points": 1274700373,
+   "activity_points": 1733300
+  },
+  {
+   "rank": 191,
+   "name": "dimon29epta",
+   "power": 119015229,
+   "kill_points": 3236827577,
+   "activity_points": 136700
+  },
+  {
+   "rank": 192,
+   "name": "Leader392837282",
+   "power": 116194581,
+   "kill_points": 1395295007,
+   "activity_points": 1128500
+  },
+  {
+   "rank": 193,
+   "name": "DaVoRa",
+   "power": 115935804,
+   "kill_points": 1061619669,
+   "activity_points": 28876732
+  },
+  {
+   "rank": 194,
+   "name": "Anton152",
+   "power": 115263437,
+   "kill_points": 671121461,
+   "activity_points": 20899651
+  },
+  {
+   "rank": 195,
+   "name": "PrincessSunless",
+   "power": 105100762,
+   "kill_points": 382961502,
+   "activity_points": 2174196
+  },
+  {
+   "rank": 196,
+   "name": "Баночка",
+   "power": 88592161,
+   "kill_points": 110780163,
+   "activity_points": 37122354
+  },
+  {
+   "rank": 197,
+   "name": "kira mean count",
+   "power": 86072981,
+   "kill_points": 506357478,
+   "activity_points": 3640200
+  },
+  {
+   "rank": 198,
+   "name": "Nasty junior",
+   "power": 59068156,
+   "kill_points": 15237101,
+   "activity_points": 1581417
+  },
+  {
+   "rank": 199,
+   "name": "Legion X",
+   "power": 46912836,
+   "kill_points": 93809943,
+   "activity_points": 0
+  }
+ ],
+ "panel_rows": {
+  "1": [
+   1,
+   6
+  ],
+  "2": [
+   5,
+   10
+  ],
+  "3": [
+   9,
+   14
+  ],
+  "4": [
+   12,
+   17
+  ],
+  "5": [
+   17,
+   21
+  ],
+  "6": [
+   20,
+   24
+  ],
+  "7": [
+   23,
+   28
+  ],
+  "8": [
+   26,
+   31
+  ],
+  "9": [
+   30,
+   35
+  ],
+  "10": [
+   33,
+   38
+  ],
+  "11": [
+   37,
+   41
+  ],
+  "12": [
+   41,
+   45
+  ],
+  "13": [
+   44,
+   49
+  ],
+  "14": [
+   47,
+   52
+  ],
+  "15": [
+   51,
+   55
+  ],
+  "16": [
+   55,
+   59
+  ],
+  "17": [
+   59,
+   63
+  ],
+  "18": [
+   63,
+   67
+  ],
+  "19": [
+   67,
+   71
+  ],
+  "20": [
+   71,
+   75
+  ],
+  "21": [
+   76,
+   80
+  ],
+  "22": [
+   81,
+   85
+  ],
+  "23": [
+   85,
+   90
+  ],
+  "24": [
+   89,
+   94
+  ],
+  "25": [
+   94,
+   98
+  ],
+  "26": [
+   98,
+   102
+  ],
+  "27": [
+   102,
+   106
+  ],
+  "28": [
+   106,
+   110
+  ],
+  "29": [
+   109,
+   113
+  ],
+  "30": [
+   113,
+   118
+  ],
+  "31": [
+   117,
+   122
+  ],
+  "32": [
+   120,
+   124
+  ],
+  "33": [
+   123,
+   127
+  ],
+  "34": [
+   127,
+   132
+  ],
+  "35": [
+   131,
+   136
+  ],
+  "36": [
+   135,
+   139
+  ],
+  "37": [
+   139,
+   143
+  ],
+  "38": [
+   143,
+   147
+  ],
+  "39": [
+   147,
+   152
+  ],
+  "40": [
+   151,
+   156
+  ],
+  "41": [
+   155,
+   159
+  ],
+  "42": [
+   157,
+   162
+  ],
+  "43": [
+   160,
+   164
+  ],
+  "44": [
+   164,
+   168
+  ],
+  "45": [
+   168,
+   172
+  ],
+  "46": [
+   172,
+   177
+  ],
+  "47": [
+   176,
+   180
+  ],
+  "48": [
+   179,
+   184
+  ],
+  "49": [
+   183,
+   188
+  ],
+  "50": [
+   187,
+   191
+  ],
+  "51": [
+   191,
+   195
+  ],
+  "52": [
+   194,
+   199
+  ]
+ }
+}
