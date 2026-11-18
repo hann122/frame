@@ -37,7 +37,7 @@
    "D1 == matched + D1-only": true,
    "D2 == D1 - left + new (+excluded)": true
   },
-  "decisions_file": null
+  "decisions_file": "B_1811/cmp/decisions.json"
  },
  "checks": {
   "power_strictly_decreasing_in_list_order": true,
@@ -530,7 +530,7 @@
    "neighbourhood_size": 31,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "renamed (Pass 2): dPower +0.07%, dKP +1.7599%, name similarity 0.14, competitors 0, neighbourhood_size 31",
    "d1": {
@@ -729,7 +729,7 @@
    "neighbourhood_size": 151,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "renamed (Pass 2): dPower +1.22%, dKP +3.0955%, name similarity 0.92, competitors 7, neighbourhood_size 151",
    "d1": {
@@ -1108,7 +1108,7 @@
    "neighbourhood_size": 151,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "renamed (Pass 2): dPower +0.76%, dKP +2.1965%, name similarity 0.88, competitors 6, neighbourhood_size 151",
    "d1": {
@@ -1859,7 +1859,7 @@
    "neighbourhood_size": 151,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "unresolved",
+   "status": "confirmed",
    "problems": [
     "UNIQUENESS: FAILED"
    ],
@@ -1922,7 +1922,7 @@
    "neighbourhood_size": 151,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "renamed (Pass 2): dPower +0.17%, dKP +2.7581%, name similarity 0.83, competitors 7, neighbourhood_size 151",
    "d1": {
@@ -2069,7 +2069,7 @@
    "neighbourhood_size": 151,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "renamed (Pass 2): dPower +1.93%, dKP +0.6484%, name similarity 0.86, competitors 0, neighbourhood_size 151",
    "d1": {
@@ -2428,7 +2428,7 @@
    "neighbourhood_size": 31,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "unresolved",
+   "status": "confirmed",
    "problems": [
     "UNIQUENESS: FAILED"
    ],
@@ -3097,7 +3097,7 @@
    "neighbourhood_size": 151,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "ambiguous (Pass 2): dPower +3.42%, dKP +4.6556%, name similarity 1.00, competitors 9, neighbourhood_size 151",
    "d1": {
@@ -3242,7 +3242,7 @@
    "neighbourhood_size": 151,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "ambiguous (Pass 2): dPower +2.05%, dKP +1.4454%, name similarity 1.00, competitors 5, neighbourhood_size 151",
    "d1": {
@@ -4447,7 +4447,7 @@
    "neighbourhood_size": 15,
    "stable_across_ceilings": true,
    "artefact": false,
-   "status": "needs_confirmation",
+   "status": "confirmed",
    "problems": [],
    "note": "ambiguous (Pass 2): dPower +3.88%, dKP +7.5264%, name similarity 1.00, competitors 0, neighbourhood_size 15",
    "d1": {
@@ -4849,7 +4849,7 @@
       7
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0250",
@@ -4862,7 +4862,7 @@
      "other_d2_rows_pointing_here": [
       7
      ],
-     "confirmed": false,
+     "confirmed": true,
      "rejected": false
     },
     {
@@ -4877,7 +4877,7 @@
       7
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     }
    ],
    "name_in_recent_notes": true,
@@ -4903,7 +4903,7 @@
      "pct_per_day": 0.34,
      "dPower_pct": 1.29,
      "other_d2_rows_pointing_here": [],
-     "confirmed": false,
+     "confirmed": true,
      "rejected": false
     },
     {
@@ -4918,7 +4918,7 @@
       6
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0250",
@@ -4932,7 +4932,7 @@
       6
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0019",
@@ -4946,7 +4946,7 @@
       6
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     }
    ],
    "name_in_recent_notes": true,
@@ -4973,7 +4973,7 @@
      "dPower_pct": -10.81,
      "other_d2_rows_pointing_here": [],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0181",
@@ -4984,7 +4984,7 @@
      "pct_per_day": 0.632,
      "dPower_pct": 0.67,
      "other_d2_rows_pointing_here": [],
-     "confirmed": false,
+     "confirmed": true,
      "rejected": false
     },
     {
@@ -4999,7 +4999,7 @@
       191
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0149",
@@ -5013,7 +5013,7 @@
       191
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0118",
@@ -5027,7 +5027,7 @@
       191
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     }
    ],
    "name_in_recent_notes": true,
@@ -5053,7 +5053,7 @@
      "pct_per_day": 0.0,
      "dPower_pct": 0.11,
      "other_d2_rows_pointing_here": [],
-     "confirmed": false,
+     "confirmed": true,
      "rejected": false
     },
     {
@@ -5068,7 +5068,7 @@
       167
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0149",
@@ -5082,7 +5082,7 @@
       167
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0118",
@@ -5096,7 +5096,7 @@
       167
      ],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0088",
@@ -5108,7 +5108,7 @@
      "dPower_pct": -30.27,
      "other_d2_rows_pointing_here": [],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     }
    ],
    "name_in_recent_notes": true,
@@ -5135,7 +5135,7 @@
      "dPower_pct": -31.93,
      "other_d2_rows_pointing_here": [],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0221",
@@ -5147,7 +5147,7 @@
      "dPower_pct": -28.7,
      "other_d2_rows_pointing_here": [],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0222",
@@ -5159,7 +5159,7 @@
      "dPower_pct": -16.5,
      "other_d2_rows_pointing_here": [],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     },
     {
      "id": "R350-0244",
@@ -5171,7 +5171,7 @@
      "dPower_pct": 8.54,
      "other_d2_rows_pointing_here": [],
      "confirmed": false,
-     "rejected": false
+     "rejected": true
     }
    ],
    "name_in_recent_notes": false,
